@@ -33,7 +33,7 @@ class Datascribe extends AbstractHelper
      *
      * @return string
      */
-    public function breadcrumbs() : string
+    public function breadcrumbs(): string
     {
         $bc = [];
         $view = $this->getView();

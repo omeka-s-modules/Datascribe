@@ -22,7 +22,7 @@ class DatascribeValueRepresentation extends AbstractRepresentation
         $this->value = $value;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
     }
 
@@ -94,12 +94,12 @@ class DatascribeValueRepresentation extends AbstractRepresentation
     public function displayText(array $options = [])
     {
         // Set default options.
-        $options['length'] = $options['length'] ?? null;
-        $options['trim_marker'] = $options['trim_marker'] ?? null;
-        $options['if_unknown_return'] = $options['if_unknown_return'] ?? false;
-        $options['if_invalid_return'] = $options['if_invalid_return'] ?? false;
-        $options['if_null_return'] = $options['if_null_return'] ?? null;
-        $options['if_empty_return'] = $options['if_empty_return'] ?? '';
+        $options['length'] ??= null;
+        $options['trim_marker'] ??= null;
+        $options['if_unknown_return'] ??= false;
+        $options['if_invalid_return'] ??= false;
+        $options['if_null_return'] ??= null;
+        $options['if_empty_return'] ??= '';
 
         if ($this->field()->dataTypeIsUnknown()) {
             return $options['if_unknown_return'];

@@ -7,12 +7,12 @@ use Laminas\Validator\ValidatorChain;
 
 class Radio extends AbstractSelection
 {
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'Radio'; // @translate
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $element = new DatascribeElement\Radio('value', [
             'datascribe_field_data' => $fieldData,
@@ -28,7 +28,7 @@ class Radio extends AbstractSelection
         $fieldset->add($element);
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $element = new DatascribeElement\Radio('value', [
             'datascribe_field_data' => $fieldData,

@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pols12 <poltron54@gmail.com>, 2020
-# Judith Hannoun <judith.hannoun@gmail.com>, 2020
+# Rubén Alcaraz Martínez <rubenalcarazmartinez@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +13,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 11:59-0500\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
-"Last-Translator: Judith Hannoun <judith.hannoun@gmail.com>, 2020\n"
-"Language-Team: French (https://app.transifex.com/omeka/teams/14184/fr/)\n"
+"Last-Translator: Rubén Alcaraz Martínez <rubenalcarazmartinez@gmail.com>, 2025\n"
+"Language-Team: Catalan (Spain) (https://app.transifex.com/omeka/teams/14184/ca_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: ca_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:154
 #, php-format
 msgid "Record #%s: %s"
-msgstr "Enregistrement %s : %s"
+msgstr "Registre #%s: %s"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:159
 #, php-format
 msgid "Record #%s"
-msgstr "Enregistrement %s"
+msgstr "Registre #%s"
 
 #: src/Controller/Admin/DatasetController.php:188
 msgid "See this job for sync progress."
-msgstr "Consultez la tâche pour la progression de la synchronisation."
+msgstr "Consulta aquest procés per seguir l'estat de la sincronització."
 
 #: src/Controller/Admin/DatasetController.php:212
 msgid "See this job for validate progress."
-msgstr "Consultez la tâche pour la progression de la validation."
+msgstr "Consulta aquest procés per seguir l'estat de la validació."
 
 #: src/Controller/Admin/DatasetController.php:236
 msgid "See this job for export progress."
-msgstr "Consultez la tâche pour la progression de l’exportation."
+msgstr "Consulta aquest procés per seguir l'estat de l'exportació."
 
 #: src/Controller/Admin/ItemController.php:42
 msgid "Set an item set here."
-msgstr "Indiquez une collection ici."
+msgstr "Estableix un conjunt de recursos"
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
@@ -62,7 +61,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
-msgstr "Nouveau champ"
+msgstr "Nou camp"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
@@ -74,58 +73,58 @@ msgstr "Nouveau champ"
 #: view/datascribe/admin/item/browse.phtml:6
 #: view/datascribe/admin/item/search.phtml:8
 msgid "DataScribe: Dataset"
-msgstr "DataScribe : jeu de données"
+msgstr "DataScribe: Dataset"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 msgid "Batch edit all records"
-msgstr "Modifier ensemble tous les enregistrements"
+msgstr "Edita en lot tots els registres"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:23
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:25
 #: view/datascribe/admin/record/batch-edit-all.phtml:23
 #: view/datascribe/admin/record/batch-edit.phtml:25
 msgid "Affected records"
-msgstr "Enregistrements affectés"
+msgstr "Registres afectats"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:24
 #: view/datascribe/admin/record/batch-edit-all.phtml:24
 #, php-format
 msgid "You are editing %s records"
-msgstr "Vous êtes en train de modifier %s enregistrements"
+msgstr "Esteu editant %s registres"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
 msgid "Batch edit records"
-msgstr "Modifier ensemble les enregistrements"
+msgstr "Edita els registres en lot"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:26
 #: view/datascribe/admin/record/batch-edit.phtml:26
 #, php-format
 msgid "You are editing the following %s records"
-msgstr "Vous allez modifier les %s enregistrements suivants"
+msgstr "Esteu editant els %s registres següents"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:9
 #: view/datascribe/admin/record/browse.phtml:9
 msgid "Records that need review"
-msgstr "Enregistrements qui doivent être révisés"
+msgstr "Registres que necessiten revisió"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:13
 #: view/datascribe/admin/record/browse.phtml:13
 msgid "Records that need work"
-msgstr "Enregistrements qui doivent être retravaillés"
+msgstr "Registres que necessiten ser revisats"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:17
 #: view/datascribe/admin/record/browse.phtml:17
 msgid "Records with values marked as invalid"
-msgstr "Enregistrements ayant des valeurs marquées comme invalides"
+msgstr "Registres amb valors que s'han marcat com incorrectes"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:27
 #: view/datascribe/admin/item/browse.phtml:30
 #: view/datascribe/admin/item/browse.phtml:143
 #: view/datascribe/admin/item/show-details.phtml:3
 msgid "Item #"
-msgstr "Contenu "
+msgstr "recurs #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:31
 #: view/datascribe/admin/dataset-record/browse.phtml:107
@@ -134,44 +133,44 @@ msgstr "Contenu "
 #: view/datascribe/admin/record/previous-next-records.phtml:10
 #: view/datascribe/admin/record/show-details.phtml:3
 msgid "Record #"
-msgstr "Enregistrement "
+msgstr "Registre #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:35
 #: view/datascribe/admin/record/browse.phtml:31
 msgid "Record created"
-msgstr "Enregistrement créé"
+msgstr "Registre creat"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:47
 #: view/datascribe/admin/record/browse.phtml:43
 msgid "Records"
-msgstr "Enregistrements"
+msgstr "Registres"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:50
 msgid "Browse items"
-msgstr "Parcourir les contenus"
+msgstr "Recursos"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:52
 #: view/datascribe/admin/item/browse.phtml:11
 msgid "Edit dataset"
-msgstr "Modifier le jeu de données"
+msgstr "Edita el conjunt de dades"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:56
 #: view/datascribe/admin/dataset/form-sidebars.phtml:3
 #: view/datascribe/admin/item/browse.phtml:15
 msgid "Sync dataset"
-msgstr "Synchroniser le jeu de données"
+msgstr "Sincronitza el conjunt de dades"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:57
 #: view/datascribe/admin/dataset/form-sidebars.phtml:14
 #: view/datascribe/admin/item/browse.phtml:16
 msgid "Validate dataset"
-msgstr "Valider le jeu de données"
+msgstr "Valida el conjunt de dades"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:58
 #: view/datascribe/admin/dataset/form-sidebars.phtml:21
 #: view/datascribe/admin/item/browse.phtml:17
 msgid "Export dataset"
-msgstr "Exporter le jeu de données"
+msgstr "Exporta el conjunt de dades"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:59
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
@@ -182,27 +181,27 @@ msgstr ""
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
 msgid "Select records"
-msgstr "Choisissez les enregistrements"
+msgstr "Selecciona els registres"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:136
 #: view/datascribe/admin/item/browse.phtml:159
 #: view/datascribe/admin/record/browse.phtml:118
 msgid "Has invalid values"
-msgstr "A des valeurs invalides"
+msgstr "Té valors invàlids"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:137
 #: view/datascribe/admin/record/browse.phtml:119
 #: view/datascribe/admin/record/form.phtml:128
 #: view/datascribe/admin/record/show-details.phtml:47
 msgid "Needs review"
-msgstr "Doit être révisé"
+msgstr "Requereix revisió"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:138
 #: view/datascribe/admin/record/browse.phtml:120
 #: view/datascribe/admin/record/form.phtml:134
 #: view/datascribe/admin/record/show-details.phtml:51
 msgid "Needs work"
-msgstr "Doit être retravaillé"
+msgstr "Necessita millores"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
@@ -218,7 +217,7 @@ msgstr ""
 #: view/datascribe/admin/record/show.phtml:15
 #: view/datascribe/admin/record/show.phtml:26
 msgid "unknown"
-msgstr "inconnu"
+msgstr "desconegut"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:166
 #: view/datascribe/admin/dataset-record/browse.phtml:173
@@ -230,7 +229,7 @@ msgstr "inconnu"
 #: view/datascribe/admin/record/show.phtml:17
 #: view/datascribe/admin/record/show.phtml:23
 msgid "invalid"
-msgstr "invalide"
+msgstr "invàlid"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:168
 #: view/datascribe/admin/dataset-record/browse.phtml:175
@@ -242,7 +241,7 @@ msgstr "invalide"
 #: view/datascribe/admin/record/show.phtml:19
 #: view/datascribe/admin/record/show.phtml:25
 msgid "null"
-msgstr "nulle"
+msgstr "nul"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:174
 #: view/datascribe/admin/record/browse.phtml:158
@@ -250,121 +249,121 @@ msgstr "nulle"
 #: view/datascribe/admin/record/show-details.phtml:14
 #: view/datascribe/admin/record/show.phtml:24
 msgid "empty"
-msgstr "vide"
+msgstr "buit"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:194
 #: view/datascribe/admin/record/browse.phtml:178
 msgid "No records found."
-msgstr "Aucun enregistrement trouvé."
+msgstr "No s'ha trobat cap registre."
 
 #: view/datascribe/admin/dataset-record/search.phtml:7
 msgid "Record search"
-msgstr "Recherche d’enregistrements"
+msgstr "Cerca de registres"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 #: view/datascribe/admin/dataset/browse.phtml:5
 #: view/datascribe/admin/project/edit.phtml:7
 msgid "DataScribe: Project"
-msgstr "DataScribe : projet"
+msgstr "DataScribe: Projecte"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 msgid "New dataset"
-msgstr "Nouveau jeu de données"
+msgstr "Nou conjunt de dades"
 
 #: view/datascribe/admin/dataset/browse.phtml:5
 msgid "Datasets"
-msgstr "Jeux de données"
+msgstr "Conjunts de dades"
 
 #: view/datascribe/admin/dataset/browse.phtml:9
 msgid "Edit project"
-msgstr "Modifier le projet"
+msgstr "Edita el projecte"
 
 #: view/datascribe/admin/dataset/browse.phtml:10
 msgid "Add new dataset"
-msgstr "Ajouter un nouveau jeu de données"
+msgstr "Afegeix un conjunt de dades"
 
 #: view/datascribe/admin/dataset/browse.phtml:20
 #: view/datascribe/admin/project/browse.phtml:21
 msgid "Date created"
-msgstr "Date de création"
+msgstr "Data de creació"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
 #: view/datascribe/admin/index/index.phtml:145
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
-msgstr "Créé par"
+msgstr "Creat per"
 
 #: view/datascribe/admin/dataset/browse.phtml:83
 #, php-format
 msgid "No datasets found for this project. %s"
-msgstr "Aucun jeu de données trouvé pour ce projet. %s"
+msgstr "No s'ha trobat cap dataset per aquest projecte. %s"
 
 #: view/datascribe/admin/dataset/browse.phtml:84
 msgid "Add a new dataset."
-msgstr "Ajouter un nouveau jeu de données."
+msgstr "Afegeix un nou conjunt de dades."
 
 #: view/datascribe/admin/dataset/browse.phtml:87
 msgid "No datasets found for this project."
-msgstr "Aucun jeu de données trouvé pour ce projet."
+msgstr "No s'ha trobat cap conjunt de dades per a aquest projecte."
 
 #: view/datascribe/admin/dataset/edit.phtml:32
 #: view/datascribe/admin/record/form.phtml:52
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "Desa i&hellip;"
 
 #: view/datascribe/admin/dataset/edit.phtml:34
 msgid "Return to dataset items"
-msgstr ""
+msgstr "Torna als recursos del conjunt de dades"
 
 #: view/datascribe/admin/dataset/edit.phtml:35
 msgid "Continue editing dataset"
-msgstr ""
+msgstr "Continua editant el dataset"
 
 #: view/datascribe/admin/dataset/edit.phtml:42
 msgid "Form Builder"
-msgstr "Constructeur de formulaire"
+msgstr "Constructor de formularis"
 
 #: view/datascribe/admin/dataset/edit.phtml:58
 #: view/datascribe/admin/record/form.phtml:104
 msgid "Back to top"
-msgstr ""
+msgstr "Torna al principi"
 
 #: view/datascribe/admin/dataset/edit.phtml:62
 msgid "Add a field to the form"
-msgstr "Ajouter un champ au formulaire"
+msgstr "Afegeix un camp al formulari"
 
 #: view/datascribe/admin/dataset/edit.phtml:64
 #: view/datascribe/admin/record/form.phtml:123
 #, php-format
 msgid "Last saved: %s on %s"
-msgstr "Dernière sauvegarde : %s le %s"
+msgstr "Desat per última vegada: %s on %s"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:1
 msgid "Drag to change order"
-msgstr ""
+msgstr "Arrossegueu per a canviar l'ordre"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:3
 msgid "Move Up"
-msgstr "Remonter"
+msgstr "Mou amunt"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:4
 msgid "Move Down"
-msgstr "Descendre"
+msgstr "Mou avall"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:6
 msgid "Undo"
-msgstr "Annuler"
+msgstr "Desfés"
 
 #: view/datascribe/admin/dataset/form-builder-flags.phtml:2
 msgid "Primary field"
-msgstr ""
+msgstr "Camp primari"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:5
 msgid "This dataset has no item set. Set an item set to enable syncing."
 msgstr ""
-"Ce jeu de données n’a aucune collection. Définissez une collection pour "
-"activer la synchronisation."
+"Aquest conjunt de dades no té cap conjunt de recursos. Establiu un conjunt "
+"de recursos per a habilitar la sincronització."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:7
 msgid ""
@@ -372,18 +371,18 @@ msgid ""
 "this dataset will contain every item in the item set. You should synchronize"
 " periodically, any time items are added or removed from the item set."
 msgstr ""
-"Synchroniser le jeu de données avec la collection configurée. Une fois "
-"synchronisé, le jeu de données contiendra tous les contenus de la "
-"collection. Vous devriez synchroniser périodiquement, à chaque fois que des "
-"contenus sont ajoutés ou retirés de la collection."
+"Sincronitza aquest conjunt de dades amb el conjunt de recursos configurat. "
+"Un cop sincronitzat, aquest conjunt de dades contindrà tots els seus "
+"recursos. Heu de sincronitzar cada vegada que s'afegeix o s'elimina un "
+"recurs del conjunt de recursos."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:8
 msgid ""
 "Warning: items that have been removed from the configured item set since the"
 " last sync will be deleted from this dataset."
 msgstr ""
-"Attention : les contenus qui ont été retirées de la collection configurée "
-"depuis la dernière synchronisation seront supprimés de ce jeu de données."
+"Alerta: els recursos que s'han eliminat del conjunt de recursos configurats "
+"des de l'última sincronització se suprimiran d'aquest conjunt de dades."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:15
 msgid ""
@@ -392,6 +391,11 @@ msgid ""
 "validate periodically, after fields are added to the form, after field "
 "validation rules change, and before exporting the dataset."
 msgstr ""
+"Valideu aquest conjunt de dades segons les regles actualment definides al "
+"creador de formularis. Un cop validat, els valors no vàlids es marcaran com "
+"a tals. Haurieu de fer la validació periòdicament: després d'afegir camps al"
+" formulari, quan canviïn les regles de validació dels camps i abans "
+"d'exportar el conjunt de dades."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:22
 msgid ""
@@ -399,10 +403,9 @@ msgid ""
 "records from approved items, and that invalid values will be null. This will"
 " overwrite an existing export file."
 msgstr ""
-"Exporte ce jeu de données dans un fichier CSV. Notez que le fichier ne "
-"contiendra que des enregistrements issus de contenus approuvés, et que les "
-"valeurs non valides seront nulles. Cela écrasera un fichier d'exportation "
-"déjà existant."
+"Exporta aquest conjunt de dades a un fitxer CSV. El fitxer només contendrà "
+"registres dels recursos aprovats i els valors invàlids es marcaran com a "
+"nuls. Aquesta acció sobreescriurà els fitxers d'exportació existents."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
@@ -410,59 +413,59 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
-msgstr "Métadonnées du jeu de données"
+msgstr "Metadades del conjunt de dades"
 
 #: view/datascribe/admin/dataset/show-details.phtml:13
 #: view/datascribe/admin/project/show-details.phtml:9
 msgid "[No description]"
-msgstr "[aucune description]"
+msgstr "[Sense descripció]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:25
 msgid "Not set"
-msgstr ""
+msgstr "Sense definir"
 
 #: view/datascribe/admin/dataset/show-details.phtml:35
 #: view/datascribe/admin/project/show-details.phtml:19
 #: view/datascribe/admin/record/show-details.phtml:24
 #, php-format
 msgid "%s by %s"
-msgstr "%s par %s"
+msgstr "%s per %s"
 
 #: view/datascribe/admin/dataset/show-details.phtml:41
 #: view/datascribe/admin/project/show-details.phtml:25
 #: view/datascribe/admin/record/show-details.phtml:30
 msgid "Last modified"
-msgstr "Dernière modification"
+msgstr "Darrera modificació"
 
 #: view/datascribe/admin/dataset/show-details.phtml:54
 #: view/datascribe/admin/project/show-details.phtml:38
 #: view/datascribe/admin/record/show-details.phtml:43
 msgid "[Not modified]"
-msgstr "[Non modifié]"
+msgstr "[Sense modificar]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:58
 msgid "Last synced"
-msgstr "Dernière synchronisation"
+msgstr "Darrera sincronització"
 
 #: view/datascribe/admin/dataset/show-details.phtml:71
 msgid "[Not synced]"
-msgstr "[Non synchronisé]"
+msgstr "[Sense sincronitzar]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:75
 msgid "Last validated"
-msgstr ""
+msgstr "Darrera validació"
 
 #: view/datascribe/admin/dataset/show-details.phtml:88
 msgid "[Not validated]"
-msgstr ""
+msgstr "[Sense validar]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:92
 msgid "Last exported"
-msgstr "Dernier export"
+msgstr "Darrera exportació"
 
 #: view/datascribe/admin/dataset/show-details.phtml:105
 msgid "[Not exported]"
-msgstr "[Non exporté]"
+msgstr "[No exportat]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
@@ -486,44 +489,44 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Panel de control"
 
 #: view/datascribe/admin/index/index.phtml:5
 #: view/datascribe/admin/project/add.phtml:7
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "DataScribe"
-msgstr ""
+msgstr "DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:8
 msgid "Browse projects"
-msgstr ""
+msgstr "Projectes"
 
 #: view/datascribe/admin/index/index.phtml:9
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
-msgstr ""
+msgstr "Afegeix un nou projecte"
 
 #: view/datascribe/admin/index/index.phtml:12
 msgid "Welcome to DataScribe."
-msgstr ""
+msgstr "Sigues benvingut al DataScribe!"
 
 #: view/datascribe/admin/index/index.phtml:15
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "Els meus projectes"
 
 #: view/datascribe/admin/index/index.phtml:25
 msgid "Unlocked items"
-msgstr ""
+msgstr "Recursos desbloquejats"
 
 #: view/datascribe/admin/index/index.phtml:28
 #: view/datascribe/admin/index/index.phtml:53
 msgid "New"
-msgstr "Nouveau"
+msgstr "Nou"
 
 #: view/datascribe/admin/index/index.phtml:39
 #: view/datascribe/admin/index/index.phtml:64
 msgid "In progress"
-msgstr "En cours"
+msgstr "En progrés"
 
 #: view/datascribe/admin/index/index.phtml:50
 #: view/datascribe/admin/item/browse.phtml:79
@@ -532,19 +535,19 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:75
 msgid "Not approved"
-msgstr "Non approuvé"
+msgstr "No aprovat"
 
 #: view/datascribe/admin/index/index.phtml:87
 msgid "Items needing review"
-msgstr ""
+msgstr "Recursos que necessiten revisió"
 
 #: view/datascribe/admin/index/index.phtml:101
 msgid "Needs my re-review"
-msgstr ""
+msgstr "Requereix que la revisi de nou"
 
 #: view/datascribe/admin/index/index.phtml:112
 msgid "Records needing review"
-msgstr ""
+msgstr "Registres que necessiten una revisió"
 
 #: view/datascribe/admin/index/index.phtml:134
 msgid "You do not own or belong to any projects."
@@ -552,45 +555,45 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:140
 msgid "All projects"
-msgstr ""
+msgstr "Tots els projectes"
 
 #: view/datascribe/admin/index/index.phtml:165
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
-msgstr ""
+msgstr "No hi ha cap projecte"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:5
 msgid "Batch edit all items"
-msgstr ""
+msgstr "Edita per lots tots els recursos"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:23
 #, php-format
 msgid "You are editing %s items"
-msgstr ""
+msgstr "Esteu editant %s recursos"
 
 #: view/datascribe/admin/item/batch-edit.phtml:25
 #, php-format
 msgid "You are editing the following %s items"
-msgstr ""
+msgstr "Esteu editant el següent %s recurs"
 
 #: view/datascribe/admin/item/browse.phtml:9
 msgid "Browse records"
-msgstr ""
+msgstr "Registres"
 
 #: view/datascribe/admin/item/browse.phtml:34
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Prioritized"
-msgstr ""
+msgstr "Prioritzat"
 
 #: view/datascribe/admin/item/browse.phtml:38
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Submitted"
-msgstr ""
+msgstr "Enviat"
 
 #: view/datascribe/admin/item/browse.phtml:42
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Reviewed"
-msgstr ""
+msgstr "Revisat"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
@@ -598,19 +601,19 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
-msgstr ""
+msgstr "Tots els recursos que necessiten una revisió"
 
 #: view/datascribe/admin/item/browse.phtml:69
 msgid "All items that need initial review"
-msgstr ""
+msgstr "Tots els recursos que necessiten una revisió inicial"
 
 #: view/datascribe/admin/item/browse.phtml:70
 msgid "All items that need re-review"
-msgstr ""
+msgstr "Tots els recursos que necessiten una nova revisió"
 
 #: view/datascribe/admin/item/browse.phtml:71
 msgid "Items with values marked as invalid"
-msgstr ""
+msgstr "Recursos amb valors marcats com a invàlids"
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
@@ -618,35 +621,35 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
-msgstr ""
+msgstr "Recursos que he revisat i que necessiten una nova revisió"
 
 #: view/datascribe/admin/item/browse.phtml:75
 msgid "Items I reviewed that are not approved"
-msgstr ""
+msgstr "Recursos que he revisat i que necessiten no són aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:76
 msgid "Items I reviewed that are approved"
-msgstr ""
+msgstr "Recursos que he revisat i que són aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:80
 msgid "My new items"
-msgstr ""
+msgstr "Nous recursos"
 
 #: view/datascribe/admin/item/browse.phtml:81
 msgid "My in progress items"
-msgstr ""
+msgstr "Els meus recursos En progrés"
 
 #: view/datascribe/admin/item/browse.phtml:82
 msgid "My items that need review"
-msgstr ""
+msgstr "Els meus recursos que Necessiten revisió"
 
 #: view/datascribe/admin/item/browse.phtml:83
 msgid "My items that are not approved"
-msgstr ""
+msgstr "Els meus recursos No aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:84
 msgid "My items that are approved"
-msgstr ""
+msgstr "Ítems aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
@@ -658,93 +661,95 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
-msgstr ""
+msgstr "Tots els recursos nous i desbloquejats"
 
 #: view/datascribe/admin/item/browse.phtml:89
 msgid "All unlocked and in progress items"
-msgstr ""
+msgstr "Tots els recursos en progrés desbloquejats"
 
 #: view/datascribe/admin/item/browse.phtml:91
 msgid "All items that are not approved"
-msgstr ""
+msgstr "Tots els recursos no aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:92
 msgid "All items that are approved"
-msgstr ""
+msgstr "Tots els recursos aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:146
 #: view/datascribe/admin/item/show-details.phtml:31
 msgid "Last submitted"
-msgstr ""
+msgstr "Darrer enviament"
 
 #: view/datascribe/admin/item/browse.phtml:147
 #: view/datascribe/admin/item/show-details.phtml:48
 msgid "Last reviewed"
-msgstr ""
+msgstr "Darrera revisió"
 
 #: view/datascribe/admin/item/browse.phtml:148
 msgid "Review status"
-msgstr ""
+msgstr "Estat de la revisió"
 
 #: view/datascribe/admin/item/browse.phtml:156
 msgid "Select items"
-msgstr ""
+msgstr "Seleccioneu els recursos"
 
 #: view/datascribe/admin/item/browse.phtml:194
 #, php-format
 msgid "No items found. %s"
-msgstr ""
+msgstr "No s'ha trobat cap recurs. %s"
 
 #: view/datascribe/admin/item/browse.phtml:195
 msgid "Sync this dataset."
-msgstr ""
+msgstr "Sincronitza aquest conjunt de dades."
 
 #: view/datascribe/admin/item/browse.phtml:198
 msgid ""
 "If you have recently synced, the sync job likely has not finished<br>and/or "
 "you need to refresh this page."
 msgstr ""
+"Si heu sincronitzat recentment, és probable que la tasca de sincronització "
+"no hagi finalitzat <br> o necessiteu actualitzar aquesta pàgina."
 
 #: view/datascribe/admin/item/browse.phtml:201
 msgid "No items found."
-msgstr ""
+msgstr "No s'ha trobat cap recurs."
 
 #: view/datascribe/admin/item/search.phtml:16
 #: view/datascribe/admin/item/show-details.phtml:7
 msgid "DataScribe item"
-msgstr ""
+msgstr "Recurs DataScribe"
 
 #: view/datascribe/admin/item/search.phtml:18
 #: view/datascribe/admin/item/show-details.phtml:11
 msgid "Omeka item"
-msgstr ""
+msgstr "Recurs Omeka"
 
 #: view/datascribe/admin/item/show-details.phtml:1
 msgid "Item metadata"
-msgstr ""
+msgstr "Metadades del recurs"
 
 #: view/datascribe/admin/item/show-details.phtml:27
 msgid "Record count"
-msgstr ""
+msgstr "Nombre de registres"
 
 #: view/datascribe/admin/item/show-details.phtml:44
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Not submitted"
-msgstr ""
+msgstr "Sense enviar"
 
 #: view/datascribe/admin/item/show-details.phtml:61
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Not reviewed"
-msgstr ""
+msgstr "Sense revisar"
 
 #: view/datascribe/admin/item/show-details.phtml:65
 msgid "Last locked"
-msgstr ""
+msgstr "Darrer bloqueig"
 
 #: view/datascribe/admin/item/show-details.phtml:78
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Unlocked"
-msgstr ""
+msgstr "Desbloquejat"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
@@ -756,37 +761,37 @@ msgstr ""
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
-msgstr ""
+msgstr "Nou projecte"
 
 #: view/datascribe/admin/project/add.phtml:10
 #: view/datascribe/admin/project/edit.phtml:10
 msgid "Configuration"
-msgstr ""
+msgstr "Configuració"
 
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "Projects"
-msgstr ""
+msgstr "Projectes"
 
 #: view/datascribe/admin/project/browse.phtml:88
 #, php-format
 msgid "No projects found. %s"
-msgstr ""
+msgstr "No s'ha trobat cap projecte. %s"
 
 #: view/datascribe/admin/project/browse.phtml:89
 msgid "Add a new project."
-msgstr ""
+msgstr "Afegeix un projecte"
 
 #: view/datascribe/admin/project/show-details.phtml:1
 msgid "Project metadata"
-msgstr ""
+msgstr "Metadades del projecte"
 
 #: view/datascribe/admin/project/users-form.phtml:13
 msgid "Click on a user to add them to the project."
-msgstr ""
+msgstr "Feu clic sobre un usuari per afegir-lo al projecte."
 
 #: view/datascribe/admin/project/users-form.phtml:18
 msgid "Transcriber"
-msgstr ""
+msgstr "Transcriptor"
 
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
@@ -794,7 +799,7 @@ msgstr ""
 #: view/datascribe/admin/record/form.phtml:13
 #: view/datascribe/admin/record/search.phtml:7
 msgid "DataScribe: Item"
-msgstr ""
+msgstr "DataScribe: Recurs"
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
@@ -802,59 +807,59 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
-msgstr ""
+msgstr "Afegeix un nou registre"
 
 #: view/datascribe/admin/record/browse.phtml:196
 msgid "Item actions"
-msgstr ""
+msgstr "Accions"
 
 #: view/datascribe/admin/record/browse.phtml:199
 msgid "Item status:"
-msgstr ""
+msgstr "Estat de l'ítem:"
 
 #: view/datascribe/admin/record/browse.phtml:206
 msgid "Lock status:"
-msgstr ""
+msgstr "Estat del bloqueig:"
 
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Locked"
-msgstr ""
+msgstr "Bloquejat"
 
 #: view/datascribe/admin/record/browse.phtml:213
 #, php-format
 msgid "Last locked to %s on %s"
-msgstr ""
+msgstr "Darrer bloqueig a %s en %s"
 
 #: view/datascribe/admin/record/browse.phtml:226
 msgid "Submission status:"
-msgstr ""
+msgstr "Estat de l'enviament:"
 
 #: view/datascribe/admin/record/browse.phtml:233
 #, php-format
 msgid "Last submitted by %s on %s"
-msgstr ""
+msgstr "Enviat per última vegada per %s en %s"
 
 #: view/datascribe/admin/record/browse.phtml:246
 msgid "Review status:"
-msgstr ""
+msgstr "Estat de la revisió:"
 
 #: view/datascribe/admin/record/browse.phtml:253
 #, php-format
 msgid "Last reviewed by %s on %s"
-msgstr ""
+msgstr "Darrera revisió per %s en %s"
 
 #: view/datascribe/admin/record/browse.phtml:266
 msgid "Priority status:"
-msgstr ""
+msgstr "Estat de la prioritat:"
 
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Not prioritized"
-msgstr ""
+msgstr "Sense prioritzar"
 
 #: view/datascribe/admin/record/browse.phtml:273
 #, php-format
 msgid "Last prioritized by %s on %s"
-msgstr ""
+msgstr "Prioritzat per darrera vegada per %s en %s"
 
 #: view/datascribe/admin/record/browse.phtml:285
 #: view/datascribe/admin/record/form.phtml:149
@@ -871,11 +876,11 @@ msgstr ""
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
 msgid "Delete records"
-msgstr ""
+msgstr "Suprimeix els registres"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:6
 msgid "Are you sure you would like to delete the selected records?"
-msgstr ""
+msgstr "Esteu segur que voleu suprimir els registres seleccionats?"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:8
 #: view/datascribe/admin/record/form-sidebars.phtml:24
@@ -883,21 +888,25 @@ msgstr ""
 msgid ""
 "%1$s: this action will permanently delete %2$s records and cannot be undone."
 msgstr ""
+"%1$s: aquesta acció suprimirà permanentment els %2$s registres i no es pot "
+"desfer."
 
 #: view/datascribe/admin/record/form-sidebars.phtml:22
 msgid ""
 "Are you sure you would like to delete all records on all pages of this "
 "result?"
 msgstr ""
+"Esteu segur que voleu suprimir tots els registres en totes les pàgines "
+"d'aquest resultat?"
 
 #: view/datascribe/admin/record/form.phtml:13
 msgid "New record"
-msgstr ""
+msgstr "Nou registre"
 
 #: view/datascribe/admin/record/form.phtml:15
 #: view/datascribe/admin/record/show.phtml:6
 msgid "DataScribe: Record"
-msgstr ""
+msgstr "DataScribe: Registre"
 
 #: view/datascribe/admin/record/form.phtml:20
 msgid ""
@@ -907,96 +916,102 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
-msgstr ""
+msgstr "Registres anteriors"
 
 #: view/datascribe/admin/record/form.phtml:27
 msgid "Enable focus mode"
-msgstr ""
+msgstr "Amaga la columna dreta"
 
 #: view/datascribe/admin/record/form.phtml:28
 msgid "Enable fast entry mode"
-msgstr ""
+msgstr "Activa el mode d'entrada ràpida"
 
 #: view/datascribe/admin/record/form.phtml:31
 msgid "Horizontal view"
-msgstr ""
+msgstr "Vista horitzontal"
 
 #: view/datascribe/admin/record/form.phtml:32
 msgid "Vertical view"
-msgstr ""
+msgstr "Vista vertical"
 
 #: view/datascribe/admin/record/form.phtml:35
 msgid "Guidelines"
-msgstr ""
+msgstr "Directrius"
 
 #: view/datascribe/admin/record/form.phtml:55
 msgid "Add another "
-msgstr ""
+msgstr "Afegeix un altre"
 
 #: view/datascribe/admin/record/form.phtml:57
 msgid "Return to records"
-msgstr ""
+msgstr "Torna als registres"
 
 #: view/datascribe/admin/record/form.phtml:58
 msgid "Stay on this record"
-msgstr ""
+msgstr "Mantingues-te en aquest registre."
 
 #: view/datascribe/admin/record/form.phtml:80
 msgid "This field's data type is unknown. The value cannot be added."
 msgstr ""
+"El tipus de dades d'aquest camp és desconegut. No es pot afegir el valor."
 
 #: view/datascribe/admin/record/form.phtml:84
 msgid "This field's data type is unknown. The value cannot be edited."
 msgstr ""
+"El tipus de dada d'aquest camp és desconegut. No es pot editar el valor."
 
 #: view/datascribe/admin/record/form.phtml:86
 msgid ""
 "This value is invalid. Please correct it below and save this form to update."
 msgstr ""
+"Aquest valor no és vàlid. Si us plau, corregeix-lo a continuació i desa "
+"aquest formulari per actualitzar-lo."
 
 #: view/datascribe/admin/record/form.phtml:88
 msgid ""
 "This value is marked as invalid but does not appear to be invalid. Either "
 "re-validate the dataset or save this form as-is."
 msgstr ""
+"Aquest valor està marcat com a invàlid, però no sembla que ho sigui. Torna a"
+" validar el conjunt de dades o desa aquest formulari tal qual."
 
 #: view/datascribe/admin/record/form.phtml:98
 msgid "Is missing"
-msgstr ""
+msgstr "No es troba"
 
 #: view/datascribe/admin/record/form.phtml:99
 msgid "Is illegible"
-msgstr ""
+msgstr "És il·legible"
 
 #: view/datascribe/admin/record/form.phtml:100
 msgid "Reset value"
-msgstr ""
+msgstr "Restableix el valor"
 
 #: view/datascribe/admin/record/form.phtml:109
 #, php-format
 msgid "This dataset has no form. %s"
-msgstr ""
+msgstr "Aquest conjunt de dades no té un formulari. %s"
 
 #: view/datascribe/admin/record/form.phtml:110
 msgid "Build the form."
-msgstr ""
+msgstr "Construeix el formulari."
 
 #: view/datascribe/admin/record/form.phtml:113
 msgid "This dataset has no form."
-msgstr ""
+msgstr "Aquest conjunt de dades no té un formulari."
 
 #: view/datascribe/admin/record/form.phtml:119
 msgid "Record actions"
-msgstr ""
+msgstr "Registra les accions"
 
 #: view/datascribe/admin/record/form.phtml:166
 msgid "Next records"
-msgstr ""
+msgstr "Registres següents"
 
 #: view/datascribe/admin/record/media-viewer.phtml:25
 #, php-format
 msgid "%s. %s"
-msgstr ""
+msgstr "%s. %s"
 
 #: view/datascribe/admin/record/media-viewer.phtml:32
 msgid "Previous media"
@@ -1008,331 +1023,336 @@ msgstr ""
 
 #: view/datascribe/admin/record/media-viewer.phtml:37
 msgid "Zoom in"
-msgstr ""
+msgstr "Amplia el zoom"
 
 #: view/datascribe/admin/record/media-viewer.phtml:38
 msgid "Zoom out"
-msgstr ""
+msgstr "Redueix el zoom"
 
 #: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Rotate left"
-msgstr ""
+msgstr "Rota cap a l'esquerra"
 
 #: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Rotate right"
-msgstr ""
+msgstr "Rota cap a la dreta"
 
 #: view/datascribe/admin/record/show-details.phtml:1
 msgid "Record metadata"
-msgstr ""
+msgstr "Registre de metadades"
 
 #: view/datascribe/admin/record/show-details.phtml:7
 msgid "Primary value"
-msgstr ""
+msgstr "Valor primari"
 
 #: src/DatascribeDataType/Textarea.php:13
 msgid "Textarea"
-msgstr ""
+msgstr "Textarea"
 
 #: src/DatascribeDataType/Textarea.php:19
 msgid "Textarea label"
-msgstr ""
+msgstr "Etiqueta per l'àrea de text"
 
 #: src/DatascribeDataType/Textarea.php:24
 msgid "Rows"
-msgstr ""
+msgstr "Files"
 
 #: src/DatascribeDataType/Textarea.php:30 src/DatascribeDataType/Text.php:24
 msgid "Minimum length"
-msgstr ""
+msgstr "Extensió mínima"
 
 #: src/DatascribeDataType/Textarea.php:31 src/DatascribeDataType/Text.php:25
 msgid ""
 "The minimum number of characters long the input can be and still be "
 "considered valid."
-msgstr ""
+msgstr "El nombre mínim de caràcters que ha d'acceptar l'entrada."
 
 #: src/DatascribeDataType/Textarea.php:37 src/DatascribeDataType/Text.php:31
 msgid "Maximum length"
-msgstr ""
+msgstr "Longitud màxima"
 
 #: src/DatascribeDataType/Textarea.php:38 src/DatascribeDataType/Text.php:32
 msgid "The maximum number of characters the input should accept."
-msgstr ""
+msgstr "El nombre màxim de caràcters que ha d'acceptar l'entrada."
 
 #: src/DatascribeDataType/Textarea.php:44 src/DatascribeDataType/Text.php:38
 #: src/DatascribeDataType/Number.php:42
 msgid "Placeholder"
-msgstr ""
+msgstr "Placeholder"
 
 #: src/DatascribeDataType/Textarea.php:45 src/DatascribeDataType/Text.php:39
 #: src/DatascribeDataType/Number.php:43
 msgid "An exemplar value to display in the input field whenever it is empty."
 msgstr ""
+"Un valor d'exemple a mostrar en el camp d'entrada sempre que estigui buit."
 
 #: src/DatascribeDataType/Textarea.php:50 src/DatascribeDataType/Text.php:44
 #: src/DatascribeDataType/Number.php:48
 msgid "Regex pattern"
-msgstr ""
+msgstr "Patró d'expressió regular"
 
 #: src/DatascribeDataType/Textarea.php:51 src/DatascribeDataType/Text.php:45
 #: src/DatascribeDataType/Number.php:49
 msgid ""
 "A regular expression the input's contents must match in order to be valid."
 msgstr ""
+"Una expressió regular que el contingut de l'entrada ha de complir perquè "
+"sigui vàlid."
 
 #: src/DatascribeDataType/Textarea.php:56 src/DatascribeDataType/Text.php:50
 #: src/DatascribeDataType/AbstractSelection.php:24
 #: src/DatascribeDataType/Number.php:54
 msgid "Default value"
-msgstr ""
+msgstr "Valor per defecte"
 
 #: src/DatascribeDataType/Unknown.php:22 src/DatascribeDataType/Unknown.php:54
 msgid "Unknown data type"
-msgstr ""
+msgstr "Tipus de dada desconegut"
 
 #: src/DatascribeDataType/Unknown.php:28
 msgid "Field data"
-msgstr ""
+msgstr "Camp de dades"
 
 #: src/DatascribeDataType/Unknown.php:60
 msgid "Value text"
-msgstr ""
+msgstr "Valor textual"
 
 #: src/DatascribeDataType/Datetime.php:11
 msgid "DateTime"
-msgstr ""
+msgstr "DateTime"
 
 #: src/DatascribeDataType/Select.php:22 src/Form/Element/Radio.php:17
 msgid "[No selection]"
-msgstr ""
+msgstr "[Cap selecció]"
 
 #: src/DatascribeDataType/Checkbox.php:15
 msgid "Checkbox"
-msgstr ""
+msgstr "Casella de verificació"
 
 #: src/DatascribeDataType/Checkbox.php:21
 msgid "Checkbox label"
-msgstr ""
+msgstr "Etiqueta de la casella de selecció"
 
 #: src/DatascribeDataType/Checkbox.php:26
 msgid "Checked value"
-msgstr ""
+msgstr "Valor seleccionat"
 
 #: src/DatascribeDataType/Checkbox.php:31
 msgid "Unhecked value"
-msgstr ""
+msgstr "Valor sense seleccionar"
 
 #: src/DatascribeDataType/Checkbox.php:36
 msgid "Checked by default"
-msgstr ""
+msgstr "Marcat per defecte"
 
 #: src/DatascribeDataType/Checkbox.php:70
 msgid "Check"
-msgstr ""
+msgstr "Revisa"
 
 #: src/DatascribeDataType/Text.php:19
 msgid "Text input label"
-msgstr ""
+msgstr "Etiqueta del camp d'entrada de text"
 
 #: src/DatascribeDataType/Text.php:55 src/DatascribeDataType/Number.php:59
 msgid "Datalist"
-msgstr ""
+msgstr "Datalist"
 
 #: src/DatascribeDataType/Text.php:56 src/DatascribeDataType/Number.php:60
 msgid "Recommended options available to choose, separated by new lines."
-msgstr ""
+msgstr "Redacteu les opcions recomanades, una per línia."
 
 #: src/DatascribeDataType/AbstractDatetime.php:42
 msgid "Minimum year"
-msgstr ""
+msgstr "Any mínim"
 
 #: src/DatascribeDataType/AbstractDatetime.php:54
 msgid "Maximum year"
-msgstr ""
+msgstr "Any màxim"
 
 #: src/DatascribeDataType/AbstractDatetime.php:64
 msgid "Default year"
-msgstr ""
+msgstr "Any per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:74
 msgid "Default month"
-msgstr ""
+msgstr "Mes per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:81
 msgid "Default day"
-msgstr ""
+msgstr "Dia per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:91
 msgid "Default hour"
-msgstr ""
+msgstr "Hora per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:98
 msgid "Default minute"
-msgstr ""
+msgstr "Minut per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:105
 msgid "Default second"
-msgstr ""
+msgstr "Segon per defecte"
 
 #: src/DatascribeDataType/AbstractDatetime.php:154
 msgid "Year"
-msgstr ""
+msgstr "Any"
 
 #: src/DatascribeDataType/AbstractDatetime.php:168
 msgid "Month"
-msgstr ""
+msgstr "Mes"
 
 #: src/DatascribeDataType/AbstractDatetime.php:182
 msgid "Day"
-msgstr ""
+msgstr "Dia"
 
 #: src/DatascribeDataType/AbstractDatetime.php:199
 msgid "Hour"
-msgstr ""
+msgstr "Hora"
 
 #: src/DatascribeDataType/AbstractDatetime.php:213
 msgid "Minute"
-msgstr ""
+msgstr "Minut"
 
 #: src/DatascribeDataType/AbstractDatetime.php:227
 msgid "Second"
-msgstr ""
+msgstr "Segon"
 
 #: src/DatascribeDataType/Radio.php:12
 msgid "Radio"
-msgstr ""
+msgstr "Radio"
 
 #: src/DatascribeDataType/AbstractSelection.php:12
 msgid "Selection label"
-msgstr ""
+msgstr "Etiqueta de selecció"
 
 #: src/DatascribeDataType/AbstractSelection.php:18
 msgid "The selection options separated by new lines."
-msgstr ""
+msgstr "Les opcions de selecció, una per línia."
 
 #: src/DatascribeDataType/Number.php:13 src/DatascribeDataType/Number.php:121
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 #: src/DatascribeDataType/Number.php:19
 msgid "Number input label"
-msgstr ""
+msgstr "Etiqueta del camp d'entrada numèrica"
 
 #: src/DatascribeDataType/Number.php:24
 msgid "Minimum value"
-msgstr ""
+msgstr "Valor mínim"
 
 #: src/DatascribeDataType/Number.php:25
 msgid "The minimum value to accept for this input."
-msgstr ""
+msgstr "El valor mínim acceptable per aquesta entrada."
 
 #: src/DatascribeDataType/Number.php:30
 msgid "Maximum value"
-msgstr ""
+msgstr "Valor màxim"
 
 #: src/DatascribeDataType/Number.php:31
 msgid "The maximum value to accept for this input."
-msgstr ""
+msgstr "El valor màxim per aquest camp."
 
 #: src/DatascribeDataType/Number.php:36
 msgid "Stepping interval"
-msgstr ""
+msgstr "Interval de pas"
 
 #: src/DatascribeDataType/Number.php:37
 msgid "A number that specifies the granularity that the value must adhere to."
 msgstr ""
+"Un número que especifica la granularitat a la qual s'ha d'adherir el valor."
 
 #: src/DatascribeDataType/Time.php:11
 msgid "Time"
-msgstr ""
+msgstr "Temps"
 
 #: src/ViewHelper/breadcrumbs_route_map.php:35
 msgid "Record"
-msgstr ""
+msgstr "Registre"
 
 #: src/Api/Representation/DatascribeItemRepresentation.php:243
 #: src/Form/ItemSearchForm.php:21
 msgid "Approved"
-msgstr ""
+msgstr "Aprovat"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:162
 msgid "Invalid item format passed in request."
-msgstr ""
+msgstr "El format del recurs passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:166
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:63
 msgid "Invalid owner format passed in request."
-msgstr ""
+msgstr "El format del propietari passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:170
 msgid "Invalid values format passed in request."
-msgstr ""
+msgstr "El format de les dades passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:298
 msgid "Missing item."
-msgstr ""
+msgstr "Recurs no trobat."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:305
 msgid "Invalid field. Field not in dataset."
-msgstr ""
+msgstr "Camp invàlid. El camp no és al conjunt de dades."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:312
 #, php-format
 msgid "Invalid value text for field \"%s\"."
-msgstr ""
+msgstr "Valor invàlid en el camp \"%s\"."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:82
 msgid "An owner must have an ID"
-msgstr ""
+msgstr "Els propietaris han de tenir un ID"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:149
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:201
 #, php-format
 msgid "The name \"%s\" is already taken."
-msgstr ""
+msgstr "El nom \"%s\" ja s'està fent servir."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:154
 msgid "A project name must not be null"
-msgstr ""
+msgstr "Un nom de projecte no pot ser nul"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:56
 msgid "Invalid project format passed in request."
-msgstr ""
+msgstr "El format de projecte passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:60
 msgid "Invalid item set format passed in request."
-msgstr ""
+msgstr "El format del conjunt de recursos passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:67
 msgid "Invalid fields format passed in request."
-msgstr ""
+msgstr "El format dels camps passat a la sol·licitud és invàlid."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:206
 msgid "A dataset name must not be null"
-msgstr ""
+msgstr "El nom del conjunt de dades no pot quedar en blanc"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:209
 msgid "A project must not be null"
-msgstr ""
+msgstr "El projecte no pot estar en blanc"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:215
 #, php-format
 msgid "Invalid field data for field \"%s\"."
-msgstr ""
+msgstr "Les dades del camp \"%s\" són invàlides."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:36
 msgid ""
 "The DatascribeItemAdapter adapter does not implement the create operation."
 msgstr ""
+"L'adaptador DatascribeItemAdapter no implementa l'operació de creació."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:609
 msgid "A DataScribe dataset must not be null"
-msgstr ""
+msgstr "Un conjunt de dades DataScribe no pot ser nul."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:612
 msgid "An item must not be null"
-msgstr ""
+msgstr "Un recurs no pot ser nul."
 
 #: src/Controller/Admin/RecordController.php:53
 #, php-format
@@ -1346,83 +1366,88 @@ msgstr ""
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
-msgstr ""
+msgstr "Recurs actualitzat correctament."
 
 #: src/Controller/Admin/RecordController.php:188
 msgid "Record successfully added. Add another record below."
 msgstr ""
+"El registre s'ha afegit correctament. Afegiu un altre registre a "
+"continuació."
 
 #: src/Controller/Admin/RecordController.php:191
 msgid "Record successfully added. Continue editing it below."
 msgstr ""
+"El registre s'ha afegit correctament. Continueu editant-lo a continuació."
 
 #: src/Controller/Admin/RecordController.php:194
 msgid "Record successfully added."
-msgstr ""
+msgstr "El registre s'ha afegit correctament."
 
 #: src/Controller/Admin/RecordController.php:254
 msgid "Record successfully saved. Continue editing it below."
 msgstr ""
+"El registre s'ha suprimit correctament. Continueu editant-lo a continuació."
 
 #: src/Controller/Admin/RecordController.php:257
 msgid "Record successfully saved."
-msgstr ""
+msgstr "El registre s'ha desat correctament."
 
 #: src/Controller/Admin/RecordController.php:311
 msgid "Record successfully deleted"
-msgstr ""
+msgstr "El registre s'ha suprimit correctament"
 
 #: src/Controller/Admin/RecordController.php:351
 #: src/Controller/Admin/DatasetRecordController.php:124
 msgid "Records successfully edited."
-msgstr ""
+msgstr "Registres editats correctament."
 
 #: src/Controller/Admin/RecordController.php:405
 #: src/Controller/Admin/DatasetRecordController.php:175
 msgid "Editing records. This may take a while."
-msgstr ""
+msgstr "S'estan editant els registres. Això pot trigar una estona."
 
 #: src/Controller/Admin/RecordController.php:439
 #: src/Controller/Admin/DatasetRecordController.php:207
 msgid "You must select at least one record to batch delete."
-msgstr ""
+msgstr "Heu de seleccionar almenys un registre per eliminar per lots."
 
 #: src/Controller/Admin/RecordController.php:448
 #: src/Controller/Admin/DatasetRecordController.php:216
 msgid "Records successfully deleted"
-msgstr ""
+msgstr "El registres s'han suprimit correctament."
 
 #: src/Controller/Admin/RecordController.php:487
 #: src/Controller/Admin/DatasetRecordController.php:254
 msgid "Deleting records. This may take a while."
-msgstr ""
+msgstr "Esborrant registres. Pot trigar una estona."
 
 #: src/Controller/Admin/DatasetController.php:52
 msgid "Dataset successfully created."
-msgstr ""
+msgstr "El conjunt de dades s'ha creat correctament."
 
 #: src/Controller/Admin/DatasetController.php:89
 msgid "Dataset successfully edited."
-msgstr "Jeu de données édité avec succès"
+msgstr "El conjunt de dades s'ha editat correctament."
 
 #: src/Controller/Admin/DatasetController.php:120
 msgid "Dataset successfully deleted"
-msgstr ""
+msgstr "Conjunt de dades suprimit correctament"
 
 #: src/Controller/Admin/DatasetController.php:184
 #, php-format
 msgid "Syncing dataset. This may take a while. %s"
 msgstr ""
+"S'està sincronitzant el conjunt de dades. Això pot trigar una estona. %s"
 
 #: src/Controller/Admin/DatasetController.php:208
 #, php-format
 msgid "Validating dataset. This may take a while. %s"
-msgstr ""
+msgstr "S'està validant el conjunt de dades. Això pot trigar una estona. %s"
 
 #: src/Controller/Admin/DatasetController.php:232
 #, php-format
 msgid "Exporting dataset. This may take a while. %s"
-msgstr ""
+msgstr "S'està exportant el conjunt de dades. Això pot trigar una estona. %s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
@@ -1430,109 +1455,109 @@ msgstr ""
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
-msgstr ""
+msgstr "El projecte s'ha creat correctament."
 
 #: src/Controller/Admin/ProjectController.php:52
 msgid "Project successfully edited."
-msgstr ""
+msgstr "El projecte s'ha editat correctament."
 
 #: src/Controller/Admin/ProjectController.php:77
 msgid "Project successfully deleted"
-msgstr ""
+msgstr "El projecte s'ha suprimit correctament"
 
 #: src/Controller/Admin/ItemController.php:38
 #, php-format
 msgid "This dataset has no item set. %s"
-msgstr ""
+msgstr "Aquest conjunt de dades no té cap conjunt de recursos. %s"
 
 #: src/Controller/Admin/ItemController.php:145
 msgid "Items successfully edited."
-msgstr ""
+msgstr "Recurs editat correctament."
 
 #: src/Form/RecordForm.php:136
 msgid "Invalid value"
-msgstr ""
+msgstr "Valor invàlid"
 
 #: src/Form/RecordForm.php:147
 msgid "Set to null"
-msgstr ""
+msgstr "Estableix a nul"
 
 #: src/Form/AbstractForm.php:101
 msgid "Lock to transcriber"
-msgstr ""
+msgstr "Assigna en exclusiva al transcriptor"
 
 #: src/Form/AbstractForm.php:105
 msgid "Lock to reviewer"
-msgstr ""
+msgstr "Assigna en exclusiva al revisor"
 
 #: src/Form/AbstractForm.php:109
 msgid "Lock to admin"
-msgstr ""
+msgstr "Assigna en exclusiva al administrador"
 
 #: src/Form/ItemBatchForm.php:11 src/Form/ItemForm.php:66
 msgid "Unlock"
-msgstr ""
+msgstr "Desbloqueja"
 
 #: src/Form/ItemBatchForm.php:12 src/Form/ItemForm.php:69
 msgid "Lock to me"
-msgstr ""
+msgstr "Bloqueja per mi"
 
 #: src/Form/ItemBatchForm.php:18
 msgid "Lock action"
-msgstr ""
+msgstr "Acció de bloqueig"
 
 #: src/Form/ItemBatchForm.php:31
 msgid "Review action"
-msgstr ""
+msgstr "Acció de revisió"
 
 #: src/Form/ItemBatchForm.php:34 src/Form/ItemForm.php:48
 msgid "Mark as approved"
-msgstr ""
+msgstr "Marca com aprovat"
 
 #: src/Form/ItemBatchForm.php:35 src/Form/ItemForm.php:51
 msgid "Mark as not approved"
-msgstr ""
+msgstr "Marca com a no aprovat"
 
 #: src/Form/ItemBatchForm.php:36 src/Form/ItemForm.php:54
 msgid "Mark as not reviewed"
-msgstr ""
+msgstr "Marca com a no revisat"
 
 #: src/Form/ItemBatchForm.php:48
 msgid "Priority action"
-msgstr ""
+msgstr "Acció prioritaria"
 
 #: src/Form/ItemBatchForm.php:51 src/Form/ItemForm.php:84
 msgid "Mark as prioritized"
-msgstr ""
+msgstr "Marcat com a prioritari"
 
 #: src/Form/ItemBatchForm.php:52 src/Form/ItemForm.php:87
 msgid "Mark as not prioritized"
-msgstr ""
+msgstr "Marca com a no prioritari"
 
 #: src/Form/RecordSearchForm.php:14
 msgid "Needs review?"
-msgstr ""
+msgstr "Necessita revisió?"
 
 #: src/Form/RecordSearchForm.php:23 src/Form/RecordSearchForm.php:40
 #: src/Form/RecordSearchForm.php:57
 msgid "Select one"
-msgstr ""
+msgstr "Selecciona un"
 
 #: src/Form/RecordSearchForm.php:31
 msgid "Needs work?"
-msgstr ""
+msgstr "Necessita treballar-hi?"
 
 #: src/Form/RecordSearchForm.php:48
 msgid "Has invalid values?"
-msgstr ""
+msgstr "Té valors invàlids?"
 
 #: src/Form/RecordSearchForm.php:75 src/Form/RecordSearchForm.php:93
 msgid "Select user"
-msgstr ""
+msgstr "Selecciona l'usuari"
 
 #: src/Form/RecordSearchForm.php:87
 msgid "Modified by"
-msgstr ""
+msgstr "Modificat per"
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
@@ -1553,7 +1578,7 @@ msgstr ""
 #: src/Form/ItemSearchForm.php:74 src/Form/ItemSearchForm.php:98
 #: src/Form/ItemSearchForm.php:114 src/Form/ItemSearchForm.php:130
 msgid "Select status"
-msgstr ""
+msgstr "Selecciona l'estat"
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
@@ -1569,25 +1594,28 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
-msgstr ""
+msgstr "Introduïu el nom d'aquest conjunt de dades."
 
 #: src/Form/DatasetForm.php:97
 msgid "Enter the description of this dataset."
-msgstr ""
+msgstr "Introduïu la descripció d'aquest conjunt de dades."
 
 #: src/Form/DatasetForm.php:109
 msgid "Enter guidelines for transcribing this dataset."
-msgstr ""
+msgstr "Introduïu les directrius per a transcriure aquest conjunt de dades."
 
 #: src/Form/DatasetForm.php:121
 msgid ""
 "Select the item set used to synchronize dataset items. Once synchronized, "
 "this dataset will contain every item in this item set."
 msgstr ""
+"Seleccioneu el conjunt de recursos emprat per a sincronitzar els recursos "
+"del conjunt de dades. Un cop sincronitzat, aquest conjunt de dades contindrà"
+" tots els recursos d'aquest conjunt de recursos."
 
 #: src/Form/DatasetForm.php:127
 msgid "Select an item set"
-msgstr ""
+msgstr "Seleccioneu un conjunt de recursos"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
@@ -1622,164 +1650,164 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"
-msgstr ""
+msgstr "Nom del camp"
 
 #: src/Form/DatasetForm.php:276
 msgid "Field description"
-msgstr ""
+msgstr "Descripció del camp"
 
 #: src/Form/DatasetForm.php:285
 msgid "Field is primary"
-msgstr ""
+msgstr "El camp és primari"
 
 #: src/Form/DatasetForm.php:294
 msgid "Field is required"
-msgstr ""
+msgstr "El camp és obligatori"
 
 #: src/Form/ItemSearchForm.php:19
 msgid "Need review"
-msgstr ""
+msgstr "Necessita una revisió"
 
 #: src/Form/ItemSearchForm.php:33
 msgid "Submitted by"
-msgstr ""
+msgstr "Enviat per"
 
 #: src/Form/ItemSearchForm.php:44
 msgid "Submitted status"
-msgstr ""
+msgstr "Estat de l'enviament"
 
 #: src/Form/ItemSearchForm.php:57
 msgid "Reviewed by"
-msgstr ""
+msgstr "Revisat per"
 
 #: src/Form/ItemSearchForm.php:68
 msgid "Reviewed status"
-msgstr ""
+msgstr "Estat de la revisió"
 
 #: src/Form/ItemSearchForm.php:81
 msgid "Locked by"
-msgstr ""
+msgstr "Bloquejat per"
 
 #: src/Form/ItemSearchForm.php:92
 msgid "Locked status"
-msgstr ""
+msgstr "Bloquejat"
 
 #: src/Form/Element/MonthSelect.php:11
 msgid "January"
-msgstr ""
+msgstr "Gener"
 
 #: src/Form/Element/MonthSelect.php:12
 msgid "February"
-msgstr ""
+msgstr "Febrer"
 
 #: src/Form/Element/MonthSelect.php:13
 msgid "March"
-msgstr ""
+msgstr "Març"
 
 #: src/Form/Element/MonthSelect.php:14
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: src/Form/Element/MonthSelect.php:15
 msgid "May"
-msgstr ""
+msgstr "Maig"
 
 #: src/Form/Element/MonthSelect.php:16
 msgid "June"
-msgstr ""
+msgstr "Juny"
 
 #: src/Form/Element/MonthSelect.php:17
 msgid "July"
-msgstr ""
+msgstr "Juliol"
 
 #: src/Form/Element/MonthSelect.php:18
 msgid "August"
-msgstr ""
+msgstr "Agost"
 
 #: src/Form/Element/MonthSelect.php:19
 msgid "September"
-msgstr ""
+msgstr "Setembre"
 
 #: src/Form/Element/MonthSelect.php:20
 msgid "October"
-msgstr ""
+msgstr "Octubre"
 
 #: src/Form/Element/MonthSelect.php:21
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: src/Form/Element/MonthSelect.php:22
 msgid "December"
-msgstr ""
+msgstr "Desembre"
 
 #: src/Form/ProjectForm.php:15
 msgid "Enter the name of this project."
-msgstr ""
+msgstr "Introduïu el nom d'aquest projecte."
 
 #: src/Form/ProjectForm.php:27
 msgid "Enter the description of this project."
-msgstr ""
+msgstr "Introduïu la descripció d'aquest projecte."
 
 #: src/Form/ItemForm.php:33
 msgid "Submit for review"
-msgstr ""
+msgstr "Envia per a la revisió"
 
 #: src/Form/ItemForm.php:36
 msgid "Mark as not submitted"
-msgstr ""
+msgstr "Marca com a no enviat"
 
 #: src/Form/RecordBatchForm.php:14
 msgid "Needs review action"
-msgstr ""
+msgstr "Requereix una acció de revisió"
 
 #: src/Form/RecordBatchForm.php:17
 msgid "Mark as needs review"
-msgstr ""
+msgstr "Marca com \"requereix una revisió\""
 
 #: src/Form/RecordBatchForm.php:18
 msgid "Mark as does not need review"
-msgstr ""
+msgstr "Marca com a \"no requereix una revisió\""
 
 #: src/Form/RecordBatchForm.php:30
 msgid "Needs work action"
-msgstr ""
+msgstr "Requereix una acció de revisió"
 
 #: src/Form/RecordBatchForm.php:33
 msgid "Mark as needs work"
-msgstr ""
+msgstr "Marca com a \"pendent de finalitzar\""
 
 #: src/Form/RecordBatchForm.php:34
 msgid "Mark as does not need work"
-msgstr ""
+msgstr "Marca com a \"finalitzat\""
 
 #: src/Form/RecordBatchForm.php:73
 msgid "Is missing action"
-msgstr ""
+msgstr "Acció És absent"
 
 #: src/Form/RecordBatchForm.php:76
 msgid "Mark as missing"
-msgstr ""
+msgstr "Marca com a absent"
 
 #: src/Form/RecordBatchForm.php:77
 msgid "Mark as not missing"
-msgstr ""
+msgstr "Marca com a no absent"
 
 #: src/Form/RecordBatchForm.php:89
 msgid "Is illegible action"
-msgstr ""
+msgstr "Acció És il·legible"
 
 #: src/Form/RecordBatchForm.php:92
 msgid "Mark as illegible"
-msgstr ""
+msgstr "Marca com a il·legible"
 
 #: src/Form/RecordBatchForm.php:93
 msgid "Mark as not illegible"
-msgstr ""
+msgstr "Marca com a no il·legible"
 
 #: config/module.config.php:29
 msgid "Disable focus mode"
-msgstr ""
+msgstr "Mostra la columna dreta"
 
 #: config/module.config.php:31
 msgid "Disable fast entry mode"
-msgstr ""
+msgstr "Desactiva el mode d'entrada ràpida"

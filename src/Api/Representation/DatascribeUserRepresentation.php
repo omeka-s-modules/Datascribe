@@ -7,7 +7,7 @@ use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class DatascribeUserRepresentation extends AbstractRepresentation
 {
-    protected $datascribeUser;
+    protected $user;
 
     public function __construct(DatascribeUser $user, ServiceLocatorInterface $services)
     {
@@ -15,7 +15,7 @@ class DatascribeUserRepresentation extends AbstractRepresentation
         $this->user = $user;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         // The project forms need the Omeka user name and email, so set the full
         // user serialization instead of just the reference.

@@ -23,7 +23,7 @@ class DatascribeFieldRepresentation extends AbstractRepresentation
         $this->field = $field;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
     }
 
@@ -35,8 +35,8 @@ class DatascribeFieldRepresentation extends AbstractRepresentation
     public function name(array $options = [])
     {
         // Set default options.
-        $options['length'] = $options['length'] ?? null;
-        $options['trim_marker'] = $options['trim_marker'] ?? null;
+        $options['length'] ??= null;
+        $options['trim_marker'] ??= null;
 
         $name = $this->field->getName();
         $nameLength = mb_strlen($name);

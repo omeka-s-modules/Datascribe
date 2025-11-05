@@ -6,28 +6,28 @@ use Laminas\Form\Fieldset;
 
 class Time extends AbstractDatetime
 {
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'Time'; // @translate
     }
 
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $this->addTimeFieldElements($fieldset, $fieldData);
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         return $this->getTimeFieldDataFromUserData($userData);
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $array = $this->getTimeArray($valueText);
         $this->addTimeValueElements($fieldset, $fieldData, $valueText, $array);
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         $array = [
             'hour' => $userData['hour'] ?? null,
@@ -37,7 +37,7 @@ class Time extends AbstractDatetime
         return $this->getTimeString($this->emptyValuesToNull($array));
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $array = $this->getTimeArray($valueText);
 
@@ -75,7 +75,7 @@ class Time extends AbstractDatetime
     protected function getTimeArray(?string $string)
     {
         $regex = sprintf('^%s?$', self::REGEX_ISO8601_TIME);
-        preg_match(sprintf('/%s/', $regex), $string, $matches);
+        preg_match(sprintf('/%s/', $regex), (string) $string, $matches);
         return [
             'hour' => isset($matches[1]) ? (int) $matches[1] : null,
             'minute' => isset($matches[3]) ? (int) $matches[3] : null,
@@ -89,7 +89,7 @@ class Time extends AbstractDatetime
      * @param array $array
      * @return ?string
      */
-    protected function getTimeString(array $array) : ?string
+    protected function getTimeString(array $array): ?string
     {
         if (isset($array['hour']) && isset($array['minute']) && isset($array['second'])) {
             return sprintf('%02d:%02d:%02d', $array['hour'], $array['minute'], $array['second']);

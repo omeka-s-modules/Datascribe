@@ -19,7 +19,7 @@ trait TraitNotes
      */
     protected $reviewerNotes;
 
-    public function setTranscriberNotes(?string $transcriberNotes) : void
+    public function setTranscriberNotes(?string $transcriberNotes): void
     {
         if (is_string($transcriberNotes) && '' === trim($transcriberNotes)) {
             $transcriberNotes = null;
@@ -27,12 +27,12 @@ trait TraitNotes
         $this->transcriberNotes = $transcriberNotes;
     }
 
-    public function getTranscriberNotes() : ?string
+    public function getTranscriberNotes(): ?string
     {
         return $this->transcriberNotes;
     }
 
-    public function setReviewerNotes(?string $reviewerNotes) : void
+    public function setReviewerNotes(?string $reviewerNotes): void
     {
         if (is_string($reviewerNotes) && '' === trim($reviewerNotes)) {
             $reviewerNotes = null;
@@ -40,7 +40,7 @@ trait TraitNotes
         $this->reviewerNotes = $reviewerNotes;
     }
 
-    public function getReviewerNotes() : ?string
+    public function getReviewerNotes(): ?string
     {
         return $this->reviewerNotes;
     }

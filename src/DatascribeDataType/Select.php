@@ -7,12 +7,12 @@ use Laminas\Validator\ValidatorChain;
 
 class Select extends AbstractSelection
 {
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'Select'; // @translate
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $element = new DatascribeElement\Select('value', [
             'datascribe_field_data' => $fieldData,
@@ -30,7 +30,7 @@ class Select extends AbstractSelection
         $fieldset->add($element);
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $element = new DatascribeElement\Select('value', [
             'datascribe_field_data' => $fieldData,

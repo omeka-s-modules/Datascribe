@@ -25,22 +25,22 @@ trait TraitSync
      */
     protected $synced;
 
-    public function setSyncedBy(?User $syncedBy = null) : void
+    public function setSyncedBy(?User $syncedBy = null): void
     {
         $this->syncedBy = $syncedBy;
     }
 
-    public function getSyncedBy() : ?User
+    public function getSyncedBy(): ?User
     {
         return $this->syncedBy;
     }
 
-    public function setSynced(?DateTime $synced) : void
+    public function setSynced(?DateTime $synced): void
     {
         $this->synced = $synced;
     }
 
-    public function getSynced() : ?DateTime
+    public function getSynced(): ?DateTime
     {
         return $this->synced;
     }

@@ -14,12 +14,12 @@ trait TraitVisibility
      */
     protected $isPublic;
 
-    public function setIsPublic(bool $isPublic) : void
+    public function setIsPublic(bool $isPublic): void
     {
         $this->isPublic = $isPublic;
     }
 
-    public function getIsPublic() : bool
+    public function getIsPublic(): bool
     {
         return $this->isPublic;
     }

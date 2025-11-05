@@ -6,7 +6,7 @@ use Laminas\Form\Fieldset;
 
 abstract class AbstractSelection implements DataTypeInterface
 {
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new Element\Text('label');
         $element->setLabel('Selection label'); // @translate
@@ -26,7 +26,7 @@ abstract class AbstractSelection implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         $fieldData = [];
         if (isset($userData['options'])) {
@@ -55,13 +55,13 @@ abstract class AbstractSelection implements DataTypeInterface
         return $fieldData;
     }
 
-    public function fieldDataIsValid(array $fieldData) : bool
+    public function fieldDataIsValid(array $fieldData): bool
     {
         // Invalid data was filtered out in self::getFieldDataFromUserData().
         return true;
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         $text = null;
         if (isset($userData['value']) && is_string($userData['value']) && ('' !== $userData['value'])) {

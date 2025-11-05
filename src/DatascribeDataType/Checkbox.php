@@ -10,12 +10,12 @@ class Checkbox implements DataTypeInterface
     const DEFAULT_CHECKED_VALUE = '1';
     const DEFAULT_UNCHECKED_VALUE = '0';
 
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'Checkbox'; // @translate
     }
 
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new Element\Text('label');
         $element->setLabel('Checkbox label'); // @translate
@@ -38,7 +38,7 @@ class Checkbox implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         $fieldData = [];
         $fieldData['checked_value'] =
@@ -56,7 +56,7 @@ class Checkbox implements DataTypeInterface
         return $fieldData;
     }
 
-    public function fieldDataIsValid(array $fieldData) : bool
+    public function fieldDataIsValid(array $fieldData): bool
     {
         if ($fieldData['checked_value'] === $fieldData['unchecked_value']) {
             return false;
@@ -64,7 +64,7 @@ class Checkbox implements DataTypeInterface
         return true;
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $element = new DatascribeElement\OptionalCheckbox('value');
         $element->setLabel($fieldData['label'] ?? 'Check'); // @translate
@@ -78,12 +78,12 @@ class Checkbox implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         return $userData['value'] ?? null;
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $checkedValue = $fieldData['checked_value'] ?? self::DEFAULT_CHECKED_VALUE;
         $uncheckedValue = $fieldData['unchecked_value'] ?? self::DEFAULT_UNCHECKED_VALUE;

@@ -6,7 +6,7 @@ use Laminas\Form\View\Helper\FormText;
 
 class DatascribeFormText extends FormText
 {
-    public function render(ElementInterface $element)
+    public function render(ElementInterface $element): string
     {
         $fieldData = $element->getOption('datascribe_field_data');
         if (!isset($fieldData['datalist'])) {

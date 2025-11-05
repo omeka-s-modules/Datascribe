@@ -9,7 +9,7 @@ use Laminas\InputFilter\InputProviderInterface;
  */
 class RequiredText extends Text implements InputProviderInterface
 {
-    public function getInputSpecification()
+    public function getInputSpecification(): array
     {
         return [
             'name' => $this->getName(),

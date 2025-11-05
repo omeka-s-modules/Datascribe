@@ -61,14 +61,14 @@ class DatascribeItemAdapter extends AbstractEntityAdapter
         if (isset($query['item_transcriber_notes_status'])) {
             if ('is_not_null' === $query['item_transcriber_notes_status']) {
                 $qb->andWhere($qb->expr()->isNotNull('omeka_root.transcriberNotes'));
-            } elseif ('is_null'=== $query['item_transcriber_notes_status']) {
+            } elseif ('is_null' === $query['item_transcriber_notes_status']) {
                 $qb->andWhere($qb->expr()->isNull('omeka_root.transcriberNotes'));
             }
         }
         if (isset($query['item_reviewer_notes_status'])) {
             if ('is_not_null' === $query['item_reviewer_notes_status']) {
                 $qb->andWhere($qb->expr()->isNotNull('omeka_root.reviewerNotes'));
-            } elseif ('is_null'=== $query['item_reviewer_notes_status']) {
+            } elseif ('is_null' === $query['item_reviewer_notes_status']) {
                 $qb->andWhere($qb->expr()->isNull('omeka_root.reviewerNotes'));
             }
         }
@@ -413,8 +413,8 @@ class DatascribeItemAdapter extends AbstractEntityAdapter
                 }
                 $propertyId = $queryRow['property'];
                 $queryType = $queryRow['type'];
-                $joiner = isset($queryRow['joiner']) ? $queryRow['joiner'] : null;
-                $value = isset($queryRow['text']) ? $queryRow['text'] : null;
+                $joiner = $queryRow['joiner'] ?? null;
+                $value = $queryRow['text'] ?? null;
                 if (!$value && $queryType !== 'nex' && $queryType !== 'ex') {
                     continue;
                 }

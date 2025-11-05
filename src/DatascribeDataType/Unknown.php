@@ -11,12 +11,12 @@ class Unknown implements DataTypeInterface
         $this->name = $name;
     }
 
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return '[Unknown]'; // @translate
     }
 
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new Element\Text('data_type');
         $element->setLabel('Unknown data type'); // @translate
@@ -38,17 +38,17 @@ class Unknown implements DataTypeInterface
         $fieldset->add(new Element\Hidden('unknown'));
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         return [];
     }
 
-    public function fieldDataIsValid(array $fieldData) : bool
+    public function fieldDataIsValid(array $fieldData): bool
     {
         return true;
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $element = new Element\Text('data_type');
         $element->setLabel('Unknown data type'); // @translate
@@ -66,12 +66,12 @@ class Unknown implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         return null;
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         // Note that we assume all "Unknown" text is valid so it persists until
         // an administrator corrects or deletes the field.

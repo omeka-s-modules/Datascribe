@@ -11,12 +11,12 @@ abstract class AbstractDatetime implements DataTypeInterface
     const REGEX_ISO8601_DATE = '(-)?(\d{4})(-(\d{2})(-(\d{2}))?)?';
     const REGEX_ISO8601_TIME = '(\d{2})(:(\d{2})(:(\d{2}))?)?';
 
-    public function fieldDataIsValid(array $fieldData) : bool
+    public function fieldDataIsValid(array $fieldData): bool
     {
         return true;
     }
 
-    protected function emptyValuesToNull(array $array) : array
+    protected function emptyValuesToNull(array $array): array
     {
         // Make empty strings null so validation works.
         return array_map(function ($value) {
@@ -24,7 +24,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         }, $array);
     }
 
-    protected function isValid(Element $element, string $text) : bool
+    protected function isValid(Element $element, string $text): bool
     {
         if (null === $text) {
             return false;
@@ -36,7 +36,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         return $validatorChain->isValid($text);
     }
 
-    protected function addDateFieldElements(Fieldset $fieldset, array $fieldData) : void
+    protected function addDateFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new DatascribeElement\OptionalNumber('min_year');
         $element->setLabel('Minimum year'); // @translate
@@ -85,7 +85,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    protected function addTimeFieldElements(Fieldset $fieldset, array $fieldData) : void
+    protected function addTimeFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new DatascribeElement\OptionalSelect('default_hour');
         $element->setLabel('Default hour'); // @translate
@@ -109,7 +109,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    protected function getDateFieldDataFromUserData(array $userData) : array
+    protected function getDateFieldDataFromUserData(array $userData): array
     {
         $fieldData = [];
         $fieldData['min_year'] =
@@ -130,7 +130,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         return $fieldData;
     }
 
-    protected function getTimeFieldDataFromUserData(array $userData) : array
+    protected function getTimeFieldDataFromUserData(array $userData): array
     {
         $fieldData = [];
         $fieldData['default_hour'] =
@@ -145,7 +145,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         return $fieldData;
     }
 
-    public function addDateValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText, array $array) : void
+    public function addDateValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText, array $array): void
     {
         // Year
         $element = new DatascribeElement\YearSelect('year', [
@@ -190,7 +190,7 @@ abstract class AbstractDatetime implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function addTimeValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText, array $array) : void
+    public function addTimeValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText, array $array): void
     {
         // Hour
         $element = new DatascribeElement\HourSelect('hour', [

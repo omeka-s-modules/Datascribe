@@ -53,9 +53,9 @@
 </div>
 <div class="meta-group">
     <h4><?php echo $this->translate('Transcriber record notes'); ?></h4>
-    <div class="value"><?php echo nl2br($record->transcriberNotes()); ?></div>
+    <div class="value"><?php echo nl2br((string) $record->transcriberNotes()); ?></div>
 </div>
 <div class="meta-group">
     <h4><?php echo $this->translate('Reviewer record notes'); ?></h4>
-    <div class="value"><?php echo nl2br($record->reviewerNotes()); ?></div>
+    <div class="value"><?php echo nl2br((string) $record->reviewerNotes()); ?></div>
 </div>

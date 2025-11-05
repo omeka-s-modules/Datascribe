@@ -77,14 +77,14 @@ class DatascribeRecordAdapter extends AbstractEntityAdapter
         if (isset($query['transcriber_notes_status'])) {
             if ('is_not_null' === $query['transcriber_notes_status']) {
                 $qb->andWhere($qb->expr()->isNotNull('omeka_root.transcriberNotes'));
-            } elseif ('is_null'=== $query['transcriber_notes_status']) {
+            } elseif ('is_null' === $query['transcriber_notes_status']) {
                 $qb->andWhere($qb->expr()->isNull('omeka_root.transcriberNotes'));
             }
         }
         if (isset($query['reviewer_notes_status'])) {
             if ('is_not_null' === $query['reviewer_notes_status']) {
                 $qb->andWhere($qb->expr()->isNotNull('omeka_root.reviewerNotes'));
-            } elseif ('is_null'=== $query['reviewer_notes_status']) {
+            } elseif ('is_null' === $query['reviewer_notes_status']) {
                 $qb->andWhere($qb->expr()->isNull('omeka_root.reviewerNotes'));
             }
         }

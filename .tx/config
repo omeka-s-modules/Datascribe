@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[omeka-s.module-Datascribe]
+[o:omeka:p:omeka-s:r:module-Datascribe]
 file_filter = language/<lang>.po
 minimum_perc = 10
 source_file = language/template.pot

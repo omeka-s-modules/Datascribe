@@ -64,52 +64,52 @@ trait TraitOwnership
      */
     protected $modified;
 
-    public function setOwner(?User $owner = null) : void
+    public function setOwner(?User $owner = null): void
     {
         $this->owner = $owner;
     }
 
-    public function getOwner() : ?User
+    public function getOwner(): ?User
     {
         return $this->owner;
     }
 
-    public function setCreatedBy(?User $createdBy = null) : void
+    public function setCreatedBy(?User $createdBy = null): void
     {
         $this->createdBy = $createdBy;
     }
 
-    public function getCreatedBy() : ?User
+    public function getCreatedBy(): ?User
     {
         return $this->createdBy;
     }
 
-    public function setModifiedBy(?User $modifiedBy = null) : void
+    public function setModifiedBy(?User $modifiedBy = null): void
     {
         $this->modifiedBy = $modifiedBy;
     }
 
-    public function getModifiedBy() : ?User
+    public function getModifiedBy(): ?User
     {
         return $this->modifiedBy;
     }
 
-    public function setCreated(DateTime $created) : void
+    public function setCreated(DateTime $created): void
     {
         $this->created = $created;
     }
 
-    public function getCreated() : DateTime
+    public function getCreated(): DateTime
     {
         return $this->created;
     }
 
-    public function setModified(DateTime $modified) : void
+    public function setModified(DateTime $modified): void
     {
         $this->modified = $modified;
     }
 
-    public function getModified() : ?DateTime
+    public function getModified(): ?DateTime
     {
         return $this->modified;
     }
@@ -117,7 +117,7 @@ trait TraitOwnership
     /**
      * @PrePersist
      */
-    public function prePersist(LifecycleEventArgs $eventArgs) : void
+    public function prePersist(LifecycleEventArgs $eventArgs): void
     {
         $this->setCreated(new DateTime('now'));
     }

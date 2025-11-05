@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pols12 <poltron54@gmail.com>, 2020
-# Judith Hannoun <judith.hannoun@gmail.com>, 2020
+# Hong Zhang <zhangh@unlv.nevada.edu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +13,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 11:59-0500\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
-"Last-Translator: Judith Hannoun <judith.hannoun@gmail.com>, 2020\n"
-"Language-Team: French (https://app.transifex.com/omeka/teams/14184/fr/)\n"
+"Last-Translator: Hong Zhang <zhangh@unlv.nevada.edu>, 2021\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/omeka/teams/14184/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:154
 #, php-format
 msgid "Record #%s: %s"
-msgstr "Enregistrement %s : %s"
+msgstr "记录 #%s：%s"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:159
 #, php-format
 msgid "Record #%s"
-msgstr "Enregistrement %s"
+msgstr "记录 #%s"
 
 #: src/Controller/Admin/DatasetController.php:188
 msgid "See this job for sync progress."
-msgstr "Consultez la tâche pour la progression de la synchronisation."
+msgstr "查看此任务看同步进度。"
 
 #: src/Controller/Admin/DatasetController.php:212
 msgid "See this job for validate progress."
-msgstr "Consultez la tâche pour la progression de la validation."
+msgstr "查看此任务看验证进度。"
 
 #: src/Controller/Admin/DatasetController.php:236
 msgid "See this job for export progress."
-msgstr "Consultez la tâche pour la progression de l’exportation."
+msgstr "查看此任务看导出进度。"
 
 #: src/Controller/Admin/ItemController.php:42
 msgid "Set an item set here."
-msgstr "Indiquez une collection ici."
+msgstr "在此设定一个条目集。"
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
@@ -62,7 +61,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
-msgstr "Nouveau champ"
+msgstr "新表单域"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
@@ -74,58 +73,58 @@ msgstr "Nouveau champ"
 #: view/datascribe/admin/item/browse.phtml:6
 #: view/datascribe/admin/item/search.phtml:8
 msgid "DataScribe: Dataset"
-msgstr "DataScribe : jeu de données"
+msgstr "DataScribe：数据集"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 msgid "Batch edit all records"
-msgstr "Modifier ensemble tous les enregistrements"
+msgstr "批量编辑所有记录"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:23
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:25
 #: view/datascribe/admin/record/batch-edit-all.phtml:23
 #: view/datascribe/admin/record/batch-edit.phtml:25
 msgid "Affected records"
-msgstr "Enregistrements affectés"
+msgstr "受影响的记录"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:24
 #: view/datascribe/admin/record/batch-edit-all.phtml:24
 #, php-format
 msgid "You are editing %s records"
-msgstr "Vous êtes en train de modifier %s enregistrements"
+msgstr "您正在编辑%s记录"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
 msgid "Batch edit records"
-msgstr "Modifier ensemble les enregistrements"
+msgstr "批量编辑记录"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:26
 #: view/datascribe/admin/record/batch-edit.phtml:26
 #, php-format
 msgid "You are editing the following %s records"
-msgstr "Vous allez modifier les %s enregistrements suivants"
+msgstr "您正在编辑以下%s媒体"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:9
 #: view/datascribe/admin/record/browse.phtml:9
 msgid "Records that need review"
-msgstr "Enregistrements qui doivent être révisés"
+msgstr "需审核的记录"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:13
 #: view/datascribe/admin/record/browse.phtml:13
 msgid "Records that need work"
-msgstr "Enregistrements qui doivent être retravaillés"
+msgstr "需加工的记录"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:17
 #: view/datascribe/admin/record/browse.phtml:17
 msgid "Records with values marked as invalid"
-msgstr "Enregistrements ayant des valeurs marquées comme invalides"
+msgstr "值被标记为无效的记录"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:27
 #: view/datascribe/admin/item/browse.phtml:30
 #: view/datascribe/admin/item/browse.phtml:143
 #: view/datascribe/admin/item/show-details.phtml:3
 msgid "Item #"
-msgstr "Contenu "
+msgstr "条目#"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:31
 #: view/datascribe/admin/dataset-record/browse.phtml:107
@@ -134,44 +133,44 @@ msgstr "Contenu "
 #: view/datascribe/admin/record/previous-next-records.phtml:10
 #: view/datascribe/admin/record/show-details.phtml:3
 msgid "Record #"
-msgstr "Enregistrement "
+msgstr "记录#"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:35
 #: view/datascribe/admin/record/browse.phtml:31
 msgid "Record created"
-msgstr "Enregistrement créé"
+msgstr "记录已创建"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:47
 #: view/datascribe/admin/record/browse.phtml:43
 msgid "Records"
-msgstr "Enregistrements"
+msgstr "记录"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:50
 msgid "Browse items"
-msgstr "Parcourir les contenus"
+msgstr "浏览条目"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:52
 #: view/datascribe/admin/item/browse.phtml:11
 msgid "Edit dataset"
-msgstr "Modifier le jeu de données"
+msgstr "编辑数据集"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:56
 #: view/datascribe/admin/dataset/form-sidebars.phtml:3
 #: view/datascribe/admin/item/browse.phtml:15
 msgid "Sync dataset"
-msgstr "Synchroniser le jeu de données"
+msgstr "同步数据集"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:57
 #: view/datascribe/admin/dataset/form-sidebars.phtml:14
 #: view/datascribe/admin/item/browse.phtml:16
 msgid "Validate dataset"
-msgstr "Valider le jeu de données"
+msgstr "验证数据集"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:58
 #: view/datascribe/admin/dataset/form-sidebars.phtml:21
 #: view/datascribe/admin/item/browse.phtml:17
 msgid "Export dataset"
-msgstr "Exporter le jeu de données"
+msgstr "导出数据集"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:59
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
@@ -182,27 +181,27 @@ msgstr ""
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
 msgid "Select records"
-msgstr "Choisissez les enregistrements"
+msgstr "选择记录"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:136
 #: view/datascribe/admin/item/browse.phtml:159
 #: view/datascribe/admin/record/browse.phtml:118
 msgid "Has invalid values"
-msgstr "A des valeurs invalides"
+msgstr "含无效值"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:137
 #: view/datascribe/admin/record/browse.phtml:119
 #: view/datascribe/admin/record/form.phtml:128
 #: view/datascribe/admin/record/show-details.phtml:47
 msgid "Needs review"
-msgstr "Doit être révisé"
+msgstr "需要审核"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:138
 #: view/datascribe/admin/record/browse.phtml:120
 #: view/datascribe/admin/record/form.phtml:134
 #: view/datascribe/admin/record/show-details.phtml:51
 msgid "Needs work"
-msgstr "Doit être retravaillé"
+msgstr "需要加工"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
@@ -218,7 +217,7 @@ msgstr ""
 #: view/datascribe/admin/record/show.phtml:15
 #: view/datascribe/admin/record/show.phtml:26
 msgid "unknown"
-msgstr "inconnu"
+msgstr "未知"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:166
 #: view/datascribe/admin/dataset-record/browse.phtml:173
@@ -230,7 +229,7 @@ msgstr "inconnu"
 #: view/datascribe/admin/record/show.phtml:17
 #: view/datascribe/admin/record/show.phtml:23
 msgid "invalid"
-msgstr "invalide"
+msgstr "无效"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:168
 #: view/datascribe/admin/dataset-record/browse.phtml:175
@@ -242,7 +241,7 @@ msgstr "invalide"
 #: view/datascribe/admin/record/show.phtml:19
 #: view/datascribe/admin/record/show.phtml:25
 msgid "null"
-msgstr "nulle"
+msgstr "空值"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:174
 #: view/datascribe/admin/record/browse.phtml:158
@@ -250,111 +249,111 @@ msgstr "nulle"
 #: view/datascribe/admin/record/show-details.phtml:14
 #: view/datascribe/admin/record/show.phtml:24
 msgid "empty"
-msgstr "vide"
+msgstr "空的"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:194
 #: view/datascribe/admin/record/browse.phtml:178
 msgid "No records found."
-msgstr "Aucun enregistrement trouvé."
+msgstr "没有找到任何记录。"
 
 #: view/datascribe/admin/dataset-record/search.phtml:7
 msgid "Record search"
-msgstr "Recherche d’enregistrements"
+msgstr "记录搜索"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 #: view/datascribe/admin/dataset/browse.phtml:5
 #: view/datascribe/admin/project/edit.phtml:7
 msgid "DataScribe: Project"
-msgstr "DataScribe : projet"
+msgstr "DataScribe：项目"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 msgid "New dataset"
-msgstr "Nouveau jeu de données"
+msgstr "新数据集"
 
 #: view/datascribe/admin/dataset/browse.phtml:5
 msgid "Datasets"
-msgstr "Jeux de données"
+msgstr "数据集"
 
 #: view/datascribe/admin/dataset/browse.phtml:9
 msgid "Edit project"
-msgstr "Modifier le projet"
+msgstr "编辑项目"
 
 #: view/datascribe/admin/dataset/browse.phtml:10
 msgid "Add new dataset"
-msgstr "Ajouter un nouveau jeu de données"
+msgstr "添加新数据集"
 
 #: view/datascribe/admin/dataset/browse.phtml:20
 #: view/datascribe/admin/project/browse.phtml:21
 msgid "Date created"
-msgstr "Date de création"
+msgstr "创建日期"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
 #: view/datascribe/admin/index/index.phtml:145
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
-msgstr "Créé par"
+msgstr "创建者："
 
 #: view/datascribe/admin/dataset/browse.phtml:83
 #, php-format
 msgid "No datasets found for this project. %s"
-msgstr "Aucun jeu de données trouvé pour ce projet. %s"
+msgstr "没有找到该项目的任何数据集。%s"
 
 #: view/datascribe/admin/dataset/browse.phtml:84
 msgid "Add a new dataset."
-msgstr "Ajouter un nouveau jeu de données."
+msgstr "添加一个新数据集。"
 
 #: view/datascribe/admin/dataset/browse.phtml:87
 msgid "No datasets found for this project."
-msgstr "Aucun jeu de données trouvé pour ce projet."
+msgstr "没有找到该项目的任何数据集。"
 
 #: view/datascribe/admin/dataset/edit.phtml:32
 #: view/datascribe/admin/record/form.phtml:52
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "保存并且&hellip;"
 
 #: view/datascribe/admin/dataset/edit.phtml:34
 msgid "Return to dataset items"
-msgstr ""
+msgstr "返回数据集条目"
 
 #: view/datascribe/admin/dataset/edit.phtml:35
 msgid "Continue editing dataset"
-msgstr ""
+msgstr "继续编辑数据集"
 
 #: view/datascribe/admin/dataset/edit.phtml:42
 msgid "Form Builder"
-msgstr "Constructeur de formulaire"
+msgstr "表单创建者"
 
 #: view/datascribe/admin/dataset/edit.phtml:58
 #: view/datascribe/admin/record/form.phtml:104
 msgid "Back to top"
-msgstr ""
+msgstr "返回顶部"
 
 #: view/datascribe/admin/dataset/edit.phtml:62
 msgid "Add a field to the form"
-msgstr "Ajouter un champ au formulaire"
+msgstr "给表单添加一个域"
 
 #: view/datascribe/admin/dataset/edit.phtml:64
 #: view/datascribe/admin/record/form.phtml:123
 #, php-format
 msgid "Last saved: %s on %s"
-msgstr "Dernière sauvegarde : %s le %s"
+msgstr ""
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:1
 msgid "Drag to change order"
-msgstr ""
+msgstr "拉动以改变顺序"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:3
 msgid "Move Up"
-msgstr "Remonter"
+msgstr "上移"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:4
 msgid "Move Down"
-msgstr "Descendre"
+msgstr "下移"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:6
 msgid "Undo"
-msgstr "Annuler"
+msgstr "撤销"
 
 #: view/datascribe/admin/dataset/form-builder-flags.phtml:2
 msgid "Primary field"
@@ -362,28 +361,20 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:5
 msgid "This dataset has no item set. Set an item set to enable syncing."
-msgstr ""
-"Ce jeu de données n’a aucune collection. Définissez une collection pour "
-"activer la synchronisation."
+msgstr "该数据集没有条目集。设定一个条目集来启用同步。"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:7
 msgid ""
 "Synchronize this dataset with the configured item set. Once synchronized, "
 "this dataset will contain every item in the item set. You should synchronize"
 " periodically, any time items are added or removed from the item set."
-msgstr ""
-"Synchroniser le jeu de données avec la collection configurée. Une fois "
-"synchronisé, le jeu de données contiendra tous les contenus de la "
-"collection. Vous devriez synchroniser périodiquement, à chaque fois que des "
-"contenus sont ajoutés ou retirés de la collection."
+msgstr "把该数据集和设置好的条目集同步起来。在同步之后，该数据集将包含条目集中的每个条目。每当条目集中添加或删除条目后，您应当定期同步。"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:8
 msgid ""
 "Warning: items that have been removed from the configured item set since the"
 " last sync will be deleted from this dataset."
-msgstr ""
-"Attention : les contenus qui ont été retirées de la collection configurée "
-"depuis la dernière synchronisation seront supprimés de ce jeu de données."
+msgstr "警告：自最后一次同步后，已经从设置好的条目集中移除的条目将从该数据集中删除。"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:15
 msgid ""
@@ -399,10 +390,6 @@ msgid ""
 "records from approved items, and that invalid values will be null. This will"
 " overwrite an existing export file."
 msgstr ""
-"Exporte ce jeu de données dans un fichier CSV. Notez que le fichier ne "
-"contiendra que des enregistrements issus de contenus approuvés, et que les "
-"valeurs non valides seront nulles. Cela écrasera un fichier d'exportation "
-"déjà existant."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
@@ -410,59 +397,59 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
-msgstr "Métadonnées du jeu de données"
+msgstr "数据集元数据"
 
 #: view/datascribe/admin/dataset/show-details.phtml:13
 #: view/datascribe/admin/project/show-details.phtml:9
 msgid "[No description]"
-msgstr "[aucune description]"
+msgstr "【无描述】"
 
 #: view/datascribe/admin/dataset/show-details.phtml:25
 msgid "Not set"
-msgstr ""
+msgstr "未设定"
 
 #: view/datascribe/admin/dataset/show-details.phtml:35
 #: view/datascribe/admin/project/show-details.phtml:19
 #: view/datascribe/admin/record/show-details.phtml:24
 #, php-format
 msgid "%s by %s"
-msgstr "%s par %s"
+msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:41
 #: view/datascribe/admin/project/show-details.phtml:25
 #: view/datascribe/admin/record/show-details.phtml:30
 msgid "Last modified"
-msgstr "Dernière modification"
+msgstr "最后修改于"
 
 #: view/datascribe/admin/dataset/show-details.phtml:54
 #: view/datascribe/admin/project/show-details.phtml:38
 #: view/datascribe/admin/record/show-details.phtml:43
 msgid "[Not modified]"
-msgstr "[Non modifié]"
+msgstr "【未修改】"
 
 #: view/datascribe/admin/dataset/show-details.phtml:58
 msgid "Last synced"
-msgstr "Dernière synchronisation"
+msgstr "最后同步于"
 
 #: view/datascribe/admin/dataset/show-details.phtml:71
 msgid "[Not synced]"
-msgstr "[Non synchronisé]"
+msgstr "【未同步】"
 
 #: view/datascribe/admin/dataset/show-details.phtml:75
 msgid "Last validated"
-msgstr ""
+msgstr "最后验证于"
 
 #: view/datascribe/admin/dataset/show-details.phtml:88
 msgid "[Not validated]"
-msgstr ""
+msgstr "【未验证的】"
 
 #: view/datascribe/admin/dataset/show-details.phtml:92
 msgid "Last exported"
-msgstr "Dernier export"
+msgstr "最后导出于"
 
 #: view/datascribe/admin/dataset/show-details.phtml:105
 msgid "[Not exported]"
-msgstr "[Non exporté]"
+msgstr "【未导出】"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
@@ -486,44 +473,44 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "控制面板"
 
 #: view/datascribe/admin/index/index.phtml:5
 #: view/datascribe/admin/project/add.phtml:7
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "DataScribe"
-msgstr ""
+msgstr "DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:8
 msgid "Browse projects"
-msgstr ""
+msgstr "浏览项目"
 
 #: view/datascribe/admin/index/index.phtml:9
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
-msgstr ""
+msgstr "添加新项目"
 
 #: view/datascribe/admin/index/index.phtml:12
 msgid "Welcome to DataScribe."
-msgstr ""
+msgstr "欢迎来到DataScribe。"
 
 #: view/datascribe/admin/index/index.phtml:15
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "我的项目"
 
 #: view/datascribe/admin/index/index.phtml:25
 msgid "Unlocked items"
-msgstr ""
+msgstr "解锁的条目"
 
 #: view/datascribe/admin/index/index.phtml:28
 #: view/datascribe/admin/index/index.phtml:53
 msgid "New"
-msgstr "Nouveau"
+msgstr "新的"
 
 #: view/datascribe/admin/index/index.phtml:39
 #: view/datascribe/admin/index/index.phtml:64
 msgid "In progress"
-msgstr "En cours"
+msgstr "正在进行中"
 
 #: view/datascribe/admin/index/index.phtml:50
 #: view/datascribe/admin/item/browse.phtml:79
@@ -532,19 +519,19 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:75
 msgid "Not approved"
-msgstr "Non approuvé"
+msgstr "未批准"
 
 #: view/datascribe/admin/index/index.phtml:87
 msgid "Items needing review"
-msgstr ""
+msgstr "需审核的条目"
 
 #: view/datascribe/admin/index/index.phtml:101
 msgid "Needs my re-review"
-msgstr ""
+msgstr "需要我的再审核"
 
 #: view/datascribe/admin/index/index.phtml:112
 msgid "Records needing review"
-msgstr ""
+msgstr "需审核的记录"
 
 #: view/datascribe/admin/index/index.phtml:134
 msgid "You do not own or belong to any projects."
@@ -552,45 +539,45 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:140
 msgid "All projects"
-msgstr ""
+msgstr "所有项目"
 
 #: view/datascribe/admin/index/index.phtml:165
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
-msgstr ""
+msgstr "没有找到任何项目。"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:5
 msgid "Batch edit all items"
-msgstr ""
+msgstr "批量编辑所有条目"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:23
 #, php-format
 msgid "You are editing %s items"
-msgstr ""
+msgstr "您正在编辑%s条目"
 
 #: view/datascribe/admin/item/batch-edit.phtml:25
 #, php-format
 msgid "You are editing the following %s items"
-msgstr ""
+msgstr "您正在编辑以下%s条目"
 
 #: view/datascribe/admin/item/browse.phtml:9
 msgid "Browse records"
-msgstr ""
+msgstr "浏览记录"
 
 #: view/datascribe/admin/item/browse.phtml:34
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Prioritized"
-msgstr ""
+msgstr "已按优先排序"
 
 #: view/datascribe/admin/item/browse.phtml:38
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Submitted"
-msgstr ""
+msgstr "已提交"
 
 #: view/datascribe/admin/item/browse.phtml:42
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Reviewed"
-msgstr ""
+msgstr "已审核"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
@@ -598,19 +585,19 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
-msgstr ""
+msgstr "所有需审核的条目"
 
 #: view/datascribe/admin/item/browse.phtml:69
 msgid "All items that need initial review"
-msgstr ""
+msgstr "所有需初始审核的条目"
 
 #: view/datascribe/admin/item/browse.phtml:70
 msgid "All items that need re-review"
-msgstr ""
+msgstr "所有需要重新审核的条目"
 
 #: view/datascribe/admin/item/browse.phtml:71
 msgid "Items with values marked as invalid"
-msgstr ""
+msgstr "被标记为无效值的条目"
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
@@ -618,35 +605,35 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
-msgstr ""
+msgstr "我审核过的需重新审核的条目"
 
 #: view/datascribe/admin/item/browse.phtml:75
 msgid "Items I reviewed that are not approved"
-msgstr ""
+msgstr "我审核过的未批准的条目"
 
 #: view/datascribe/admin/item/browse.phtml:76
 msgid "Items I reviewed that are approved"
-msgstr ""
+msgstr "我审核过的已批准的条目"
 
 #: view/datascribe/admin/item/browse.phtml:80
 msgid "My new items"
-msgstr ""
+msgstr "我的新条目"
 
 #: view/datascribe/admin/item/browse.phtml:81
 msgid "My in progress items"
-msgstr ""
+msgstr "我的正在处理中的条目"
 
 #: view/datascribe/admin/item/browse.phtml:82
 msgid "My items that need review"
-msgstr ""
+msgstr "我的需审核条目"
 
 #: view/datascribe/admin/item/browse.phtml:83
 msgid "My items that are not approved"
-msgstr ""
+msgstr "我的未批准条目"
 
 #: view/datascribe/admin/item/browse.phtml:84
 msgid "My items that are approved"
-msgstr ""
+msgstr "我的已批准条目"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
@@ -658,84 +645,84 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
-msgstr ""
+msgstr "所有解锁的新条目"
 
 #: view/datascribe/admin/item/browse.phtml:89
 msgid "All unlocked and in progress items"
-msgstr ""
+msgstr "所有解锁的正在处理中的条目"
 
 #: view/datascribe/admin/item/browse.phtml:91
 msgid "All items that are not approved"
-msgstr ""
+msgstr "所有未批准条目"
 
 #: view/datascribe/admin/item/browse.phtml:92
 msgid "All items that are approved"
-msgstr ""
+msgstr "所有已批准条目"
 
 #: view/datascribe/admin/item/browse.phtml:146
 #: view/datascribe/admin/item/show-details.phtml:31
 msgid "Last submitted"
-msgstr ""
+msgstr "最后提交于"
 
 #: view/datascribe/admin/item/browse.phtml:147
 #: view/datascribe/admin/item/show-details.phtml:48
 msgid "Last reviewed"
-msgstr ""
+msgstr "最后审核于"
 
 #: view/datascribe/admin/item/browse.phtml:148
 msgid "Review status"
-msgstr ""
+msgstr "审核状态"
 
 #: view/datascribe/admin/item/browse.phtml:156
 msgid "Select items"
-msgstr ""
+msgstr "选择条目"
 
 #: view/datascribe/admin/item/browse.phtml:194
 #, php-format
 msgid "No items found. %s"
-msgstr ""
+msgstr "没有找到任何条目。%s"
 
 #: view/datascribe/admin/item/browse.phtml:195
 msgid "Sync this dataset."
-msgstr ""
+msgstr "同步该数据集"
 
 #: view/datascribe/admin/item/browse.phtml:198
 msgid ""
 "If you have recently synced, the sync job likely has not finished<br>and/or "
 "you need to refresh this page."
-msgstr ""
+msgstr "如果最近您同步过，同步任务很可能未完成<br>，或者您需要刷新本页面。"
 
 #: view/datascribe/admin/item/browse.phtml:201
 msgid "No items found."
-msgstr ""
+msgstr "没有找到任何条目。"
 
 #: view/datascribe/admin/item/search.phtml:16
 #: view/datascribe/admin/item/show-details.phtml:7
 msgid "DataScribe item"
-msgstr ""
+msgstr "DataScribe条目"
 
 #: view/datascribe/admin/item/search.phtml:18
 #: view/datascribe/admin/item/show-details.phtml:11
 msgid "Omeka item"
-msgstr ""
+msgstr "Omeka条目"
 
 #: view/datascribe/admin/item/show-details.phtml:1
 msgid "Item metadata"
-msgstr ""
+msgstr "条目元数据"
 
 #: view/datascribe/admin/item/show-details.phtml:27
 msgid "Record count"
-msgstr ""
+msgstr "记录数"
 
 #: view/datascribe/admin/item/show-details.phtml:44
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Not submitted"
-msgstr ""
+msgstr "未提交"
 
 #: view/datascribe/admin/item/show-details.phtml:61
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Not reviewed"
-msgstr ""
+msgstr "未审核"
 
 #: view/datascribe/admin/item/show-details.phtml:65
 msgid "Last locked"
@@ -744,7 +731,7 @@ msgstr ""
 #: view/datascribe/admin/item/show-details.phtml:78
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Unlocked"
-msgstr ""
+msgstr "已解锁"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
@@ -756,37 +743,37 @@ msgstr ""
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
-msgstr ""
+msgstr "新项目"
 
 #: view/datascribe/admin/project/add.phtml:10
 #: view/datascribe/admin/project/edit.phtml:10
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "Projects"
-msgstr ""
+msgstr "项目"
 
 #: view/datascribe/admin/project/browse.phtml:88
 #, php-format
 msgid "No projects found. %s"
-msgstr ""
+msgstr "没有找到任何项目。%s"
 
 #: view/datascribe/admin/project/browse.phtml:89
 msgid "Add a new project."
-msgstr ""
+msgstr "添加一个新项目"
 
 #: view/datascribe/admin/project/show-details.phtml:1
 msgid "Project metadata"
-msgstr ""
+msgstr "项目元数据"
 
 #: view/datascribe/admin/project/users-form.phtml:13
 msgid "Click on a user to add them to the project."
-msgstr ""
+msgstr "点击一个用户把他们添加到项目中。"
 
 #: view/datascribe/admin/project/users-form.phtml:18
 msgid "Transcriber"
-msgstr ""
+msgstr "抄写人"
 
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
@@ -794,7 +781,7 @@ msgstr ""
 #: view/datascribe/admin/record/form.phtml:13
 #: view/datascribe/admin/record/search.phtml:7
 msgid "DataScribe: Item"
-msgstr ""
+msgstr "DataScribe：条目"
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
@@ -802,23 +789,23 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
-msgstr ""
+msgstr "添加新记录"
 
 #: view/datascribe/admin/record/browse.phtml:196
 msgid "Item actions"
-msgstr ""
+msgstr "条目操作"
 
 #: view/datascribe/admin/record/browse.phtml:199
 msgid "Item status:"
-msgstr ""
+msgstr "条目状态："
 
 #: view/datascribe/admin/record/browse.phtml:206
 msgid "Lock status:"
-msgstr ""
+msgstr "锁定状态："
 
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Locked"
-msgstr ""
+msgstr "已锁定"
 
 #: view/datascribe/admin/record/browse.phtml:213
 #, php-format
@@ -827,7 +814,7 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:226
 msgid "Submission status:"
-msgstr ""
+msgstr "递交状态："
 
 #: view/datascribe/admin/record/browse.phtml:233
 #, php-format
@@ -836,7 +823,7 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:246
 msgid "Review status:"
-msgstr ""
+msgstr "审核状态："
 
 #: view/datascribe/admin/record/browse.phtml:253
 #, php-format
@@ -845,11 +832,11 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:266
 msgid "Priority status:"
-msgstr ""
+msgstr "优先状态："
 
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Not prioritized"
-msgstr ""
+msgstr "尚未优先排序"
 
 #: view/datascribe/admin/record/browse.phtml:273
 #, php-format
@@ -871,33 +858,33 @@ msgstr ""
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
 msgid "Delete records"
-msgstr ""
+msgstr "删除记录"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:6
 msgid "Are you sure you would like to delete the selected records?"
-msgstr ""
+msgstr "您确定要删除选定的记录吗？"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:8
 #: view/datascribe/admin/record/form-sidebars.phtml:24
 #, php-format
 msgid ""
 "%1$s: this action will permanently delete %2$s records and cannot be undone."
-msgstr ""
+msgstr "%1$s：该操作将永久删除%2$s记录，并且不能被恢复。"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:22
 msgid ""
 "Are you sure you would like to delete all records on all pages of this "
 "result?"
-msgstr ""
+msgstr "您确定要删除该结果的所有页面上的所有记录吗？"
 
 #: view/datascribe/admin/record/form.phtml:13
 msgid "New record"
-msgstr ""
+msgstr "新记录"
 
 #: view/datascribe/admin/record/form.phtml:15
 #: view/datascribe/admin/record/show.phtml:6
 msgid "DataScribe: Record"
-msgstr ""
+msgstr "DataScribe：记录"
 
 #: view/datascribe/admin/record/form.phtml:20
 msgid ""
@@ -907,62 +894,62 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
-msgstr ""
+msgstr "上一个记录"
 
 #: view/datascribe/admin/record/form.phtml:27
 msgid "Enable focus mode"
-msgstr ""
+msgstr "启用聚焦模式"
 
 #: view/datascribe/admin/record/form.phtml:28
 msgid "Enable fast entry mode"
-msgstr ""
+msgstr "启用快速输入模式"
 
 #: view/datascribe/admin/record/form.phtml:31
 msgid "Horizontal view"
-msgstr ""
+msgstr "水平视图"
 
 #: view/datascribe/admin/record/form.phtml:32
 msgid "Vertical view"
-msgstr ""
+msgstr "垂直视图"
 
 #: view/datascribe/admin/record/form.phtml:35
 msgid "Guidelines"
-msgstr ""
+msgstr "指南"
 
 #: view/datascribe/admin/record/form.phtml:55
 msgid "Add another "
-msgstr ""
+msgstr "添加另一个"
 
 #: view/datascribe/admin/record/form.phtml:57
 msgid "Return to records"
-msgstr ""
+msgstr "返回到记录"
 
 #: view/datascribe/admin/record/form.phtml:58
 msgid "Stay on this record"
-msgstr ""
+msgstr "停留在此记录上"
 
 #: view/datascribe/admin/record/form.phtml:80
 msgid "This field's data type is unknown. The value cannot be added."
-msgstr ""
+msgstr "该域的数据类型未知。无法添加该值。"
 
 #: view/datascribe/admin/record/form.phtml:84
 msgid "This field's data type is unknown. The value cannot be edited."
-msgstr ""
+msgstr "该域的数据类型未知。无法编辑该值。"
 
 #: view/datascribe/admin/record/form.phtml:86
 msgid ""
 "This value is invalid. Please correct it below and save this form to update."
-msgstr ""
+msgstr "该值是无效的。请在下面改正，并保存此表单来更新。"
 
 #: view/datascribe/admin/record/form.phtml:88
 msgid ""
 "This value is marked as invalid but does not appear to be invalid. Either "
 "re-validate the dataset or save this form as-is."
-msgstr ""
+msgstr "该值被标记为无效，但是看起来并不是无效的。要么重新验证数据集，要么按原样保存此表单。"
 
 #: view/datascribe/admin/record/form.phtml:98
 msgid "Is missing"
-msgstr ""
+msgstr "已丢失"
 
 #: view/datascribe/admin/record/form.phtml:99
 msgid "Is illegible"
@@ -970,20 +957,20 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:100
 msgid "Reset value"
-msgstr ""
+msgstr "重置值"
 
 #: view/datascribe/admin/record/form.phtml:109
 #, php-format
 msgid "This dataset has no form. %s"
-msgstr ""
+msgstr "该数据集没有表单。%s"
 
 #: view/datascribe/admin/record/form.phtml:110
 msgid "Build the form."
-msgstr ""
+msgstr "创建表单。"
 
 #: view/datascribe/admin/record/form.phtml:113
 msgid "This dataset has no form."
-msgstr ""
+msgstr "该数据集没有表单。"
 
 #: view/datascribe/admin/record/form.phtml:119
 msgid "Record actions"
@@ -991,12 +978,12 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:166
 msgid "Next records"
-msgstr ""
+msgstr "下一个记录"
 
 #: view/datascribe/admin/record/media-viewer.phtml:25
 #, php-format
 msgid "%s. %s"
-msgstr ""
+msgstr "%s.%s"
 
 #: view/datascribe/admin/record/media-viewer.phtml:32
 msgid "Previous media"
@@ -1008,23 +995,23 @@ msgstr ""
 
 #: view/datascribe/admin/record/media-viewer.phtml:37
 msgid "Zoom in"
-msgstr ""
+msgstr "放大"
 
 #: view/datascribe/admin/record/media-viewer.phtml:38
 msgid "Zoom out"
-msgstr ""
+msgstr "缩小"
 
 #: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Rotate left"
-msgstr ""
+msgstr "向左旋转"
 
 #: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Rotate right"
-msgstr ""
+msgstr "向右旋转"
 
 #: view/datascribe/admin/record/show-details.phtml:1
 msgid "Record metadata"
-msgstr ""
+msgstr "记录元数据"
 
 #: view/datascribe/admin/record/show-details.phtml:7
 msgid "Primary value"
@@ -1040,11 +1027,11 @@ msgstr ""
 
 #: src/DatascribeDataType/Textarea.php:24
 msgid "Rows"
-msgstr ""
+msgstr "行："
 
 #: src/DatascribeDataType/Textarea.php:30 src/DatascribeDataType/Text.php:24
 msgid "Minimum length"
-msgstr ""
+msgstr "最小长度"
 
 #: src/DatascribeDataType/Textarea.php:31 src/DatascribeDataType/Text.php:25
 msgid ""
@@ -1054,16 +1041,16 @@ msgstr ""
 
 #: src/DatascribeDataType/Textarea.php:37 src/DatascribeDataType/Text.php:31
 msgid "Maximum length"
-msgstr ""
+msgstr "最大长度"
 
 #: src/DatascribeDataType/Textarea.php:38 src/DatascribeDataType/Text.php:32
 msgid "The maximum number of characters the input should accept."
-msgstr ""
+msgstr "输入必须接受的最大字符数"
 
 #: src/DatascribeDataType/Textarea.php:44 src/DatascribeDataType/Text.php:38
 #: src/DatascribeDataType/Number.php:42
 msgid "Placeholder"
-msgstr ""
+msgstr "占位符"
 
 #: src/DatascribeDataType/Textarea.php:45 src/DatascribeDataType/Text.php:39
 #: src/DatascribeDataType/Number.php:43
@@ -1073,27 +1060,27 @@ msgstr ""
 #: src/DatascribeDataType/Textarea.php:50 src/DatascribeDataType/Text.php:44
 #: src/DatascribeDataType/Number.php:48
 msgid "Regex pattern"
-msgstr ""
+msgstr "正则表达式"
 
 #: src/DatascribeDataType/Textarea.php:51 src/DatascribeDataType/Text.php:45
 #: src/DatascribeDataType/Number.php:49
 msgid ""
 "A regular expression the input's contents must match in order to be valid."
-msgstr ""
+msgstr "输入内容为了达到有效而必须匹配的正则表达式。"
 
 #: src/DatascribeDataType/Textarea.php:56 src/DatascribeDataType/Text.php:50
 #: src/DatascribeDataType/AbstractSelection.php:24
 #: src/DatascribeDataType/Number.php:54
 msgid "Default value"
-msgstr ""
+msgstr "默认值"
 
 #: src/DatascribeDataType/Unknown.php:22 src/DatascribeDataType/Unknown.php:54
 msgid "Unknown data type"
-msgstr ""
+msgstr "未知数据类型"
 
 #: src/DatascribeDataType/Unknown.php:28
 msgid "Field data"
-msgstr ""
+msgstr "表单域数据"
 
 #: src/DatascribeDataType/Unknown.php:60
 msgid "Value text"
@@ -1125,7 +1112,7 @@ msgstr ""
 
 #: src/DatascribeDataType/Checkbox.php:36
 msgid "Checked by default"
-msgstr ""
+msgstr "默认已点选"
 
 #: src/DatascribeDataType/Checkbox.php:70
 msgid "Check"
@@ -1133,7 +1120,7 @@ msgstr ""
 
 #: src/DatascribeDataType/Text.php:19
 msgid "Text input label"
-msgstr ""
+msgstr "文本输入标签"
 
 #: src/DatascribeDataType/Text.php:55 src/DatascribeDataType/Number.php:59
 msgid "Datalist"
@@ -1145,59 +1132,59 @@ msgstr ""
 
 #: src/DatascribeDataType/AbstractDatetime.php:42
 msgid "Minimum year"
-msgstr ""
+msgstr "最小年份"
 
 #: src/DatascribeDataType/AbstractDatetime.php:54
 msgid "Maximum year"
-msgstr ""
+msgstr "最大年份"
 
 #: src/DatascribeDataType/AbstractDatetime.php:64
 msgid "Default year"
-msgstr ""
+msgstr "默认年份"
 
 #: src/DatascribeDataType/AbstractDatetime.php:74
 msgid "Default month"
-msgstr ""
+msgstr "默认月份"
 
 #: src/DatascribeDataType/AbstractDatetime.php:81
 msgid "Default day"
-msgstr ""
+msgstr "默认日数"
 
 #: src/DatascribeDataType/AbstractDatetime.php:91
 msgid "Default hour"
-msgstr ""
+msgstr "默认小时数"
 
 #: src/DatascribeDataType/AbstractDatetime.php:98
 msgid "Default minute"
-msgstr ""
+msgstr "默认分钟数"
 
 #: src/DatascribeDataType/AbstractDatetime.php:105
 msgid "Default second"
-msgstr ""
+msgstr "默认秒数"
 
 #: src/DatascribeDataType/AbstractDatetime.php:154
 msgid "Year"
-msgstr ""
+msgstr "年"
 
 #: src/DatascribeDataType/AbstractDatetime.php:168
 msgid "Month"
-msgstr ""
+msgstr "月"
 
 #: src/DatascribeDataType/AbstractDatetime.php:182
 msgid "Day"
-msgstr ""
+msgstr "日"
 
 #: src/DatascribeDataType/AbstractDatetime.php:199
 msgid "Hour"
-msgstr ""
+msgstr "时"
 
 #: src/DatascribeDataType/AbstractDatetime.php:213
 msgid "Minute"
-msgstr ""
+msgstr "分"
 
 #: src/DatascribeDataType/AbstractDatetime.php:227
 msgid "Second"
-msgstr ""
+msgstr "秒"
 
 #: src/DatascribeDataType/Radio.php:12
 msgid "Radio"
@@ -1213,31 +1200,31 @@ msgstr ""
 
 #: src/DatascribeDataType/Number.php:13 src/DatascribeDataType/Number.php:121
 msgid "Number"
-msgstr ""
+msgstr "数字"
 
 #: src/DatascribeDataType/Number.php:19
 msgid "Number input label"
-msgstr ""
+msgstr "数字输入标签"
 
 #: src/DatascribeDataType/Number.php:24
 msgid "Minimum value"
-msgstr ""
+msgstr "最小值"
 
 #: src/DatascribeDataType/Number.php:25
 msgid "The minimum value to accept for this input."
-msgstr ""
+msgstr "该输入接受的最小值"
 
 #: src/DatascribeDataType/Number.php:30
 msgid "Maximum value"
-msgstr ""
+msgstr "最大值"
 
 #: src/DatascribeDataType/Number.php:31
 msgid "The maximum value to accept for this input."
-msgstr ""
+msgstr "该输入接受的最大值"
 
 #: src/DatascribeDataType/Number.php:36
 msgid "Stepping interval"
-msgstr ""
+msgstr "步进间隔"
 
 #: src/DatascribeDataType/Number.php:37
 msgid "A number that specifies the granularity that the value must adhere to."
@@ -1254,28 +1241,28 @@ msgstr ""
 #: src/Api/Representation/DatascribeItemRepresentation.php:243
 #: src/Form/ItemSearchForm.php:21
 msgid "Approved"
-msgstr ""
+msgstr "已批准"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:162
 msgid "Invalid item format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的条目格式。"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:166
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:63
 msgid "Invalid owner format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的用户格式。"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:170
 msgid "Invalid values format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的值格式。"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:298
 msgid "Missing item."
-msgstr ""
+msgstr "缺失条目。"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:305
 msgid "Invalid field. Field not in dataset."
-msgstr ""
+msgstr "无效表单域。表单域不在数据集中。"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:312
 #, php-format
@@ -1284,37 +1271,37 @@ msgstr ""
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:82
 msgid "An owner must have an ID"
-msgstr ""
+msgstr "一个所有者必须有一个ID"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:149
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:201
 #, php-format
 msgid "The name \"%s\" is already taken."
-msgstr ""
+msgstr "名称“%s”已被占用。"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:154
 msgid "A project name must not be null"
-msgstr ""
+msgstr "项目名称不能为空值"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:56
 msgid "Invalid project format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的项目格式。"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:60
 msgid "Invalid item set format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的条目集格式。"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:67
 msgid "Invalid fields format passed in request."
-msgstr ""
+msgstr "请求中传送了无效的域格式。"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:206
 msgid "A dataset name must not be null"
-msgstr ""
+msgstr "数据集名称不能为空值"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:209
 msgid "A project must not be null"
-msgstr ""
+msgstr "项目不能为空值"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:215
 #, php-format
@@ -1324,15 +1311,15 @@ msgstr ""
 #: src/Api/Adapter/DatascribeItemAdapter.php:36
 msgid ""
 "The DatascribeItemAdapter adapter does not implement the create operation."
-msgstr ""
+msgstr "DatascribeItemAdapter适配器没有实现创建操作。"
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:609
 msgid "A DataScribe dataset must not be null"
-msgstr ""
+msgstr "DataScribe数据集不能为空值"
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:612
 msgid "An item must not be null"
-msgstr ""
+msgstr "一个条目不能为空值"
 
 #: src/Controller/Admin/RecordController.php:53
 #, php-format
@@ -1346,83 +1333,83 @@ msgstr ""
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
-msgstr ""
+msgstr "条目已成功更新。"
 
 #: src/Controller/Admin/RecordController.php:188
 msgid "Record successfully added. Add another record below."
-msgstr ""
+msgstr "记录已成功添加。在下面添加另一个记录。"
 
 #: src/Controller/Admin/RecordController.php:191
 msgid "Record successfully added. Continue editing it below."
-msgstr ""
+msgstr "记录已成功添加。在下面继续编辑。"
 
 #: src/Controller/Admin/RecordController.php:194
 msgid "Record successfully added."
-msgstr ""
+msgstr "记录已成功添加。"
 
 #: src/Controller/Admin/RecordController.php:254
 msgid "Record successfully saved. Continue editing it below."
-msgstr ""
+msgstr "记录已成功保存。在下面继续编辑。"
 
 #: src/Controller/Admin/RecordController.php:257
 msgid "Record successfully saved."
-msgstr ""
+msgstr "纪录已成功保存。"
 
 #: src/Controller/Admin/RecordController.php:311
 msgid "Record successfully deleted"
-msgstr ""
+msgstr "记录已成功删除"
 
 #: src/Controller/Admin/RecordController.php:351
 #: src/Controller/Admin/DatasetRecordController.php:124
 msgid "Records successfully edited."
-msgstr ""
+msgstr "记录已成功编辑。"
 
 #: src/Controller/Admin/RecordController.php:405
 #: src/Controller/Admin/DatasetRecordController.php:175
 msgid "Editing records. This may take a while."
-msgstr ""
+msgstr "正在编辑记录。这需要一段时间。"
 
 #: src/Controller/Admin/RecordController.php:439
 #: src/Controller/Admin/DatasetRecordController.php:207
 msgid "You must select at least one record to batch delete."
-msgstr ""
+msgstr "您必须选择最少一个记录以批量删除。"
 
 #: src/Controller/Admin/RecordController.php:448
 #: src/Controller/Admin/DatasetRecordController.php:216
 msgid "Records successfully deleted"
-msgstr ""
+msgstr "记录已成功删除"
 
 #: src/Controller/Admin/RecordController.php:487
 #: src/Controller/Admin/DatasetRecordController.php:254
 msgid "Deleting records. This may take a while."
-msgstr ""
+msgstr "正在删除记录。这需要一段时间。"
 
 #: src/Controller/Admin/DatasetController.php:52
 msgid "Dataset successfully created."
-msgstr ""
+msgstr "数据集已成功创建。"
 
 #: src/Controller/Admin/DatasetController.php:89
 msgid "Dataset successfully edited."
-msgstr "Jeu de données édité avec succès"
+msgstr "数据集已成功编辑。"
 
 #: src/Controller/Admin/DatasetController.php:120
 msgid "Dataset successfully deleted"
-msgstr ""
+msgstr "数据集已成功删除"
 
 #: src/Controller/Admin/DatasetController.php:184
 #, php-format
 msgid "Syncing dataset. This may take a while. %s"
-msgstr ""
+msgstr "正在同步数据集。这需要一段时间。%s"
 
 #: src/Controller/Admin/DatasetController.php:208
 #, php-format
 msgid "Validating dataset. This may take a while. %s"
-msgstr ""
+msgstr "正在验证数据集。这需要一段时间。%s"
 
 #: src/Controller/Admin/DatasetController.php:232
 #, php-format
 msgid "Exporting dataset. This may take a while. %s"
-msgstr ""
+msgstr "正在导出数据集。这需要一段时间。%s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
@@ -1430,32 +1417,32 @@ msgstr ""
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
-msgstr ""
+msgstr "项目已成功创建。"
 
 #: src/Controller/Admin/ProjectController.php:52
 msgid "Project successfully edited."
-msgstr ""
+msgstr "项目已成功编辑。"
 
 #: src/Controller/Admin/ProjectController.php:77
 msgid "Project successfully deleted"
-msgstr ""
+msgstr "项目已成功删除"
 
 #: src/Controller/Admin/ItemController.php:38
 #, php-format
 msgid "This dataset has no item set. %s"
-msgstr ""
+msgstr "该数据集没有条目集。%s"
 
 #: src/Controller/Admin/ItemController.php:145
 msgid "Items successfully edited."
-msgstr ""
+msgstr "条目已成功编辑。"
 
 #: src/Form/RecordForm.php:136
 msgid "Invalid value"
-msgstr ""
+msgstr "无效值"
 
 #: src/Form/RecordForm.php:147
 msgid "Set to null"
-msgstr ""
+msgstr "设为空值"
 
 #: src/Form/AbstractForm.php:101
 msgid "Lock to transcriber"
@@ -1471,7 +1458,7 @@ msgstr ""
 
 #: src/Form/ItemBatchForm.php:11 src/Form/ItemForm.php:66
 msgid "Unlock"
-msgstr ""
+msgstr "解锁"
 
 #: src/Form/ItemBatchForm.php:12 src/Form/ItemForm.php:69
 msgid "Lock to me"
@@ -1479,23 +1466,23 @@ msgstr ""
 
 #: src/Form/ItemBatchForm.php:18
 msgid "Lock action"
-msgstr ""
+msgstr "锁定操作"
 
 #: src/Form/ItemBatchForm.php:31
 msgid "Review action"
-msgstr ""
+msgstr "审核操作"
 
 #: src/Form/ItemBatchForm.php:34 src/Form/ItemForm.php:48
 msgid "Mark as approved"
-msgstr ""
+msgstr "标记为已批准"
 
 #: src/Form/ItemBatchForm.php:35 src/Form/ItemForm.php:51
 msgid "Mark as not approved"
-msgstr ""
+msgstr "标记为未批准"
 
 #: src/Form/ItemBatchForm.php:36 src/Form/ItemForm.php:54
 msgid "Mark as not reviewed"
-msgstr ""
+msgstr "标记为未审核"
 
 #: src/Form/ItemBatchForm.php:48
 msgid "Priority action"
@@ -1511,28 +1498,28 @@ msgstr ""
 
 #: src/Form/RecordSearchForm.php:14
 msgid "Needs review?"
-msgstr ""
+msgstr "需要审核?"
 
 #: src/Form/RecordSearchForm.php:23 src/Form/RecordSearchForm.php:40
 #: src/Form/RecordSearchForm.php:57
 msgid "Select one"
-msgstr ""
+msgstr "选择一个"
 
 #: src/Form/RecordSearchForm.php:31
 msgid "Needs work?"
-msgstr ""
+msgstr "需要加工？"
 
 #: src/Form/RecordSearchForm.php:48
 msgid "Has invalid values?"
-msgstr ""
+msgstr "含无效值?"
 
 #: src/Form/RecordSearchForm.php:75 src/Form/RecordSearchForm.php:93
 msgid "Select user"
-msgstr ""
+msgstr "选择用户"
 
 #: src/Form/RecordSearchForm.php:87
 msgid "Modified by"
-msgstr ""
+msgstr "修改者："
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
@@ -1553,7 +1540,7 @@ msgstr ""
 #: src/Form/ItemSearchForm.php:74 src/Form/ItemSearchForm.php:98
 #: src/Form/ItemSearchForm.php:114 src/Form/ItemSearchForm.php:130
 msgid "Select status"
-msgstr ""
+msgstr "选择状态"
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
@@ -1569,25 +1556,25 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
-msgstr ""
+msgstr "输入该数据集的名称。"
 
 #: src/Form/DatasetForm.php:97
 msgid "Enter the description of this dataset."
-msgstr ""
+msgstr "输入该数据集的描述。"
 
 #: src/Form/DatasetForm.php:109
 msgid "Enter guidelines for transcribing this dataset."
-msgstr ""
+msgstr "输入用于抄录此数据集的指南。"
 
 #: src/Form/DatasetForm.php:121
 msgid ""
 "Select the item set used to synchronize dataset items. Once synchronized, "
 "this dataset will contain every item in this item set."
-msgstr ""
+msgstr "选择用来同步数据集条目的条目集。在同步之后，该数据集将包含此条目集的每个条目。"
 
 #: src/Form/DatasetForm.php:127
 msgid "Select an item set"
-msgstr ""
+msgstr "选择一个条目集"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
@@ -1622,11 +1609,11 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"
-msgstr ""
+msgstr "表单域名称"
 
 #: src/Form/DatasetForm.php:276
 msgid "Field description"
-msgstr ""
+msgstr "表单域描述"
 
 #: src/Form/DatasetForm.php:285
 msgid "Field is primary"
@@ -1634,27 +1621,27 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:294
 msgid "Field is required"
-msgstr ""
+msgstr "表单域是必填的"
 
 #: src/Form/ItemSearchForm.php:19
 msgid "Need review"
-msgstr ""
+msgstr "需要审核"
 
 #: src/Form/ItemSearchForm.php:33
 msgid "Submitted by"
-msgstr ""
+msgstr "提交者："
 
 #: src/Form/ItemSearchForm.php:44
 msgid "Submitted status"
-msgstr ""
+msgstr "已提交的状态"
 
 #: src/Form/ItemSearchForm.php:57
 msgid "Reviewed by"
-msgstr ""
+msgstr "审核者："
 
 #: src/Form/ItemSearchForm.php:68
 msgid "Reviewed status"
-msgstr ""
+msgstr "已审核的状态"
 
 #: src/Form/ItemSearchForm.php:81
 msgid "Locked by"
@@ -1666,79 +1653,79 @@ msgstr ""
 
 #: src/Form/Element/MonthSelect.php:11
 msgid "January"
-msgstr ""
+msgstr "一月"
 
 #: src/Form/Element/MonthSelect.php:12
 msgid "February"
-msgstr ""
+msgstr "二月"
 
 #: src/Form/Element/MonthSelect.php:13
 msgid "March"
-msgstr ""
+msgstr "三月"
 
 #: src/Form/Element/MonthSelect.php:14
 msgid "April"
-msgstr ""
+msgstr "四月"
 
 #: src/Form/Element/MonthSelect.php:15
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: src/Form/Element/MonthSelect.php:16
 msgid "June"
-msgstr ""
+msgstr "六月"
 
 #: src/Form/Element/MonthSelect.php:17
 msgid "July"
-msgstr ""
+msgstr "七月"
 
 #: src/Form/Element/MonthSelect.php:18
 msgid "August"
-msgstr ""
+msgstr "八月"
 
 #: src/Form/Element/MonthSelect.php:19
 msgid "September"
-msgstr ""
+msgstr "九月"
 
 #: src/Form/Element/MonthSelect.php:20
 msgid "October"
-msgstr ""
+msgstr "十月"
 
 #: src/Form/Element/MonthSelect.php:21
 msgid "November"
-msgstr ""
+msgstr "十一月"
 
 #: src/Form/Element/MonthSelect.php:22
 msgid "December"
-msgstr ""
+msgstr "十二月"
 
 #: src/Form/ProjectForm.php:15
 msgid "Enter the name of this project."
-msgstr ""
+msgstr "输入该项目的名称。"
 
 #: src/Form/ProjectForm.php:27
 msgid "Enter the description of this project."
-msgstr ""
+msgstr "输入该项目的描述。"
 
 #: src/Form/ItemForm.php:33
 msgid "Submit for review"
-msgstr ""
+msgstr "递交给审核"
 
 #: src/Form/ItemForm.php:36
 msgid "Mark as not submitted"
-msgstr ""
+msgstr "标记为未提交"
 
 #: src/Form/RecordBatchForm.php:14
 msgid "Needs review action"
-msgstr ""
+msgstr "需要审核操作"
 
 #: src/Form/RecordBatchForm.php:17
 msgid "Mark as needs review"
-msgstr ""
+msgstr "标记为需要审核"
 
 #: src/Form/RecordBatchForm.php:18
 msgid "Mark as does not need review"
-msgstr ""
+msgstr "标记为不需审核"
 
 #: src/Form/RecordBatchForm.php:30
 msgid "Needs work action"
@@ -1746,11 +1733,11 @@ msgstr ""
 
 #: src/Form/RecordBatchForm.php:33
 msgid "Mark as needs work"
-msgstr ""
+msgstr "标记为需要加工"
 
 #: src/Form/RecordBatchForm.php:34
 msgid "Mark as does not need work"
-msgstr ""
+msgstr "标记为不需加工"
 
 #: src/Form/RecordBatchForm.php:73
 msgid "Is missing action"
@@ -1758,11 +1745,11 @@ msgstr ""
 
 #: src/Form/RecordBatchForm.php:76
 msgid "Mark as missing"
-msgstr ""
+msgstr "标记为丢失"
 
 #: src/Form/RecordBatchForm.php:77
 msgid "Mark as not missing"
-msgstr ""
+msgstr "标记为未丢失"
 
 #: src/Form/RecordBatchForm.php:89
 msgid "Is illegible action"
@@ -1778,8 +1765,8 @@ msgstr ""
 
 #: config/module.config.php:29
 msgid "Disable focus mode"
-msgstr ""
+msgstr "停用聚焦模式"
 
 #: config/module.config.php:31
 msgid "Disable fast entry mode"
-msgstr ""
+msgstr "禁用快速输入模式"

@@ -171,8 +171,8 @@ class DatascribeDatasetRepresentation extends AbstractEntityRepresentation
     public function fields(array $options = [])
     {
         // Set default options.
-        $options['primary_first'] = $options['primary_first'] ?? false;
-        $options['exclude_primary'] = $options['exclude_primary'] ?? false;
+        $options['primary_first'] ??= false;
+        $options['exclude_primary'] ??= false;
 
         // Filter/sort fields.
         if (true === $options['primary_first']) {

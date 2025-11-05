@@ -6,18 +6,18 @@ use Laminas\Form\Fieldset;
 
 class Datetime extends AbstractDatetime
 {
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'DateTime'; // @translate
     }
 
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $this->addDateFieldElements($fieldset, $fieldData);
         $this->addTimeFieldElements($fieldset, $fieldData);
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         return array_merge(
             $this->getDateFieldDataFromUserData($userData),
@@ -25,14 +25,14 @@ class Datetime extends AbstractDatetime
         );
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $array = $this->getDateTimeArray($valueText);
         $this->addDateValueElements($fieldset, $fieldData, $valueText, $array);
         $this->addTimeValueElements($fieldset, $fieldData, $valueText, $array);
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         $array = [
             'year' => $userData['year'] ?? null,
@@ -45,7 +45,7 @@ class Datetime extends AbstractDatetime
         return $this->getDateTimeString($this->emptyValuesToNull($array));
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $array = $this->getDateTimeArray($valueText);
 
@@ -113,7 +113,7 @@ class Datetime extends AbstractDatetime
     protected function getDateTimeArray(?string $string)
     {
         $regex = sprintf('^%s(T%s)?$', self::REGEX_ISO8601_DATE, self::REGEX_ISO8601_TIME);
-        preg_match(sprintf('/%s/', $regex), $string, $matches);
+        preg_match(sprintf('/%s/', $regex), (string) $string, $matches);
         $year = sprintf('%s%s', $matches[1] ?? '', $matches[2] ?? '');
         return [
             'year' => $year ? (int) $year : null,
@@ -131,7 +131,7 @@ class Datetime extends AbstractDatetime
      * @param array $array
      * @return ?string
      */
-    protected function getDateTimeString(array $array) : ?string
+    protected function getDateTimeString(array $array): ?string
     {
         if (isset($array['year'])) {
             preg_match('/^(-)?(\d+)$/', $array['year'], $matches);

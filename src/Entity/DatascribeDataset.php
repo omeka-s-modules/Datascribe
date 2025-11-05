@@ -142,102 +142,102 @@ class DatascribeDataset extends AbstractEntity
         $this->fields = new ArrayCollection;
     }
 
-    public function setProject(DatascribeProject $project) : void
+    public function setProject(DatascribeProject $project): void
     {
         $this->project = $project;
     }
 
-    public function getProject() : DatascribeProject
+    public function getProject(): DatascribeProject
     {
         return $this->project;
     }
 
-    public function setItemSet(?ItemSet $itemSet = null) : void
+    public function setItemSet(?ItemSet $itemSet = null): void
     {
         $this->itemSet = $itemSet;
     }
 
-    public function getItemSet() : ?ItemSet
+    public function getItemSet(): ?ItemSet
     {
         return $this->itemSet;
     }
 
-    public function setValidatedBy(?User $validatedBy = null) : void
+    public function setValidatedBy(?User $validatedBy = null): void
     {
         $this->validatedBy = $validatedBy;
     }
 
-    public function getValidatedBy() : ?User
+    public function getValidatedBy(): ?User
     {
         return $this->validatedBy;
     }
 
-    public function setExportedBy(?User $exportedBy = null) : void
+    public function setExportedBy(?User $exportedBy = null): void
     {
         $this->exportedBy = $exportedBy;
     }
 
-    public function getExportedBy() : ?User
+    public function getExportedBy(): ?User
     {
         return $this->exportedBy;
     }
 
-    public function setGuidelines(?string $guidelines) : void
+    public function setGuidelines(?string $guidelines): void
     {
         $this->guidelines = $guidelines;
     }
 
-    public function getGuidelines() : ?string
+    public function getGuidelines(): ?string
     {
         return $this->guidelines;
     }
 
-    public function setRevertReviewStatus(bool $revertReviewStatus) : void
+    public function setRevertReviewStatus(bool $revertReviewStatus): void
     {
         $this->revertReviewStatus = $revertReviewStatus;
     }
 
-    public function getRevertReviewStatus() : bool
+    public function getRevertReviewStatus(): bool
     {
         return $this->revertReviewStatus;
     }
 
-    public function setExportMissingIllegible(bool $exportMissingIllegible) : void
+    public function setExportMissingIllegible(bool $exportMissingIllegible): void
     {
         $this->exportMissingIllegible = $exportMissingIllegible;
     }
 
-    public function getExportMissingIllegible() : bool
+    public function getExportMissingIllegible(): bool
     {
         return $this->exportMissingIllegible;
     }
 
-    public function setExportStorageId(?string $exportStorageId) : void
+    public function setExportStorageId(?string $exportStorageId): void
     {
         $this->exportStorageId = $exportStorageId;
     }
 
-    public function getExportStorageId() : ?string
+    public function getExportStorageId(): ?string
     {
         return $this->exportStorageId;
     }
 
-    public function setValidated(DateTime $validated) : void
+    public function setValidated(DateTime $validated): void
     {
         $this->validated = $validated;
     }
 
-    public function getValidated() : ?DateTime
+    public function getValidated(): ?DateTime
     {
         return $this->validated;
     }
 
-    public function setExported(DateTime $exported) : void
+    public function setExported(DateTime $exported): void
     {
         $this->exported = $exported;
     }
 
-    public function getExported() : ?DateTime
+    public function getExported(): ?DateTime
     {
         return $this->exported;
     }

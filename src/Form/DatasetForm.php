@@ -136,7 +136,7 @@ class DatasetForm extends Form
                 'info' => 'Check this to automatically revert an approved item\'s review status to "not reviewed" when a record belonging to the item is added or modified. The default behavior is to retain the approved review status.', // @translate
             ],
             'attributes' => [
-                'id' => 'o-module-datascribe-revert-review-status'
+                'id' => 'o-module-datascribe-revert-review-status',
             ],
         ]);
         $this->add([
@@ -147,7 +147,7 @@ class DatasetForm extends Form
                 'info' => 'Check this to flag values as missing and/or illegible in the exported dataset. This will add two columns to the right of every value: is_missing and is_illegible. The default behavior is to omit the is_missing and is_illegible columns.', // @translate
             ],
             'attributes' => [
-                'id' => 'o-module-datascribe-export-missing-illegible'
+                'id' => 'o-module-datascribe-export-missing-illegible',
             ],
         ]);
         $this->add([
@@ -169,7 +169,7 @@ class DatasetForm extends Form
      *
      * @return array
      */
-    public function dataTypes() : array
+    public function dataTypes(): array
     {
         $dataTypes = [];
         $dataTypeNames = $this->dataTypeManager->getRegisteredNames();
@@ -186,7 +186,7 @@ class DatasetForm extends Form
     /**
      * Get field templates for every data type.
      */
-    public function dataTypeTemplates() : string
+    public function dataTypeTemplates(): string
     {
         $escapeHtml = $this->viewHelperManager->get('escapeHtml');
         $translate = $this->viewHelperManager->get('translate');

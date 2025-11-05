@@ -69,47 +69,47 @@ class DatascribeRecord extends AbstractEntity
         $this->values = new ArrayCollection;
     }
 
-    public function setItem(DatascribeItem $item) : void
+    public function setItem(DatascribeItem $item): void
     {
         $this->item = $item;
     }
 
-    public function getItem() : DatascribeItem
+    public function getItem(): DatascribeItem
     {
         return $this->item;
     }
 
-    public function setNeedsReview(bool $needsReview) : void
+    public function setNeedsReview(bool $needsReview): void
     {
         $this->needsReview = $needsReview;
     }
 
-    public function getNeedsReview() : bool
+    public function getNeedsReview(): bool
     {
         return $this->needsReview;
     }
 
-    public function setNeedsWork(bool $needsWork) : void
+    public function setNeedsWork(bool $needsWork): void
     {
         $this->needsWork = $needsWork;
     }
 
-    public function getNeedsWork() : bool
+    public function getNeedsWork(): bool
     {
         return $this->needsWork;
     }
 
-    public function setPosition(int $position) : void
+    public function setPosition(int $position): void
     {
         $this->position = $position;
     }
 
-    public function getPosition() : int
+    public function getPosition(): int
     {
         return $this->position;
     }
 
-    public function setPositionChange(string $direction, int $recordId) : void
+    public function setPositionChange(string $direction, int $recordId): void
     {
         if (!in_array($direction, ['before', 'after'])) {
             $direction = 'before'; // default direction is "above"
@@ -120,7 +120,7 @@ class DatascribeRecord extends AbstractEntity
         ];
     }
 
-    public function getPositionChange() : ?array
+    public function getPositionChange(): ?array
     {
         return $this->positionChange;
     }

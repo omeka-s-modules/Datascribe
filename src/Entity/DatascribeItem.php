@@ -146,112 +146,112 @@ class DatascribeItem extends AbstractEntity
         $this->records = new ArrayCollection;
     }
 
-    public function setDataset(DatascribeDataset $dataset) : void
+    public function setDataset(DatascribeDataset $dataset): void
     {
         $this->dataset = $dataset;
     }
 
-    public function getDataset() : DatascribeDataset
+    public function getDataset(): DatascribeDataset
     {
         return $this->dataset;
     }
 
-    public function setItem(Item $item) : void
+    public function setItem(Item $item): void
     {
         $this->item = $item;
     }
 
-    public function getItem() : Item
+    public function getItem(): Item
     {
         return $this->item;
     }
 
-    public function setPrioritizedBy(?User $prioritizedBy = null) : void
+    public function setPrioritizedBy(?User $prioritizedBy = null): void
     {
         $this->prioritizedBy = $prioritizedBy;
     }
 
-    public function getPrioritizedBy() : ?User
+    public function getPrioritizedBy(): ?User
     {
         return $this->prioritizedBy;
     }
 
-    public function setLockedBy(?User $lockedBy = null) : void
+    public function setLockedBy(?User $lockedBy = null): void
     {
         $this->lockedBy = $lockedBy;
     }
 
-    public function getLockedBy() : ?User
+    public function getLockedBy(): ?User
     {
         return $this->lockedBy;
     }
 
-    public function setSubmittedBy(?User $submittedBy = null) : void
+    public function setSubmittedBy(?User $submittedBy = null): void
     {
         $this->submittedBy = $submittedBy;
     }
 
-    public function getSubmittedBy() : ?User
+    public function getSubmittedBy(): ?User
     {
         return $this->submittedBy;
     }
 
-    public function setReviewedBy(?User $reviewedBy = null) : void
+    public function setReviewedBy(?User $reviewedBy = null): void
     {
         $this->reviewedBy = $reviewedBy;
     }
 
-    public function getReviewedBy() : ?User
+    public function getReviewedBy(): ?User
     {
         return $this->reviewedBy;
     }
 
-    public function setPrioritized(?DateTime $prioritized) : void
+    public function setPrioritized(?DateTime $prioritized): void
     {
         $this->prioritized = $prioritized;
     }
 
-    public function getPrioritized() : ?DateTime
+    public function getPrioritized(): ?DateTime
     {
         return $this->prioritized;
     }
 
-    public function setLocked(?DateTime $locked) : void
+    public function setLocked(?DateTime $locked): void
     {
         $this->locked = $locked;
     }
 
-    public function getLocked() : ?DateTime
+    public function getLocked(): ?DateTime
     {
         return $this->locked;
     }
 
-    public function setSubmitted(?DateTime $submitted) : void
+    public function setSubmitted(?DateTime $submitted): void
     {
         $this->submitted = $submitted;
     }
 
-    public function getSubmitted() : ?DateTime
+    public function getSubmitted(): ?DateTime
     {
         return $this->submitted;
     }
 
-    public function setReviewed(?DateTime $reviewed) : void
+    public function setReviewed(?DateTime $reviewed): void
     {
         $this->reviewed = $reviewed;
     }
 
-    public function getReviewed() : ?DateTime
+    public function getReviewed(): ?DateTime
     {
         return $this->reviewed;
     }
 
-    public function setIsApproved(?bool $isApproved) : void
+    public function setIsApproved(?bool $isApproved): void
     {
         $this->isApproved = $isApproved;
     }
 
-    public function getIsApproved() : ?bool
+    public function getIsApproved(): ?bool
     {
         return $this->isApproved;
     }

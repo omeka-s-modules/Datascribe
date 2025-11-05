@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pols12 <poltron54@gmail.com>, 2020
-# Judith Hannoun <judith.hannoun@gmail.com>, 2020
+# Tzvetan Tzvetanski <ceibg.org@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +13,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 11:59-0500\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
-"Last-Translator: Judith Hannoun <judith.hannoun@gmail.com>, 2020\n"
-"Language-Team: French (https://app.transifex.com/omeka/teams/14184/fr/)\n"
+"Last-Translator: Tzvetan Tzvetanski <ceibg.org@gmail.com>, 2021\n"
+"Language-Team: Bulgarian (Bulgaria) (https://app.transifex.com/omeka/teams/14184/bg_BG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:154
 #, php-format
 msgid "Record #%s: %s"
-msgstr "Enregistrement %s : %s"
+msgstr "Запис №%s:%s"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:159
 #, php-format
 msgid "Record #%s"
-msgstr "Enregistrement %s"
+msgstr "Запис №%s"
 
 #: src/Controller/Admin/DatasetController.php:188
 msgid "See this job for sync progress."
-msgstr "Consultez la tâche pour la progression de la synchronisation."
+msgstr "Вижте тази работа за напредък на синхронизирането."
 
 #: src/Controller/Admin/DatasetController.php:212
 msgid "See this job for validate progress."
-msgstr "Consultez la tâche pour la progression de la validation."
+msgstr "Вижте тази работа за напредък на синхронизирането."
 
 #: src/Controller/Admin/DatasetController.php:236
 msgid "See this job for export progress."
-msgstr "Consultez la tâche pour la progression de l’exportation."
+msgstr "Вижте тази работа за напредъка на износа."
 
 #: src/Controller/Admin/ItemController.php:42
 msgid "Set an item set here."
-msgstr "Indiquez une collection ici."
+msgstr "Задайте елемент, зададен тук."
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
@@ -62,7 +61,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
-msgstr "Nouveau champ"
+msgstr "Ново поле"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
@@ -74,58 +73,58 @@ msgstr "Nouveau champ"
 #: view/datascribe/admin/item/browse.phtml:6
 #: view/datascribe/admin/item/search.phtml:8
 msgid "DataScribe: Dataset"
-msgstr "DataScribe : jeu de données"
+msgstr "DataScribe: Набор от данни"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 msgid "Batch edit all records"
-msgstr "Modifier ensemble tous les enregistrements"
+msgstr "Партидно редактиране на всички записи"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:23
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:25
 #: view/datascribe/admin/record/batch-edit-all.phtml:23
 #: view/datascribe/admin/record/batch-edit.phtml:25
 msgid "Affected records"
-msgstr "Enregistrements affectés"
+msgstr "Засегнати записи"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:24
 #: view/datascribe/admin/record/batch-edit-all.phtml:24
 #, php-format
 msgid "You are editing %s records"
-msgstr "Vous êtes en train de modifier %s enregistrements"
+msgstr "Редактирате %s записи"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
 msgid "Batch edit records"
-msgstr "Modifier ensemble les enregistrements"
+msgstr "Редактиране на партидни записи"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:26
 #: view/datascribe/admin/record/batch-edit.phtml:26
 #, php-format
 msgid "You are editing the following %s records"
-msgstr "Vous allez modifier les %s enregistrements suivants"
+msgstr "Редактирате следните %s записи"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:9
 #: view/datascribe/admin/record/browse.phtml:9
 msgid "Records that need review"
-msgstr "Enregistrements qui doivent être révisés"
+msgstr "Записи, които се нуждаят от преглед"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:13
 #: view/datascribe/admin/record/browse.phtml:13
 msgid "Records that need work"
-msgstr "Enregistrements qui doivent être retravaillés"
+msgstr "Записи, които се нуждаят от работа"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:17
 #: view/datascribe/admin/record/browse.phtml:17
 msgid "Records with values marked as invalid"
-msgstr "Enregistrements ayant des valeurs marquées comme invalides"
+msgstr "Записи със стойности, маркирани като невалидни"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:27
 #: view/datascribe/admin/item/browse.phtml:30
 #: view/datascribe/admin/item/browse.phtml:143
 #: view/datascribe/admin/item/show-details.phtml:3
 msgid "Item #"
-msgstr "Contenu "
+msgstr "Елевент #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:31
 #: view/datascribe/admin/dataset-record/browse.phtml:107
@@ -134,44 +133,44 @@ msgstr "Contenu "
 #: view/datascribe/admin/record/previous-next-records.phtml:10
 #: view/datascribe/admin/record/show-details.phtml:3
 msgid "Record #"
-msgstr "Enregistrement "
+msgstr "Запис №"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:35
 #: view/datascribe/admin/record/browse.phtml:31
 msgid "Record created"
-msgstr "Enregistrement créé"
+msgstr "Записът е създаден"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:47
 #: view/datascribe/admin/record/browse.phtml:43
 msgid "Records"
-msgstr "Enregistrements"
+msgstr "Записи"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:50
 msgid "Browse items"
-msgstr "Parcourir les contenus"
+msgstr "Преглед на елементи"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:52
 #: view/datascribe/admin/item/browse.phtml:11
 msgid "Edit dataset"
-msgstr "Modifier le jeu de données"
+msgstr "Редактиране на набор от данни"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:56
 #: view/datascribe/admin/dataset/form-sidebars.phtml:3
 #: view/datascribe/admin/item/browse.phtml:15
 msgid "Sync dataset"
-msgstr "Synchroniser le jeu de données"
+msgstr "Синхронизиране на набор от данни"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:57
 #: view/datascribe/admin/dataset/form-sidebars.phtml:14
 #: view/datascribe/admin/item/browse.phtml:16
 msgid "Validate dataset"
-msgstr "Valider le jeu de données"
+msgstr "Проверка на набора от данни"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:58
 #: view/datascribe/admin/dataset/form-sidebars.phtml:21
 #: view/datascribe/admin/item/browse.phtml:17
 msgid "Export dataset"
-msgstr "Exporter le jeu de données"
+msgstr "Експортиране на набор от данни"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:59
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
@@ -182,27 +181,27 @@ msgstr ""
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
 msgid "Select records"
-msgstr "Choisissez les enregistrements"
+msgstr "Изберете записи"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:136
 #: view/datascribe/admin/item/browse.phtml:159
 #: view/datascribe/admin/record/browse.phtml:118
 msgid "Has invalid values"
-msgstr "A des valeurs invalides"
+msgstr "Има невалидни стойности"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:137
 #: view/datascribe/admin/record/browse.phtml:119
 #: view/datascribe/admin/record/form.phtml:128
 #: view/datascribe/admin/record/show-details.phtml:47
 msgid "Needs review"
-msgstr "Doit être révisé"
+msgstr "Нуждае се от преглед"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:138
 #: view/datascribe/admin/record/browse.phtml:120
 #: view/datascribe/admin/record/form.phtml:134
 #: view/datascribe/admin/record/show-details.phtml:51
 msgid "Needs work"
-msgstr "Doit être retravaillé"
+msgstr "Нуждае се от работа"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
@@ -218,7 +217,7 @@ msgstr ""
 #: view/datascribe/admin/record/show.phtml:15
 #: view/datascribe/admin/record/show.phtml:26
 msgid "unknown"
-msgstr "inconnu"
+msgstr "неизвестен"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:166
 #: view/datascribe/admin/dataset-record/browse.phtml:173
@@ -230,7 +229,7 @@ msgstr "inconnu"
 #: view/datascribe/admin/record/show.phtml:17
 #: view/datascribe/admin/record/show.phtml:23
 msgid "invalid"
-msgstr "invalide"
+msgstr "невалиден"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:168
 #: view/datascribe/admin/dataset-record/browse.phtml:175
@@ -242,7 +241,7 @@ msgstr "invalide"
 #: view/datascribe/admin/record/show.phtml:19
 #: view/datascribe/admin/record/show.phtml:25
 msgid "null"
-msgstr "nulle"
+msgstr "нула"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:174
 #: view/datascribe/admin/record/browse.phtml:158
@@ -250,121 +249,121 @@ msgstr "nulle"
 #: view/datascribe/admin/record/show-details.phtml:14
 #: view/datascribe/admin/record/show.phtml:24
 msgid "empty"
-msgstr "vide"
+msgstr "празно"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:194
 #: view/datascribe/admin/record/browse.phtml:178
 msgid "No records found."
-msgstr "Aucun enregistrement trouvé."
+msgstr "Няма намерени записи"
 
 #: view/datascribe/admin/dataset-record/search.phtml:7
 msgid "Record search"
-msgstr "Recherche d’enregistrements"
+msgstr "Търсене на записи"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 #: view/datascribe/admin/dataset/browse.phtml:5
 #: view/datascribe/admin/project/edit.phtml:7
 msgid "DataScribe: Project"
-msgstr "DataScribe : projet"
+msgstr "DataScribe: Проект"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 msgid "New dataset"
-msgstr "Nouveau jeu de données"
+msgstr "Нов набор от данни"
 
 #: view/datascribe/admin/dataset/browse.phtml:5
 msgid "Datasets"
-msgstr "Jeux de données"
+msgstr "Набори от данни"
 
 #: view/datascribe/admin/dataset/browse.phtml:9
 msgid "Edit project"
-msgstr "Modifier le projet"
+msgstr "Редактиране на проект"
 
 #: view/datascribe/admin/dataset/browse.phtml:10
 msgid "Add new dataset"
-msgstr "Ajouter un nouveau jeu de données"
+msgstr "Добавяне на нов набор от данни"
 
 #: view/datascribe/admin/dataset/browse.phtml:20
 #: view/datascribe/admin/project/browse.phtml:21
 msgid "Date created"
-msgstr "Date de création"
+msgstr "Дата на създаване"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
 #: view/datascribe/admin/index/index.phtml:145
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
-msgstr "Créé par"
+msgstr "Създадено от"
 
 #: view/datascribe/admin/dataset/browse.phtml:83
 #, php-format
 msgid "No datasets found for this project. %s"
-msgstr "Aucun jeu de données trouvé pour ce projet. %s"
+msgstr "За този проект не са намерени набори от данни. %s"
 
 #: view/datascribe/admin/dataset/browse.phtml:84
 msgid "Add a new dataset."
-msgstr "Ajouter un nouveau jeu de données."
+msgstr "Добавяне на нов набор от данни"
 
 #: view/datascribe/admin/dataset/browse.phtml:87
 msgid "No datasets found for this project."
-msgstr "Aucun jeu de données trouvé pour ce projet."
+msgstr "За този проект не са намерени набори от данни."
 
 #: view/datascribe/admin/dataset/edit.phtml:32
 #: view/datascribe/admin/record/form.phtml:52
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "Запазване и & hellip;"
 
 #: view/datascribe/admin/dataset/edit.phtml:34
 msgid "Return to dataset items"
-msgstr ""
+msgstr "Връщане към елементите от набора от данни"
 
 #: view/datascribe/admin/dataset/edit.phtml:35
 msgid "Continue editing dataset"
-msgstr ""
+msgstr "Продължете да редактирате набора от данни"
 
 #: view/datascribe/admin/dataset/edit.phtml:42
 msgid "Form Builder"
-msgstr "Constructeur de formulaire"
+msgstr "Конструктор на формуляри"
 
 #: view/datascribe/admin/dataset/edit.phtml:58
 #: view/datascribe/admin/record/form.phtml:104
 msgid "Back to top"
-msgstr ""
+msgstr "Обратно в началото горе"
 
 #: view/datascribe/admin/dataset/edit.phtml:62
 msgid "Add a field to the form"
-msgstr "Ajouter un champ au formulaire"
+msgstr "Добавете поле към формуляра"
 
 #: view/datascribe/admin/dataset/edit.phtml:64
 #: view/datascribe/admin/record/form.phtml:123
 #, php-format
 msgid "Last saved: %s on %s"
-msgstr "Dernière sauvegarde : %s le %s"
+msgstr "Последно запазено:%s на %s"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:1
 msgid "Drag to change order"
-msgstr ""
+msgstr "Плъзнете, за да промените реда"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:3
 msgid "Move Up"
-msgstr "Remonter"
+msgstr "Премести нагоре"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:4
 msgid "Move Down"
-msgstr "Descendre"
+msgstr "Премести надолу"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:6
 msgid "Undo"
-msgstr "Annuler"
+msgstr "Обратно"
 
 #: view/datascribe/admin/dataset/form-builder-flags.phtml:2
 msgid "Primary field"
-msgstr ""
+msgstr "Основно поле"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:5
 msgid "This dataset has no item set. Set an item set to enable syncing."
 msgstr ""
-"Ce jeu de données n’a aucune collection. Définissez une collection pour "
-"activer la synchronisation."
+"Този набор от данни няма зададен елемент. Задайте набор от елементи, за да "
+"активирате синхронизирането."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:7
 msgid ""
@@ -372,18 +371,19 @@ msgid ""
 "this dataset will contain every item in the item set. You should synchronize"
 " periodically, any time items are added or removed from the item set."
 msgstr ""
-"Synchroniser le jeu de données avec la collection configurée. Une fois "
-"synchronisé, le jeu de données contiendra tous les contenus de la "
-"collection. Vous devriez synchroniser périodiquement, à chaque fois que des "
-"contenus sont ajoutés ou retirés de la collection."
+"Синхронизирайте този набор от данни с конфигурирания набор от елементи. След"
+" като бъде синхронизиран, този набор от данни ще съдържа всеки елемент от "
+"набора от елементи. Трябва да синхронизирате периодично, всеки път, когато "
+"елементи се добавят или премахват от набора от елементи."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:8
 msgid ""
 "Warning: items that have been removed from the configured item set since the"
 " last sync will be deleted from this dataset."
 msgstr ""
-"Attention : les contenus qui ont été retirées de la collection configurée "
-"depuis la dernière synchronisation seront supprimés de ce jeu de données."
+"Предупреждение: Елементите, които са били премахнати от конфигурирания набор"
+" от елементи след последното синхронизиране, ще бъдат изтрити от този набор "
+"от данни."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:15
 msgid ""
@@ -392,6 +392,11 @@ msgid ""
 "validate periodically, after fields are added to the form, after field "
 "validation rules change, and before exporting the dataset."
 msgstr ""
+"Проверете този набор от данни спрямо правилата, зададени в момента в "
+"конструктора на формуляри. След като бъдат проверени, невалидните стойности "
+"ще бъдат маркирани като невалидни. Трябва да проверявате периодично след "
+"добавяне на полета към формуляра, след промяна на правилата за проверка на "
+"полето и преди експортиране на набора от данни."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:22
 msgid ""
@@ -399,10 +404,9 @@ msgid ""
 "records from approved items, and that invalid values will be null. This will"
 " overwrite an existing export file."
 msgstr ""
-"Exporte ce jeu de données dans un fichier CSV. Notez que le fichier ne "
-"contiendra que des enregistrements issus de contenus approuvés, et que les "
-"valeurs non valides seront nulles. Cela écrasera un fichier d'exportation "
-"déjà existant."
+"Експортирайте този набор от данни в CSV файл. Имайте предвид, че файлът ще "
+"включва само записи от одобрени елементи и че невалидните стойности ще бъдат"
+" нула. Това ще замени съществуващ файл за експортиране."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
@@ -410,59 +414,59 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
-msgstr "Métadonnées du jeu de données"
+msgstr "Метаданни на набора от данни"
 
 #: view/datascribe/admin/dataset/show-details.phtml:13
 #: view/datascribe/admin/project/show-details.phtml:9
 msgid "[No description]"
-msgstr "[aucune description]"
+msgstr "[Без описание]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:25
 msgid "Not set"
-msgstr ""
+msgstr "Не е зададено"
 
 #: view/datascribe/admin/dataset/show-details.phtml:35
 #: view/datascribe/admin/project/show-details.phtml:19
 #: view/datascribe/admin/record/show-details.phtml:24
 #, php-format
 msgid "%s by %s"
-msgstr "%s par %s"
+msgstr "%s от %s"
 
 #: view/datascribe/admin/dataset/show-details.phtml:41
 #: view/datascribe/admin/project/show-details.phtml:25
 #: view/datascribe/admin/record/show-details.phtml:30
 msgid "Last modified"
-msgstr "Dernière modification"
+msgstr "Последно променен"
 
 #: view/datascribe/admin/dataset/show-details.phtml:54
 #: view/datascribe/admin/project/show-details.phtml:38
 #: view/datascribe/admin/record/show-details.phtml:43
 msgid "[Not modified]"
-msgstr "[Non modifié]"
+msgstr "[Не е променян]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:58
 msgid "Last synced"
-msgstr "Dernière synchronisation"
+msgstr "Последна синхронизация"
 
 #: view/datascribe/admin/dataset/show-details.phtml:71
 msgid "[Not synced]"
-msgstr "[Non synchronisé]"
+msgstr "[Не е синхронизирано]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:75
 msgid "Last validated"
-msgstr ""
+msgstr "Последна валидизация"
 
 #: view/datascribe/admin/dataset/show-details.phtml:88
 msgid "[Not validated]"
-msgstr ""
+msgstr "[Не е валидизирано]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:92
 msgid "Last exported"
-msgstr "Dernier export"
+msgstr "Последен експорт"
 
 #: view/datascribe/admin/dataset/show-details.phtml:105
 msgid "[Not exported]"
-msgstr "[Non exporté]"
+msgstr "[Не е експортирано]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
@@ -486,44 +490,44 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Табло"
 
 #: view/datascribe/admin/index/index.phtml:5
 #: view/datascribe/admin/project/add.phtml:7
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "DataScribe"
-msgstr ""
+msgstr "DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:8
 msgid "Browse projects"
-msgstr ""
+msgstr "Преглед на проекти"
 
 #: view/datascribe/admin/index/index.phtml:9
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
-msgstr ""
+msgstr "Добави нов проект"
 
 #: view/datascribe/admin/index/index.phtml:12
 msgid "Welcome to DataScribe."
-msgstr ""
+msgstr "Добре дошли в DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:15
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "Моите проекти"
 
 #: view/datascribe/admin/index/index.phtml:25
 msgid "Unlocked items"
-msgstr ""
+msgstr "Отключени елементи"
 
 #: view/datascribe/admin/index/index.phtml:28
 #: view/datascribe/admin/index/index.phtml:53
 msgid "New"
-msgstr "Nouveau"
+msgstr "Нов"
 
 #: view/datascribe/admin/index/index.phtml:39
 #: view/datascribe/admin/index/index.phtml:64
 msgid "In progress"
-msgstr "En cours"
+msgstr "В процес на изпълнение"
 
 #: view/datascribe/admin/index/index.phtml:50
 #: view/datascribe/admin/item/browse.phtml:79
@@ -532,19 +536,19 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:75
 msgid "Not approved"
-msgstr "Non approuvé"
+msgstr "Неодобрен"
 
 #: view/datascribe/admin/index/index.phtml:87
 msgid "Items needing review"
-msgstr ""
+msgstr "Елемента се нуждае от преглед"
 
 #: view/datascribe/admin/index/index.phtml:101
 msgid "Needs my re-review"
-msgstr ""
+msgstr "Нуждае се от моя повторен преглед"
 
 #: view/datascribe/admin/index/index.phtml:112
 msgid "Records needing review"
-msgstr ""
+msgstr "Записи, които се нуждаят от преглед"
 
 #: view/datascribe/admin/index/index.phtml:134
 msgid "You do not own or belong to any projects."
@@ -552,45 +556,45 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:140
 msgid "All projects"
-msgstr ""
+msgstr "Всички проекти"
 
 #: view/datascribe/admin/index/index.phtml:165
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
-msgstr ""
+msgstr "Не са открити проекти"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:5
 msgid "Batch edit all items"
-msgstr ""
+msgstr "Партидно редактиране на всички елементи"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:23
 #, php-format
 msgid "You are editing %s items"
-msgstr ""
+msgstr "Редактирате %s елементи"
 
 #: view/datascribe/admin/item/batch-edit.phtml:25
 #, php-format
 msgid "You are editing the following %s items"
-msgstr ""
+msgstr "Редактирате следните елементи %s"
 
 #: view/datascribe/admin/item/browse.phtml:9
 msgid "Browse records"
-msgstr ""
+msgstr "Преглеждане на записите"
 
 #: view/datascribe/admin/item/browse.phtml:34
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Prioritized"
-msgstr ""
+msgstr "Приоритизирани"
 
 #: view/datascribe/admin/item/browse.phtml:38
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Submitted"
-msgstr ""
+msgstr "Изпратени"
 
 #: view/datascribe/admin/item/browse.phtml:42
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Reviewed"
-msgstr ""
+msgstr "Прегледани"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
@@ -598,19 +602,19 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
-msgstr ""
+msgstr "Всички елементи, които трябва да бъдат прегледани"
 
 #: view/datascribe/admin/item/browse.phtml:69
 msgid "All items that need initial review"
-msgstr ""
+msgstr "Всички елементи, които се нуждаят от първоначален преглед"
 
 #: view/datascribe/admin/item/browse.phtml:70
 msgid "All items that need re-review"
-msgstr ""
+msgstr "Всички елементи, които се нуждаят от повторен преглед"
 
 #: view/datascribe/admin/item/browse.phtml:71
 msgid "Items with values marked as invalid"
-msgstr ""
+msgstr "Елементи със стойности, маркирани като невалидни"
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
@@ -618,35 +622,35 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
-msgstr ""
+msgstr "Елементите, които съм прегледал и се нуждаят от повторен преглед"
 
 #: view/datascribe/admin/item/browse.phtml:75
 msgid "Items I reviewed that are not approved"
-msgstr ""
+msgstr "Елементите, които съм прегледал и не са одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:76
 msgid "Items I reviewed that are approved"
-msgstr ""
+msgstr "Елементите, които съм прегледал и са одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:80
 msgid "My new items"
-msgstr ""
+msgstr "Моите нови елеченти"
 
 #: view/datascribe/admin/item/browse.phtml:81
 msgid "My in progress items"
-msgstr ""
+msgstr "Моите елечменти в процес на изпълнение"
 
 #: view/datascribe/admin/item/browse.phtml:82
 msgid "My items that need review"
-msgstr ""
+msgstr "Моите елементи, които се нуждаят от преглед"
 
 #: view/datascribe/admin/item/browse.phtml:83
 msgid "My items that are not approved"
-msgstr ""
+msgstr "Моите елементи, които не са още одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:84
 msgid "My items that are approved"
-msgstr ""
+msgstr "Моите елементи, които са одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
@@ -658,93 +662,95 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
-msgstr ""
+msgstr "Всички отключени и нови елементи"
 
 #: view/datascribe/admin/item/browse.phtml:89
 msgid "All unlocked and in progress items"
-msgstr ""
+msgstr "Всички отключени и в ход елементи"
 
 #: view/datascribe/admin/item/browse.phtml:91
 msgid "All items that are not approved"
-msgstr ""
+msgstr "Всички елементи, които още не са одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:92
 msgid "All items that are approved"
-msgstr ""
+msgstr "Всички елементи, които са одобрени"
 
 #: view/datascribe/admin/item/browse.phtml:146
 #: view/datascribe/admin/item/show-details.phtml:31
 msgid "Last submitted"
-msgstr ""
+msgstr "Последно изпратени"
 
 #: view/datascribe/admin/item/browse.phtml:147
 #: view/datascribe/admin/item/show-details.phtml:48
 msgid "Last reviewed"
-msgstr ""
+msgstr "Последно прегледани"
 
 #: view/datascribe/admin/item/browse.phtml:148
 msgid "Review status"
-msgstr ""
+msgstr "Преглед на състоянието"
 
 #: view/datascribe/admin/item/browse.phtml:156
 msgid "Select items"
-msgstr ""
+msgstr "Изберете елементи"
 
 #: view/datascribe/admin/item/browse.phtml:194
 #, php-format
 msgid "No items found. %s"
-msgstr ""
+msgstr "Не са открити елементи. %s"
 
 #: view/datascribe/admin/item/browse.phtml:195
 msgid "Sync this dataset."
-msgstr ""
+msgstr "Синхронизирайте този набор от данни."
 
 #: view/datascribe/admin/item/browse.phtml:198
 msgid ""
 "If you have recently synced, the sync job likely has not finished<br>and/or "
 "you need to refresh this page."
 msgstr ""
+"Ако наскоро сте синхронизирали, задачата за синхронизиране вероятно не е "
+"завършила <br> и / или трябва да опресните тази страница."
 
 #: view/datascribe/admin/item/browse.phtml:201
 msgid "No items found."
-msgstr ""
+msgstr "Не са открити елементи"
 
 #: view/datascribe/admin/item/search.phtml:16
 #: view/datascribe/admin/item/show-details.phtml:7
 msgid "DataScribe item"
-msgstr ""
+msgstr "DataScribe елемент"
 
 #: view/datascribe/admin/item/search.phtml:18
 #: view/datascribe/admin/item/show-details.phtml:11
 msgid "Omeka item"
-msgstr ""
+msgstr "Omeka елемент"
 
 #: view/datascribe/admin/item/show-details.phtml:1
 msgid "Item metadata"
-msgstr ""
+msgstr "Метаданни на елемента"
 
 #: view/datascribe/admin/item/show-details.phtml:27
 msgid "Record count"
-msgstr ""
+msgstr "Брой записи"
 
 #: view/datascribe/admin/item/show-details.phtml:44
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Not submitted"
-msgstr ""
+msgstr "Неизпратени"
 
 #: view/datascribe/admin/item/show-details.phtml:61
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Not reviewed"
-msgstr ""
+msgstr "Не е прегледано"
 
 #: view/datascribe/admin/item/show-details.phtml:65
 msgid "Last locked"
-msgstr ""
+msgstr "Последно заключен"
 
 #: view/datascribe/admin/item/show-details.phtml:78
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Unlocked"
-msgstr ""
+msgstr "Отключен"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
@@ -756,37 +762,37 @@ msgstr ""
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
-msgstr ""
+msgstr "Нов проект"
 
 #: view/datascribe/admin/project/add.phtml:10
 #: view/datascribe/admin/project/edit.phtml:10
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурация"
 
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "Projects"
-msgstr ""
+msgstr "Проекти"
 
 #: view/datascribe/admin/project/browse.phtml:88
 #, php-format
 msgid "No projects found. %s"
-msgstr ""
+msgstr "Не са намерени проекти. %s"
 
 #: view/datascribe/admin/project/browse.phtml:89
 msgid "Add a new project."
-msgstr ""
+msgstr "Добавяне на нов проект"
 
 #: view/datascribe/admin/project/show-details.phtml:1
 msgid "Project metadata"
-msgstr ""
+msgstr "Метаданни на проекта"
 
 #: view/datascribe/admin/project/users-form.phtml:13
 msgid "Click on a user to add them to the project."
-msgstr ""
+msgstr "Кликнете върху потребител, за да го добавите към проекта."
 
 #: view/datascribe/admin/project/users-form.phtml:18
 msgid "Transcriber"
-msgstr ""
+msgstr "Преписвач"
 
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
@@ -794,7 +800,7 @@ msgstr ""
 #: view/datascribe/admin/record/form.phtml:13
 #: view/datascribe/admin/record/search.phtml:7
 msgid "DataScribe: Item"
-msgstr ""
+msgstr "DataScribe: Елемент"
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
@@ -802,59 +808,59 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
-msgstr ""
+msgstr "Добавяне на нов запис"
 
 #: view/datascribe/admin/record/browse.phtml:196
 msgid "Item actions"
-msgstr ""
+msgstr "Действия с елементи"
 
 #: view/datascribe/admin/record/browse.phtml:199
 msgid "Item status:"
-msgstr ""
+msgstr "Статус на елемента:"
 
 #: view/datascribe/admin/record/browse.phtml:206
 msgid "Lock status:"
-msgstr ""
+msgstr "Състояние на заключване:"
 
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Locked"
-msgstr ""
+msgstr "Заключен"
 
 #: view/datascribe/admin/record/browse.phtml:213
 #, php-format
 msgid "Last locked to %s on %s"
-msgstr ""
+msgstr "Последно заключване %s на %s"
 
 #: view/datascribe/admin/record/browse.phtml:226
 msgid "Submission status:"
-msgstr ""
+msgstr "Статус на изпращането"
 
 #: view/datascribe/admin/record/browse.phtml:233
 #, php-format
 msgid "Last submitted by %s on %s"
-msgstr ""
+msgstr "Последно изпратено от %sна %s"
 
 #: view/datascribe/admin/record/browse.phtml:246
 msgid "Review status:"
-msgstr ""
+msgstr "Състояние на прегледа:"
 
 #: view/datascribe/admin/record/browse.phtml:253
 #, php-format
 msgid "Last reviewed by %s on %s"
-msgstr ""
+msgstr "Последен преглед от %sна%s"
 
 #: view/datascribe/admin/record/browse.phtml:266
 msgid "Priority status:"
-msgstr ""
+msgstr "Приоритетен статус:"
 
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Not prioritized"
-msgstr ""
+msgstr "Не е приоритизиран"
 
 #: view/datascribe/admin/record/browse.phtml:273
 #, php-format
 msgid "Last prioritized by %s on %s"
-msgstr ""
+msgstr "Последно приоритизиран от %s на%s"
 
 #: view/datascribe/admin/record/browse.phtml:285
 #: view/datascribe/admin/record/form.phtml:149
@@ -871,11 +877,11 @@ msgstr ""
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
 msgid "Delete records"
-msgstr ""
+msgstr "Изтриване на записи"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:6
 msgid "Are you sure you would like to delete the selected records?"
-msgstr ""
+msgstr "Наистина ли искате да изтриете избраните записи?"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:8
 #: view/datascribe/admin/record/form-sidebars.phtml:24
@@ -883,21 +889,25 @@ msgstr ""
 msgid ""
 "%1$s: this action will permanently delete %2$s records and cannot be undone."
 msgstr ""
+"%1$s: това действие ще изтрие %2$s записи за постоянно и не може да бъде "
+"отменено."
 
 #: view/datascribe/admin/record/form-sidebars.phtml:22
 msgid ""
 "Are you sure you would like to delete all records on all pages of this "
 "result?"
 msgstr ""
+"Наистина ли искате да изтриете всички записи на всички страници на този "
+"резултат?"
 
 #: view/datascribe/admin/record/form.phtml:13
 msgid "New record"
-msgstr ""
+msgstr "Нов запис"
 
 #: view/datascribe/admin/record/form.phtml:15
 #: view/datascribe/admin/record/show.phtml:6
 msgid "DataScribe: Record"
-msgstr ""
+msgstr "DataScribe: Запис"
 
 #: view/datascribe/admin/record/form.phtml:20
 msgid ""
@@ -907,96 +917,102 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
-msgstr ""
+msgstr "Предходни записи"
 
 #: view/datascribe/admin/record/form.phtml:27
 msgid "Enable focus mode"
-msgstr ""
+msgstr "Активирайте режима на фокусиране"
 
 #: view/datascribe/admin/record/form.phtml:28
 msgid "Enable fast entry mode"
-msgstr ""
+msgstr "Активирайте режима за бързо влизане"
 
 #: view/datascribe/admin/record/form.phtml:31
 msgid "Horizontal view"
-msgstr ""
+msgstr "Хоризонтален изглед"
 
 #: view/datascribe/admin/record/form.phtml:32
 msgid "Vertical view"
-msgstr ""
+msgstr "Вертикален изглед"
 
 #: view/datascribe/admin/record/form.phtml:35
 msgid "Guidelines"
-msgstr ""
+msgstr "Ръководства"
 
 #: view/datascribe/admin/record/form.phtml:55
 msgid "Add another "
-msgstr ""
+msgstr "Добави друго"
 
 #: view/datascribe/admin/record/form.phtml:57
 msgid "Return to records"
-msgstr ""
+msgstr "Завръщане към записите"
 
 #: view/datascribe/admin/record/form.phtml:58
 msgid "Stay on this record"
-msgstr ""
+msgstr "Остани при този запис"
 
 #: view/datascribe/admin/record/form.phtml:80
 msgid "This field's data type is unknown. The value cannot be added."
 msgstr ""
+"Типът данни на това поле е неизвестен. Стойността не може да бъде добавена."
 
 #: view/datascribe/admin/record/form.phtml:84
 msgid "This field's data type is unknown. The value cannot be edited."
 msgstr ""
+"Типът данни на това поле е неизвестен. Стойността не може да се редактира."
 
 #: view/datascribe/admin/record/form.phtml:86
 msgid ""
 "This value is invalid. Please correct it below and save this form to update."
 msgstr ""
+"Тази стойност е невалидна. Моля, коригирайте го по-долу и запазете този "
+"формуляр за актуализация."
 
 #: view/datascribe/admin/record/form.phtml:88
 msgid ""
 "This value is marked as invalid but does not appear to be invalid. Either "
 "re-validate the dataset or save this form as-is."
 msgstr ""
+"Тази стойност е маркирана като невалидна, но не изглежда невалидна. Или "
+"потвърдете повторно набора от данни, или запазете този формуляр както е."
 
 #: view/datascribe/admin/record/form.phtml:98
 msgid "Is missing"
-msgstr ""
+msgstr "Липсва"
 
 #: view/datascribe/admin/record/form.phtml:99
 msgid "Is illegible"
-msgstr ""
+msgstr "Е нечетлив"
 
 #: view/datascribe/admin/record/form.phtml:100
 msgid "Reset value"
-msgstr ""
+msgstr "Нулиране на стойността"
 
 #: view/datascribe/admin/record/form.phtml:109
 #, php-format
 msgid "This dataset has no form. %s"
-msgstr ""
+msgstr "Този набор от данни няма форма.%s"
 
 #: view/datascribe/admin/record/form.phtml:110
 msgid "Build the form."
-msgstr ""
+msgstr "Изградете формата."
 
 #: view/datascribe/admin/record/form.phtml:113
 msgid "This dataset has no form."
-msgstr ""
+msgstr "Този набор от данни няма форма."
 
 #: view/datascribe/admin/record/form.phtml:119
 msgid "Record actions"
-msgstr ""
+msgstr "Записани действия"
 
 #: view/datascribe/admin/record/form.phtml:166
 msgid "Next records"
-msgstr ""
+msgstr "Следващи записи"
 
 #: view/datascribe/admin/record/media-viewer.phtml:25
 #, php-format
 msgid "%s. %s"
-msgstr ""
+msgstr "%s.%s"
 
 #: view/datascribe/admin/record/media-viewer.phtml:32
 msgid "Previous media"
@@ -1008,331 +1024,339 @@ msgstr ""
 
 #: view/datascribe/admin/record/media-viewer.phtml:37
 msgid "Zoom in"
-msgstr ""
+msgstr "Зумнете върху"
 
 #: view/datascribe/admin/record/media-viewer.phtml:38
 msgid "Zoom out"
-msgstr ""
+msgstr "Отдалечаване на фокуса"
 
 #: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Rotate left"
-msgstr ""
+msgstr "Завъртете наляво"
 
 #: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Rotate right"
-msgstr ""
+msgstr "Завъртете надясно"
 
 #: view/datascribe/admin/record/show-details.phtml:1
 msgid "Record metadata"
-msgstr ""
+msgstr "Записване на метаданните"
 
 #: view/datascribe/admin/record/show-details.phtml:7
 msgid "Primary value"
-msgstr ""
+msgstr "Първична стойност"
 
 #: src/DatascribeDataType/Textarea.php:13
 msgid "Textarea"
-msgstr ""
+msgstr "Текстово поле"
 
 #: src/DatascribeDataType/Textarea.php:19
 msgid "Textarea label"
-msgstr ""
+msgstr "Етикет на текстовото поле"
 
 #: src/DatascribeDataType/Textarea.php:24
 msgid "Rows"
-msgstr ""
+msgstr "Редове"
 
 #: src/DatascribeDataType/Textarea.php:30 src/DatascribeDataType/Text.php:24
 msgid "Minimum length"
-msgstr ""
+msgstr "Минимум дължина"
 
 #: src/DatascribeDataType/Textarea.php:31 src/DatascribeDataType/Text.php:25
 msgid ""
 "The minimum number of characters long the input can be and still be "
 "considered valid."
 msgstr ""
+"Минималният брой знаци с дължина на въвеждане може да бъде и все още да се "
+"счита за валиден."
 
 #: src/DatascribeDataType/Textarea.php:37 src/DatascribeDataType/Text.php:31
 msgid "Maximum length"
-msgstr ""
+msgstr "Максимална дължина"
 
 #: src/DatascribeDataType/Textarea.php:38 src/DatascribeDataType/Text.php:32
 msgid "The maximum number of characters the input should accept."
-msgstr ""
+msgstr "Максималният брой знаци, които входът трябва да приеме."
 
 #: src/DatascribeDataType/Textarea.php:44 src/DatascribeDataType/Text.php:38
 #: src/DatascribeDataType/Number.php:42
 msgid "Placeholder"
-msgstr ""
+msgstr "Placeholder"
 
 #: src/DatascribeDataType/Textarea.php:45 src/DatascribeDataType/Text.php:39
 #: src/DatascribeDataType/Number.php:43
 msgid "An exemplar value to display in the input field whenever it is empty."
 msgstr ""
+"Примерна стойност, която да се показва в полето за въвеждане, когато е "
+"празно."
 
 #: src/DatascribeDataType/Textarea.php:50 src/DatascribeDataType/Text.php:44
 #: src/DatascribeDataType/Number.php:48
 msgid "Regex pattern"
-msgstr ""
+msgstr "Regex модел"
 
 #: src/DatascribeDataType/Textarea.php:51 src/DatascribeDataType/Text.php:45
 #: src/DatascribeDataType/Number.php:49
 msgid ""
 "A regular expression the input's contents must match in order to be valid."
 msgstr ""
+"Регуларен израз, съдържанието на входа трябва да съвпада, за да бъде "
+"валидно."
 
 #: src/DatascribeDataType/Textarea.php:56 src/DatascribeDataType/Text.php:50
 #: src/DatascribeDataType/AbstractSelection.php:24
 #: src/DatascribeDataType/Number.php:54
 msgid "Default value"
-msgstr ""
+msgstr "Стойност по подразбиране"
 
 #: src/DatascribeDataType/Unknown.php:22 src/DatascribeDataType/Unknown.php:54
 msgid "Unknown data type"
-msgstr ""
+msgstr "Неизвестен тип данни"
 
 #: src/DatascribeDataType/Unknown.php:28
 msgid "Field data"
-msgstr ""
+msgstr "Полеви данни"
 
 #: src/DatascribeDataType/Unknown.php:60
 msgid "Value text"
-msgstr ""
+msgstr "Стйност текст"
 
 #: src/DatascribeDataType/Datetime.php:11
 msgid "DateTime"
-msgstr ""
+msgstr "Данни Време"
 
 #: src/DatascribeDataType/Select.php:22 src/Form/Element/Radio.php:17
 msgid "[No selection]"
-msgstr ""
+msgstr "[Без избор]"
 
 #: src/DatascribeDataType/Checkbox.php:15
 msgid "Checkbox"
-msgstr ""
+msgstr "Поле за отметка"
 
 #: src/DatascribeDataType/Checkbox.php:21
 msgid "Checkbox label"
-msgstr ""
+msgstr "Етикет на полето за отметка"
 
 #: src/DatascribeDataType/Checkbox.php:26
 msgid "Checked value"
-msgstr ""
+msgstr "Стойността на полето за отметка"
 
 #: src/DatascribeDataType/Checkbox.php:31
 msgid "Unhecked value"
-msgstr ""
+msgstr "Непроверена стойност"
 
 #: src/DatascribeDataType/Checkbox.php:36
 msgid "Checked by default"
-msgstr ""
+msgstr "Проверено по подразбиране"
 
 #: src/DatascribeDataType/Checkbox.php:70
 msgid "Check"
-msgstr ""
+msgstr "Проверка"
 
 #: src/DatascribeDataType/Text.php:19
 msgid "Text input label"
-msgstr ""
+msgstr "Етикет за въвеждане на текст"
 
 #: src/DatascribeDataType/Text.php:55 src/DatascribeDataType/Number.php:59
 msgid "Datalist"
-msgstr ""
+msgstr "Даталист"
 
 #: src/DatascribeDataType/Text.php:56 src/DatascribeDataType/Number.php:60
 msgid "Recommended options available to choose, separated by new lines."
-msgstr ""
+msgstr "Налични препоръчителни опции за избор, разделени с нови редове."
 
 #: src/DatascribeDataType/AbstractDatetime.php:42
 msgid "Minimum year"
-msgstr ""
+msgstr "Минимум година"
 
 #: src/DatascribeDataType/AbstractDatetime.php:54
 msgid "Maximum year"
-msgstr ""
+msgstr "Максимум година"
 
 #: src/DatascribeDataType/AbstractDatetime.php:64
 msgid "Default year"
-msgstr ""
+msgstr "Тодина по подразбиране"
 
 #: src/DatascribeDataType/AbstractDatetime.php:74
 msgid "Default month"
-msgstr ""
+msgstr "По подразбиране месец"
 
 #: src/DatascribeDataType/AbstractDatetime.php:81
 msgid "Default day"
-msgstr ""
+msgstr "По подразбиране ден"
 
 #: src/DatascribeDataType/AbstractDatetime.php:91
 msgid "Default hour"
-msgstr ""
+msgstr "По подразбиране в час"
 
 #: src/DatascribeDataType/AbstractDatetime.php:98
 msgid "Default minute"
-msgstr ""
+msgstr "По подразбиране минута"
 
 #: src/DatascribeDataType/AbstractDatetime.php:105
 msgid "Default second"
-msgstr ""
+msgstr "По подразбиране в секунда"
 
 #: src/DatascribeDataType/AbstractDatetime.php:154
 msgid "Year"
-msgstr ""
+msgstr "Година"
 
 #: src/DatascribeDataType/AbstractDatetime.php:168
 msgid "Month"
-msgstr ""
+msgstr "Месец"
 
 #: src/DatascribeDataType/AbstractDatetime.php:182
 msgid "Day"
-msgstr ""
+msgstr "Ден"
 
 #: src/DatascribeDataType/AbstractDatetime.php:199
 msgid "Hour"
-msgstr ""
+msgstr "Час"
 
 #: src/DatascribeDataType/AbstractDatetime.php:213
 msgid "Minute"
-msgstr ""
+msgstr "Минута"
 
 #: src/DatascribeDataType/AbstractDatetime.php:227
 msgid "Second"
-msgstr ""
+msgstr "Секунда"
 
 #: src/DatascribeDataType/Radio.php:12
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 #: src/DatascribeDataType/AbstractSelection.php:12
 msgid "Selection label"
-msgstr ""
+msgstr "Етикет за избор"
 
 #: src/DatascribeDataType/AbstractSelection.php:18
 msgid "The selection options separated by new lines."
-msgstr ""
+msgstr "Опциите за избор, разделени с нови редове."
 
 #: src/DatascribeDataType/Number.php:13 src/DatascribeDataType/Number.php:121
 msgid "Number"
-msgstr ""
+msgstr "Брой"
 
 #: src/DatascribeDataType/Number.php:19
 msgid "Number input label"
-msgstr ""
+msgstr "Етикет за въвеждане на номер"
 
 #: src/DatascribeDataType/Number.php:24
 msgid "Minimum value"
-msgstr ""
+msgstr "Минимална стойност"
 
 #: src/DatascribeDataType/Number.php:25
 msgid "The minimum value to accept for this input."
-msgstr ""
+msgstr "Минималната стойност, която трябва да се приеме за този вход."
 
 #: src/DatascribeDataType/Number.php:30
 msgid "Maximum value"
-msgstr ""
+msgstr "Максимална стойност"
 
 #: src/DatascribeDataType/Number.php:31
 msgid "The maximum value to accept for this input."
-msgstr ""
+msgstr "Максималната стойност, която трябва да се приеме за този вход."
 
 #: src/DatascribeDataType/Number.php:36
 msgid "Stepping interval"
-msgstr ""
+msgstr "Стъпков интервал"
 
 #: src/DatascribeDataType/Number.php:37
 msgid "A number that specifies the granularity that the value must adhere to."
 msgstr ""
+"Число, което указва детайлността, към която трябва да се придържа "
+"стойността."
 
 #: src/DatascribeDataType/Time.php:11
 msgid "Time"
-msgstr ""
+msgstr "Време"
 
 #: src/ViewHelper/breadcrumbs_route_map.php:35
 msgid "Record"
-msgstr ""
+msgstr "Запис"
 
 #: src/Api/Representation/DatascribeItemRepresentation.php:243
 #: src/Form/ItemSearchForm.php:21
 msgid "Approved"
-msgstr ""
+msgstr "Одобрен"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:162
 msgid "Invalid item format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на елемента."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:166
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:63
 msgid "Invalid owner format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на собственика."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:170
 msgid "Invalid values format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на стойности."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:298
 msgid "Missing item."
-msgstr ""
+msgstr "Липсващ елемент"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:305
 msgid "Invalid field. Field not in dataset."
-msgstr ""
+msgstr "Невалидно поле. Полето не е в набора от данни."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:312
 #, php-format
 msgid "Invalid value text for field \"%s\"."
-msgstr ""
+msgstr "Невалиден текст на стойност за поле „%s“."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:82
 msgid "An owner must have an ID"
-msgstr ""
+msgstr "Собственикът трябва да има лична карта"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:149
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:201
 #, php-format
 msgid "The name \"%s\" is already taken."
-msgstr ""
+msgstr "Името \"%s\" вече е взето."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:154
 msgid "A project name must not be null"
-msgstr ""
+msgstr "Името на проекта не трябва да е нула"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:56
 msgid "Invalid project format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на проекта."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:60
 msgid "Invalid item set format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на набор от елементи."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:67
 msgid "Invalid fields format passed in request."
-msgstr ""
+msgstr "В заявката е предаден невалиден формат на полетата."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:206
 msgid "A dataset name must not be null"
-msgstr ""
+msgstr "Името на набора от данни не трябва да е нула"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:209
 msgid "A project must not be null"
-msgstr ""
+msgstr "Проектът не трябва да е нула"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:215
 #, php-format
 msgid "Invalid field data for field \"%s\"."
-msgstr ""
+msgstr "Невалидни данни за полето за поле „%s“."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:36
 msgid ""
 "The DatascribeItemAdapter adapter does not implement the create operation."
-msgstr ""
+msgstr "Адаптерът DatascribeItemAdapter не изпълнява операцията за създаване."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:609
 msgid "A DataScribe dataset must not be null"
-msgstr ""
+msgstr "Наборът от данни на DataScribe не трябва да е нула"
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:612
 msgid "An item must not be null"
-msgstr ""
+msgstr "Елементът не трябва да е нула"
 
 #: src/Controller/Admin/RecordController.php:53
 #, php-format
@@ -1346,83 +1370,85 @@ msgstr ""
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
-msgstr ""
+msgstr "Елементът е успешно актуализиран"
 
 #: src/Controller/Admin/RecordController.php:188
 msgid "Record successfully added. Add another record below."
-msgstr ""
+msgstr "Записът е добавен успешно. Добавете още един запис по-долу."
 
 #: src/Controller/Admin/RecordController.php:191
 msgid "Record successfully added. Continue editing it below."
-msgstr ""
+msgstr "Записът е добавен успешно. Продължете да го редактирате по-долу."
 
 #: src/Controller/Admin/RecordController.php:194
 msgid "Record successfully added."
-msgstr ""
+msgstr "Записът е добавен успешно."
 
 #: src/Controller/Admin/RecordController.php:254
 msgid "Record successfully saved. Continue editing it below."
-msgstr ""
+msgstr "Записът е успешно запазен. Продължете да го редактирате по-долу."
 
 #: src/Controller/Admin/RecordController.php:257
 msgid "Record successfully saved."
-msgstr ""
+msgstr "Записът е успешно запазен."
 
 #: src/Controller/Admin/RecordController.php:311
 msgid "Record successfully deleted"
-msgstr ""
+msgstr "Записът е изтрит успешно"
 
 #: src/Controller/Admin/RecordController.php:351
 #: src/Controller/Admin/DatasetRecordController.php:124
 msgid "Records successfully edited."
-msgstr ""
+msgstr "Записите са успешно редактирани"
 
 #: src/Controller/Admin/RecordController.php:405
 #: src/Controller/Admin/DatasetRecordController.php:175
 msgid "Editing records. This may take a while."
-msgstr ""
+msgstr "Редактиране на записи. Това може да отнеме известно време."
 
 #: src/Controller/Admin/RecordController.php:439
 #: src/Controller/Admin/DatasetRecordController.php:207
 msgid "You must select at least one record to batch delete."
-msgstr ""
+msgstr "Трябва да изберете поне един запис, който да изтриете партида."
 
 #: src/Controller/Admin/RecordController.php:448
 #: src/Controller/Admin/DatasetRecordController.php:216
 msgid "Records successfully deleted"
-msgstr ""
+msgstr "Записите бяха успешно изтрити"
 
 #: src/Controller/Admin/RecordController.php:487
 #: src/Controller/Admin/DatasetRecordController.php:254
 msgid "Deleting records. This may take a while."
-msgstr ""
+msgstr "Изтриване на записи. Това може да отнеме известно време."
 
 #: src/Controller/Admin/DatasetController.php:52
 msgid "Dataset successfully created."
-msgstr ""
+msgstr "Наборът от данни е създаден успешно."
 
 #: src/Controller/Admin/DatasetController.php:89
 msgid "Dataset successfully edited."
-msgstr "Jeu de données édité avec succès"
+msgstr "Наборът от данни е успешно редактиран."
 
 #: src/Controller/Admin/DatasetController.php:120
 msgid "Dataset successfully deleted"
-msgstr ""
+msgstr "Наборът от данни беше успешно изтрит"
 
 #: src/Controller/Admin/DatasetController.php:184
 #, php-format
 msgid "Syncing dataset. This may take a while. %s"
 msgstr ""
+"Синхронизиране на набор от данни. Това може да отнеме известно време. %s"
 
 #: src/Controller/Admin/DatasetController.php:208
 #, php-format
 msgid "Validating dataset. This may take a while. %s"
-msgstr ""
+msgstr "Проверка на набора от данни. Това може да отнеме известно време. %s"
 
 #: src/Controller/Admin/DatasetController.php:232
 #, php-format
 msgid "Exporting dataset. This may take a while. %s"
 msgstr ""
+"Експортиране на набор от данни. Това може да отнеме известно време. %s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
@@ -1430,109 +1456,109 @@ msgstr ""
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
-msgstr ""
+msgstr "Проектът е създаден успешно."
 
 #: src/Controller/Admin/ProjectController.php:52
 msgid "Project successfully edited."
-msgstr ""
+msgstr "Проектът е успешно редактиран."
 
 #: src/Controller/Admin/ProjectController.php:77
 msgid "Project successfully deleted"
-msgstr ""
+msgstr "Проектът е изтрит успешно"
 
 #: src/Controller/Admin/ItemController.php:38
 #, php-format
 msgid "This dataset has no item set. %s"
-msgstr ""
+msgstr "Този набор от данни няма зададен елемент. %s"
 
 #: src/Controller/Admin/ItemController.php:145
 msgid "Items successfully edited."
-msgstr ""
+msgstr "Елементите са успешно редактирани."
 
 #: src/Form/RecordForm.php:136
 msgid "Invalid value"
-msgstr ""
+msgstr "невалидна стойност"
 
 #: src/Form/RecordForm.php:147
 msgid "Set to null"
-msgstr ""
+msgstr "Зададено нула"
 
 #: src/Form/AbstractForm.php:101
 msgid "Lock to transcriber"
-msgstr ""
+msgstr "Заключено за transcriber"
 
 #: src/Form/AbstractForm.php:105
 msgid "Lock to reviewer"
-msgstr ""
+msgstr "Заключено за рецензента"
 
 #: src/Form/AbstractForm.php:109
 msgid "Lock to admin"
-msgstr ""
+msgstr "Заключено за админа"
 
 #: src/Form/ItemBatchForm.php:11 src/Form/ItemForm.php:66
 msgid "Unlock"
-msgstr ""
+msgstr "Отключен"
 
 #: src/Form/ItemBatchForm.php:12 src/Form/ItemForm.php:69
 msgid "Lock to me"
-msgstr ""
+msgstr "Заключен за мен"
 
 #: src/Form/ItemBatchForm.php:18
 msgid "Lock action"
-msgstr ""
+msgstr "Действие заключване"
 
 #: src/Form/ItemBatchForm.php:31
 msgid "Review action"
-msgstr ""
+msgstr "Действие преглед"
 
 #: src/Form/ItemBatchForm.php:34 src/Form/ItemForm.php:48
 msgid "Mark as approved"
-msgstr ""
+msgstr "Маркирано като одобрен"
 
 #: src/Form/ItemBatchForm.php:35 src/Form/ItemForm.php:51
 msgid "Mark as not approved"
-msgstr ""
+msgstr "Маркирано като не одобрен"
 
 #: src/Form/ItemBatchForm.php:36 src/Form/ItemForm.php:54
 msgid "Mark as not reviewed"
-msgstr ""
+msgstr "Маркирано като непрегледан"
 
 #: src/Form/ItemBatchForm.php:48
 msgid "Priority action"
-msgstr ""
+msgstr "Действие приоритет"
 
 #: src/Form/ItemBatchForm.php:51 src/Form/ItemForm.php:84
 msgid "Mark as prioritized"
-msgstr ""
+msgstr "Маркирано като приоритизиран"
 
 #: src/Form/ItemBatchForm.php:52 src/Form/ItemForm.php:87
 msgid "Mark as not prioritized"
-msgstr ""
+msgstr "Маркирано като неприоритизиран"
 
 #: src/Form/RecordSearchForm.php:14
 msgid "Needs review?"
-msgstr ""
+msgstr "Нужда от преглед?"
 
 #: src/Form/RecordSearchForm.php:23 src/Form/RecordSearchForm.php:40
 #: src/Form/RecordSearchForm.php:57
 msgid "Select one"
-msgstr ""
+msgstr "Изберете едно"
 
 #: src/Form/RecordSearchForm.php:31
 msgid "Needs work?"
-msgstr ""
+msgstr "Нужда от работа?"
 
 #: src/Form/RecordSearchForm.php:48
 msgid "Has invalid values?"
-msgstr ""
+msgstr "Има невалидни стойности?"
 
 #: src/Form/RecordSearchForm.php:75 src/Form/RecordSearchForm.php:93
 msgid "Select user"
-msgstr ""
+msgstr "Избери потребител"
 
 #: src/Form/RecordSearchForm.php:87
 msgid "Modified by"
-msgstr ""
+msgstr "Модифицирано от"
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
@@ -1553,7 +1579,7 @@ msgstr ""
 #: src/Form/ItemSearchForm.php:74 src/Form/ItemSearchForm.php:98
 #: src/Form/ItemSearchForm.php:114 src/Form/ItemSearchForm.php:130
 msgid "Select status"
-msgstr ""
+msgstr "Изберете статус"
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
@@ -1569,25 +1595,28 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
-msgstr ""
+msgstr "Въведете името на този набор от данни."
 
 #: src/Form/DatasetForm.php:97
 msgid "Enter the description of this dataset."
-msgstr ""
+msgstr "Въведете описанието на този набор от данни."
 
 #: src/Form/DatasetForm.php:109
 msgid "Enter guidelines for transcribing this dataset."
-msgstr ""
+msgstr "Въведете насоки за транскрибиране на този набор от данни."
 
 #: src/Form/DatasetForm.php:121
 msgid ""
 "Select the item set used to synchronize dataset items. Once synchronized, "
 "this dataset will contain every item in this item set."
 msgstr ""
+"Изберете набора от елементи, използван за синхронизиране на елементи от "
+"набора от данни. След като бъде синхронизиран, този набор от данни ще "
+"съдържа всеки елемент от този набор от елементи."
 
 #: src/Form/DatasetForm.php:127
 msgid "Select an item set"
-msgstr ""
+msgstr "Изберете набор от елементи"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
@@ -1622,164 +1651,164 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"
-msgstr ""
+msgstr "Поле за името"
 
 #: src/Form/DatasetForm.php:276
 msgid "Field description"
-msgstr ""
+msgstr "Поле описание"
 
 #: src/Form/DatasetForm.php:285
 msgid "Field is primary"
-msgstr ""
+msgstr "Полето е основно"
 
 #: src/Form/DatasetForm.php:294
 msgid "Field is required"
-msgstr ""
+msgstr "Полето е задължително"
 
 #: src/Form/ItemSearchForm.php:19
 msgid "Need review"
-msgstr ""
+msgstr "Нужда от преглед"
 
 #: src/Form/ItemSearchForm.php:33
 msgid "Submitted by"
-msgstr ""
+msgstr "Изпратено от"
 
 #: src/Form/ItemSearchForm.php:44
 msgid "Submitted status"
-msgstr ""
+msgstr "Статус на изпращането"
 
 #: src/Form/ItemSearchForm.php:57
 msgid "Reviewed by"
-msgstr ""
+msgstr "Прегледано от"
 
 #: src/Form/ItemSearchForm.php:68
 msgid "Reviewed status"
-msgstr ""
+msgstr "Статус на преглеждането"
 
 #: src/Form/ItemSearchForm.php:81
 msgid "Locked by"
-msgstr ""
+msgstr "Заключено от"
 
 #: src/Form/ItemSearchForm.php:92
 msgid "Locked status"
-msgstr ""
+msgstr "Статус на заключването"
 
 #: src/Form/Element/MonthSelect.php:11
 msgid "January"
-msgstr ""
+msgstr "Януари"
 
 #: src/Form/Element/MonthSelect.php:12
 msgid "February"
-msgstr ""
+msgstr "Февруари"
 
 #: src/Form/Element/MonthSelect.php:13
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: src/Form/Element/MonthSelect.php:14
 msgid "April"
-msgstr ""
+msgstr "Април"
 
 #: src/Form/Element/MonthSelect.php:15
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: src/Form/Element/MonthSelect.php:16
 msgid "June"
-msgstr ""
+msgstr "Юни"
 
 #: src/Form/Element/MonthSelect.php:17
 msgid "July"
-msgstr ""
+msgstr "Юли"
 
 #: src/Form/Element/MonthSelect.php:18
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #: src/Form/Element/MonthSelect.php:19
 msgid "September"
-msgstr ""
+msgstr "Септември"
 
 #: src/Form/Element/MonthSelect.php:20
 msgid "October"
-msgstr ""
+msgstr "Октомври"
 
 #: src/Form/Element/MonthSelect.php:21
 msgid "November"
-msgstr ""
+msgstr "Ноември"
 
 #: src/Form/Element/MonthSelect.php:22
 msgid "December"
-msgstr ""
+msgstr "Декември"
 
 #: src/Form/ProjectForm.php:15
 msgid "Enter the name of this project."
-msgstr ""
+msgstr "Въведи името на този проект"
 
 #: src/Form/ProjectForm.php:27
 msgid "Enter the description of this project."
-msgstr ""
+msgstr "Въведи описание за този проект"
 
 #: src/Form/ItemForm.php:33
 msgid "Submit for review"
-msgstr ""
+msgstr "Изпратено за преглед"
 
 #: src/Form/ItemForm.php:36
 msgid "Mark as not submitted"
-msgstr ""
+msgstr "Маркирано като неизпратено"
 
 #: src/Form/RecordBatchForm.php:14
 msgid "Needs review action"
-msgstr ""
+msgstr "Необходимо е действие за преглед"
 
 #: src/Form/RecordBatchForm.php:17
 msgid "Mark as needs review"
-msgstr ""
+msgstr "Маркирайте като нуждаещо се от преглед"
 
 #: src/Form/RecordBatchForm.php:18
 msgid "Mark as does not need review"
-msgstr ""
+msgstr "Маркирайте като ненуждаещо се от преглед"
 
 #: src/Form/RecordBatchForm.php:30
 msgid "Needs work action"
-msgstr ""
+msgstr "Нуждае се от действие"
 
 #: src/Form/RecordBatchForm.php:33
 msgid "Mark as needs work"
-msgstr ""
+msgstr "Маркирайте като нуждаещо се от работа"
 
 #: src/Form/RecordBatchForm.php:34
 msgid "Mark as does not need work"
-msgstr ""
+msgstr "Моаркирайте като ненуждаещо се от работа"
 
 #: src/Form/RecordBatchForm.php:73
 msgid "Is missing action"
-msgstr ""
+msgstr "Липсва действие"
 
 #: src/Form/RecordBatchForm.php:76
 msgid "Mark as missing"
-msgstr ""
+msgstr "Маркирайте като липсващо"
 
 #: src/Form/RecordBatchForm.php:77
 msgid "Mark as not missing"
-msgstr ""
+msgstr "Маркирайте като нелипсващо"
 
 #: src/Form/RecordBatchForm.php:89
 msgid "Is illegible action"
-msgstr ""
+msgstr "Е нечетливо действие"
 
 #: src/Form/RecordBatchForm.php:92
 msgid "Mark as illegible"
-msgstr ""
+msgstr "Маркирайте като нечетлив"
 
 #: src/Form/RecordBatchForm.php:93
 msgid "Mark as not illegible"
-msgstr ""
+msgstr "Маркирайте като не нечетлив"
 
 #: config/module.config.php:29
 msgid "Disable focus mode"
-msgstr ""
+msgstr "Деактивирайте режима на фокусиране"
 
 #: config/module.config.php:31
 msgid "Disable fast entry mode"
-msgstr ""
+msgstr "Деактивирайте режима за бързо влизане"

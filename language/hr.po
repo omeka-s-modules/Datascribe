@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pols12 <poltron54@gmail.com>, 2020
-# Judith Hannoun <judith.hannoun@gmail.com>, 2020
+# Angela-Marina Batarelo <angela-marina.batarelo@ericsson.com>, 2021
+# Josip Ilic <josip.ilic@ericsson.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +14,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 11:59-0500\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
-"Last-Translator: Judith Hannoun <judith.hannoun@gmail.com>, 2020\n"
-"Language-Team: French (https://app.transifex.com/omeka/teams/14184/fr/)\n"
+"Last-Translator: Josip Ilic <josip.ilic@ericsson.com>, 2021\n"
+"Language-Team: Croatian (https://app.transifex.com/omeka/teams/14184/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:154
 #, php-format
 msgid "Record #%s: %s"
-msgstr "Enregistrement %s : %s"
+msgstr "Zapis #%s: %s"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:159
 #, php-format
 msgid "Record #%s"
-msgstr "Enregistrement %s"
+msgstr "Zapis #%s"
 
 #: src/Controller/Admin/DatasetController.php:188
 msgid "See this job for sync progress."
-msgstr "Consultez la tâche pour la progression de la synchronisation."
+msgstr "Pogledaj ovaj posao za napredak sinkronizacije. "
 
 #: src/Controller/Admin/DatasetController.php:212
 msgid "See this job for validate progress."
-msgstr "Consultez la tâche pour la progression de la validation."
+msgstr "Pogledaj ovaj posao za napredak validacije."
 
 #: src/Controller/Admin/DatasetController.php:236
 msgid "See this job for export progress."
-msgstr "Consultez la tâche pour la progression de l’exportation."
+msgstr "Pogledaj ovaj posao za napredak izvoza."
 
 #: src/Controller/Admin/ItemController.php:42
 msgid "Set an item set here."
-msgstr "Indiquez une collection ici."
+msgstr "Postavi set predmeta ovdje."
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
@@ -62,7 +62,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
-msgstr "Nouveau champ"
+msgstr "Novo polje"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
@@ -74,58 +74,58 @@ msgstr "Nouveau champ"
 #: view/datascribe/admin/item/browse.phtml:6
 #: view/datascribe/admin/item/search.phtml:8
 msgid "DataScribe: Dataset"
-msgstr "DataScribe : jeu de données"
+msgstr "DataScribe: Skup Podataka"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 msgid "Batch edit all records"
-msgstr "Modifier ensemble tous les enregistrements"
+msgstr "Skupno uredi sve zapise"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:23
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:25
 #: view/datascribe/admin/record/batch-edit-all.phtml:23
 #: view/datascribe/admin/record/batch-edit.phtml:25
 msgid "Affected records"
-msgstr "Enregistrements affectés"
+msgstr "Pogođeni zapisi"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:24
 #: view/datascribe/admin/record/batch-edit-all.phtml:24
 #, php-format
 msgid "You are editing %s records"
-msgstr "Vous êtes en train de modifier %s enregistrements"
+msgstr "Uređujete %s zapisa"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
 msgid "Batch edit records"
-msgstr "Modifier ensemble les enregistrements"
+msgstr "Skupno uredi zapise"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:26
 #: view/datascribe/admin/record/batch-edit.phtml:26
 #, php-format
 msgid "You are editing the following %s records"
-msgstr "Vous allez modifier les %s enregistrements suivants"
+msgstr "Uređujete sljedećih %s zapisa: "
 
 #: view/datascribe/admin/dataset-record/browse.phtml:9
 #: view/datascribe/admin/record/browse.phtml:9
 msgid "Records that need review"
-msgstr "Enregistrements qui doivent être révisés"
+msgstr "Zapisi kojima je potreban pregled"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:13
 #: view/datascribe/admin/record/browse.phtml:13
 msgid "Records that need work"
-msgstr "Enregistrements qui doivent être retravaillés"
+msgstr "Zapisi na kojima je potrebno raditi"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:17
 #: view/datascribe/admin/record/browse.phtml:17
 msgid "Records with values marked as invalid"
-msgstr "Enregistrements ayant des valeurs marquées comme invalides"
+msgstr "Zapisi s vrijednostima koje su označene kao neispravne"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:27
 #: view/datascribe/admin/item/browse.phtml:30
 #: view/datascribe/admin/item/browse.phtml:143
 #: view/datascribe/admin/item/show-details.phtml:3
 msgid "Item #"
-msgstr "Contenu "
+msgstr "Predmet #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:31
 #: view/datascribe/admin/dataset-record/browse.phtml:107
@@ -134,44 +134,44 @@ msgstr "Contenu "
 #: view/datascribe/admin/record/previous-next-records.phtml:10
 #: view/datascribe/admin/record/show-details.phtml:3
 msgid "Record #"
-msgstr "Enregistrement "
+msgstr "Zapis #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:35
 #: view/datascribe/admin/record/browse.phtml:31
 msgid "Record created"
-msgstr "Enregistrement créé"
+msgstr "Zapis je stvoren"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:47
 #: view/datascribe/admin/record/browse.phtml:43
 msgid "Records"
-msgstr "Enregistrements"
+msgstr "Zapisi"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:50
 msgid "Browse items"
-msgstr "Parcourir les contenus"
+msgstr "Pretraži predmete"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:52
 #: view/datascribe/admin/item/browse.phtml:11
 msgid "Edit dataset"
-msgstr "Modifier le jeu de données"
+msgstr "Uredi skup podataka"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:56
 #: view/datascribe/admin/dataset/form-sidebars.phtml:3
 #: view/datascribe/admin/item/browse.phtml:15
 msgid "Sync dataset"
-msgstr "Synchroniser le jeu de données"
+msgstr "Sinkroniziraj skup podataka"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:57
 #: view/datascribe/admin/dataset/form-sidebars.phtml:14
 #: view/datascribe/admin/item/browse.phtml:16
 msgid "Validate dataset"
-msgstr "Valider le jeu de données"
+msgstr "Validiraj skup podataka"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:58
 #: view/datascribe/admin/dataset/form-sidebars.phtml:21
 #: view/datascribe/admin/item/browse.phtml:17
 msgid "Export dataset"
-msgstr "Exporter le jeu de données"
+msgstr "Izvezi skup podataka"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:59
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
@@ -182,27 +182,27 @@ msgstr ""
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
 msgid "Select records"
-msgstr "Choisissez les enregistrements"
+msgstr "Izaberi zapise"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:136
 #: view/datascribe/admin/item/browse.phtml:159
 #: view/datascribe/admin/record/browse.phtml:118
 msgid "Has invalid values"
-msgstr "A des valeurs invalides"
+msgstr "Ima neispravne vrijednosti"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:137
 #: view/datascribe/admin/record/browse.phtml:119
 #: view/datascribe/admin/record/form.phtml:128
 #: view/datascribe/admin/record/show-details.phtml:47
 msgid "Needs review"
-msgstr "Doit être révisé"
+msgstr "Treba pregled"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:138
 #: view/datascribe/admin/record/browse.phtml:120
 #: view/datascribe/admin/record/form.phtml:134
 #: view/datascribe/admin/record/show-details.phtml:51
 msgid "Needs work"
-msgstr "Doit être retravaillé"
+msgstr "Treba raditi na tome"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
@@ -218,7 +218,7 @@ msgstr ""
 #: view/datascribe/admin/record/show.phtml:15
 #: view/datascribe/admin/record/show.phtml:26
 msgid "unknown"
-msgstr "inconnu"
+msgstr "nepoznato"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:166
 #: view/datascribe/admin/dataset-record/browse.phtml:173
@@ -230,7 +230,7 @@ msgstr "inconnu"
 #: view/datascribe/admin/record/show.phtml:17
 #: view/datascribe/admin/record/show.phtml:23
 msgid "invalid"
-msgstr "invalide"
+msgstr "neispravno"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:168
 #: view/datascribe/admin/dataset-record/browse.phtml:175
@@ -242,7 +242,7 @@ msgstr "invalide"
 #: view/datascribe/admin/record/show.phtml:19
 #: view/datascribe/admin/record/show.phtml:25
 msgid "null"
-msgstr "nulle"
+msgstr "nula"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:174
 #: view/datascribe/admin/record/browse.phtml:158
@@ -250,121 +250,121 @@ msgstr "nulle"
 #: view/datascribe/admin/record/show-details.phtml:14
 #: view/datascribe/admin/record/show.phtml:24
 msgid "empty"
-msgstr "vide"
+msgstr "prazno"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:194
 #: view/datascribe/admin/record/browse.phtml:178
 msgid "No records found."
-msgstr "Aucun enregistrement trouvé."
+msgstr "Nema pronađenih zapisa."
 
 #: view/datascribe/admin/dataset-record/search.phtml:7
 msgid "Record search"
-msgstr "Recherche d’enregistrements"
+msgstr "Pretraživanje zapisa"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 #: view/datascribe/admin/dataset/browse.phtml:5
 #: view/datascribe/admin/project/edit.phtml:7
 msgid "DataScribe: Project"
-msgstr "DataScribe : projet"
+msgstr "DataScribe: Projekt"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 msgid "New dataset"
-msgstr "Nouveau jeu de données"
+msgstr "Novi skup podataka"
 
 #: view/datascribe/admin/dataset/browse.phtml:5
 msgid "Datasets"
-msgstr "Jeux de données"
+msgstr "Skupovi podataka"
 
 #: view/datascribe/admin/dataset/browse.phtml:9
 msgid "Edit project"
-msgstr "Modifier le projet"
+msgstr "Uredi projekt"
 
 #: view/datascribe/admin/dataset/browse.phtml:10
 msgid "Add new dataset"
-msgstr "Ajouter un nouveau jeu de données"
+msgstr "Dodaj novi skup podataka"
 
 #: view/datascribe/admin/dataset/browse.phtml:20
 #: view/datascribe/admin/project/browse.phtml:21
 msgid "Date created"
-msgstr "Date de création"
+msgstr "Stvoreno datuma"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
 #: view/datascribe/admin/index/index.phtml:145
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
-msgstr "Créé par"
+msgstr "Stvorio"
 
 #: view/datascribe/admin/dataset/browse.phtml:83
 #, php-format
 msgid "No datasets found for this project. %s"
-msgstr "Aucun jeu de données trouvé pour ce projet. %s"
+msgstr "Nema pronađenih skupova podataka za ovaj projekt. %s"
 
 #: view/datascribe/admin/dataset/browse.phtml:84
 msgid "Add a new dataset."
-msgstr "Ajouter un nouveau jeu de données."
+msgstr "Dodaj novi skup podataka."
 
 #: view/datascribe/admin/dataset/browse.phtml:87
 msgid "No datasets found for this project."
-msgstr "Aucun jeu de données trouvé pour ce projet."
+msgstr "Nema pronađenih skupova podataka za ovaj projekt."
 
 #: view/datascribe/admin/dataset/edit.phtml:32
 #: view/datascribe/admin/record/form.phtml:52
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "Spremi i &hellip;"
 
 #: view/datascribe/admin/dataset/edit.phtml:34
 msgid "Return to dataset items"
-msgstr ""
+msgstr "Vrati se predmetima skupa podataka"
 
 #: view/datascribe/admin/dataset/edit.phtml:35
 msgid "Continue editing dataset"
-msgstr ""
+msgstr "Nastavi uređivati skup podataka"
 
 #: view/datascribe/admin/dataset/edit.phtml:42
 msgid "Form Builder"
-msgstr "Constructeur de formulaire"
+msgstr "Graditelj Obrasca "
 
 #: view/datascribe/admin/dataset/edit.phtml:58
 #: view/datascribe/admin/record/form.phtml:104
 msgid "Back to top"
-msgstr ""
+msgstr "Povratak na vrh"
 
 #: view/datascribe/admin/dataset/edit.phtml:62
 msgid "Add a field to the form"
-msgstr "Ajouter un champ au formulaire"
+msgstr "Dodaj polje u obrazac"
 
 #: view/datascribe/admin/dataset/edit.phtml:64
 #: view/datascribe/admin/record/form.phtml:123
 #, php-format
 msgid "Last saved: %s on %s"
-msgstr "Dernière sauvegarde : %s le %s"
+msgstr "Zadnji put spremljeno: %s %s"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:1
 msgid "Drag to change order"
-msgstr ""
+msgstr "Povuci za promjenu redosljeda"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:3
 msgid "Move Up"
-msgstr "Remonter"
+msgstr "Pomakni Gore"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:4
 msgid "Move Down"
-msgstr "Descendre"
+msgstr "Pomakni Dolje"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:6
 msgid "Undo"
-msgstr "Annuler"
+msgstr "Poništi"
 
 #: view/datascribe/admin/dataset/form-builder-flags.phtml:2
 msgid "Primary field"
-msgstr ""
+msgstr "Primarno polje"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:5
 msgid "This dataset has no item set. Set an item set to enable syncing."
 msgstr ""
-"Ce jeu de données n’a aucune collection. Définissez une collection pour "
-"activer la synchronisation."
+"Ovaj skup podatak nema zbirku. Postavite zbirku da bi se omogućila "
+"sinkronizacija."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:7
 msgid ""
@@ -372,18 +372,18 @@ msgid ""
 "this dataset will contain every item in the item set. You should synchronize"
 " periodically, any time items are added or removed from the item set."
 msgstr ""
-"Synchroniser le jeu de données avec la collection configurée. Une fois "
-"synchronisé, le jeu de données contiendra tous les contenus de la "
-"collection. Vous devriez synchroniser périodiquement, à chaque fois que des "
-"contenus sont ajoutés ou retirés de la collection."
+"Sinkronizirajte ovaj skup podataka s konfiguriranim skupom stavki. Jednom "
+"sinkroniziran, ovaj skup podataka sadržavat će sve stavke u skupu stavki. "
+"Trebali biste se povremeno sinkronizirati svaki put kad se stavke dodaju ili"
+" uklone iz skupa stavki."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:8
 msgid ""
 "Warning: items that have been removed from the configured item set since the"
 " last sync will be deleted from this dataset."
 msgstr ""
-"Attention : les contenus qui ont été retirées de la collection configurée "
-"depuis la dernière synchronisation seront supprimés de ce jeu de données."
+"Upozorenje: stavke koje su uklonjene iz konfiguriranog skupa stavki od "
+"posljednje sinkronizacije bit će izbrisane iz ovog skupa podataka."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:15
 msgid ""
@@ -392,6 +392,11 @@ msgid ""
 "validate periodically, after fields are added to the form, after field "
 "validation rules change, and before exporting the dataset."
 msgstr ""
+"Potvrdite ovaj skup podataka prema pravilima koja su trenutno postavljena u "
+"alatu za izradu obrazaca. Jednom provjerene, nevaljane vrijednosti označit "
+"će se kao nevaljane. Trebali biste provjeravati povremeno, nakon dodavanja "
+"polja u obrazac, nakon promjene pravila za provjeru valjanosti polja i prije"
+" izvoza skupa podataka."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:22
 msgid ""
@@ -399,10 +404,9 @@ msgid ""
 "records from approved items, and that invalid values will be null. This will"
 " overwrite an existing export file."
 msgstr ""
-"Exporte ce jeu de données dans un fichier CSV. Notez que le fichier ne "
-"contiendra que des enregistrements issus de contenus approuvés, et que les "
-"valeurs non valides seront nulles. Cela écrasera un fichier d'exportation "
-"déjà existant."
+"Izvezi ovaj skup podataka u CSV datoteku. Imajte na umu da će datoteka "
+"sadržavati samo zapise od odobrenih predmeta, i da će neispravne vrijednosti"
+" biti nula. Ovo će prepisati postojeću izvoznu datoteku. "
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
@@ -410,59 +414,59 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
-msgstr "Métadonnées du jeu de données"
+msgstr "Metapodaci skupa podataka"
 
 #: view/datascribe/admin/dataset/show-details.phtml:13
 #: view/datascribe/admin/project/show-details.phtml:9
 msgid "[No description]"
-msgstr "[aucune description]"
+msgstr "[Nema opisa]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:25
 msgid "Not set"
-msgstr ""
+msgstr "Nije postavljeno"
 
 #: view/datascribe/admin/dataset/show-details.phtml:35
 #: view/datascribe/admin/project/show-details.phtml:19
 #: view/datascribe/admin/record/show-details.phtml:24
 #, php-format
 msgid "%s by %s"
-msgstr "%s par %s"
+msgstr "%s po %s"
 
 #: view/datascribe/admin/dataset/show-details.phtml:41
 #: view/datascribe/admin/project/show-details.phtml:25
 #: view/datascribe/admin/record/show-details.phtml:30
 msgid "Last modified"
-msgstr "Dernière modification"
+msgstr "Zadnji put promijenjeno"
 
 #: view/datascribe/admin/dataset/show-details.phtml:54
 #: view/datascribe/admin/project/show-details.phtml:38
 #: view/datascribe/admin/record/show-details.phtml:43
 msgid "[Not modified]"
-msgstr "[Non modifié]"
+msgstr "[Nije promijenjeno]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:58
 msgid "Last synced"
-msgstr "Dernière synchronisation"
+msgstr "Zadnji put sinkronizirano"
 
 #: view/datascribe/admin/dataset/show-details.phtml:71
 msgid "[Not synced]"
-msgstr "[Non synchronisé]"
+msgstr "[Nije sinkronizirano]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:75
 msgid "Last validated"
-msgstr ""
+msgstr "Zadnji put validirano "
 
 #: view/datascribe/admin/dataset/show-details.phtml:88
 msgid "[Not validated]"
-msgstr ""
+msgstr "[Nije validirano]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:92
 msgid "Last exported"
-msgstr "Dernier export"
+msgstr "Zadnji put izvezeno "
 
 #: view/datascribe/admin/dataset/show-details.phtml:105
 msgid "[Not exported]"
-msgstr "[Non exporté]"
+msgstr "[Nije izvezeno]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
@@ -486,44 +490,44 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Upravljačka ploča"
 
 #: view/datascribe/admin/index/index.phtml:5
 #: view/datascribe/admin/project/add.phtml:7
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "DataScribe"
-msgstr ""
+msgstr "DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:8
 msgid "Browse projects"
-msgstr ""
+msgstr "Pretraži projekte"
 
 #: view/datascribe/admin/index/index.phtml:9
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
-msgstr ""
+msgstr "Dodaj novi projekt"
 
 #: view/datascribe/admin/index/index.phtml:12
 msgid "Welcome to DataScribe."
-msgstr ""
+msgstr "Dobrodošli u DataScribe."
 
 #: view/datascribe/admin/index/index.phtml:15
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "Moji projekti"
 
 #: view/datascribe/admin/index/index.phtml:25
 msgid "Unlocked items"
-msgstr ""
+msgstr "Otključani predmeti"
 
 #: view/datascribe/admin/index/index.phtml:28
 #: view/datascribe/admin/index/index.phtml:53
 msgid "New"
-msgstr "Nouveau"
+msgstr "Novo"
 
 #: view/datascribe/admin/index/index.phtml:39
 #: view/datascribe/admin/index/index.phtml:64
 msgid "In progress"
-msgstr "En cours"
+msgstr "U tijeku"
 
 #: view/datascribe/admin/index/index.phtml:50
 #: view/datascribe/admin/item/browse.phtml:79
@@ -532,19 +536,19 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:75
 msgid "Not approved"
-msgstr "Non approuvé"
+msgstr "Nije odobreno"
 
 #: view/datascribe/admin/index/index.phtml:87
 msgid "Items needing review"
-msgstr ""
+msgstr "Predmeti kojima je potreban pregled"
 
 #: view/datascribe/admin/index/index.phtml:101
 msgid "Needs my re-review"
-msgstr ""
+msgstr "Treba moj ponovni pregled"
 
 #: view/datascribe/admin/index/index.phtml:112
 msgid "Records needing review"
-msgstr ""
+msgstr "Zapisi kojima je potreban pregled"
 
 #: view/datascribe/admin/index/index.phtml:134
 msgid "You do not own or belong to any projects."
@@ -552,45 +556,45 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:140
 msgid "All projects"
-msgstr ""
+msgstr "Svi projekti"
 
 #: view/datascribe/admin/index/index.phtml:165
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
-msgstr ""
+msgstr "Nema pronađenih projekata"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:5
 msgid "Batch edit all items"
-msgstr ""
+msgstr "Skupno uredi sve predmete"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:23
 #, php-format
 msgid "You are editing %s items"
-msgstr ""
+msgstr "Uređujete %s predmeta"
 
 #: view/datascribe/admin/item/batch-edit.phtml:25
 #, php-format
 msgid "You are editing the following %s items"
-msgstr ""
+msgstr "Uređujete sljedećih %s predmeta"
 
 #: view/datascribe/admin/item/browse.phtml:9
 msgid "Browse records"
-msgstr ""
+msgstr "Pretraži zapise"
 
 #: view/datascribe/admin/item/browse.phtml:34
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Prioritized"
-msgstr ""
+msgstr "Prioritetno"
 
 #: view/datascribe/admin/item/browse.phtml:38
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Submitted"
-msgstr ""
+msgstr "Predano"
 
 #: view/datascribe/admin/item/browse.phtml:42
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Reviewed"
-msgstr ""
+msgstr "Pregledano"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
@@ -598,19 +602,19 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
-msgstr ""
+msgstr "Svi predmeti kojima je potreban pregled"
 
 #: view/datascribe/admin/item/browse.phtml:69
 msgid "All items that need initial review"
-msgstr ""
+msgstr "Svi predmeti kojima je potreban početni pregled"
 
 #: view/datascribe/admin/item/browse.phtml:70
 msgid "All items that need re-review"
-msgstr ""
+msgstr "Svi predmeti kojima je potreban ponovni pregled"
 
 #: view/datascribe/admin/item/browse.phtml:71
 msgid "Items with values marked as invalid"
-msgstr ""
+msgstr "Predmeti s vrijednostima koje su označene kao neispravne."
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
@@ -618,35 +622,35 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
-msgstr ""
+msgstr "Predmeti koje sam pregledao kojima je bio potreban ponovni pregled"
 
 #: view/datascribe/admin/item/browse.phtml:75
 msgid "Items I reviewed that are not approved"
-msgstr ""
+msgstr "Predmeti koje sam pregledao koji nisu odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:76
 msgid "Items I reviewed that are approved"
-msgstr ""
+msgstr "Predmeti koje sam pregledao koji su odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:80
 msgid "My new items"
-msgstr ""
+msgstr "Moji novi predmeti"
 
 #: view/datascribe/admin/item/browse.phtml:81
 msgid "My in progress items"
-msgstr ""
+msgstr "Moje stavke u tijeku"
 
 #: view/datascribe/admin/item/browse.phtml:82
 msgid "My items that need review"
-msgstr ""
+msgstr "Moji predmeti kojima je potreban pregled"
 
 #: view/datascribe/admin/item/browse.phtml:83
 msgid "My items that are not approved"
-msgstr ""
+msgstr "Moji predmeti koji nisu odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:84
 msgid "My items that are approved"
-msgstr ""
+msgstr "Moji predmeti koji su odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
@@ -658,93 +662,95 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
-msgstr ""
+msgstr "Svi otključani i novi predmeti"
 
 #: view/datascribe/admin/item/browse.phtml:89
 msgid "All unlocked and in progress items"
-msgstr ""
+msgstr "Sve otključane stavke i stavke u tijeku"
 
 #: view/datascribe/admin/item/browse.phtml:91
 msgid "All items that are not approved"
-msgstr ""
+msgstr "Svi predmeti koji nisu odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:92
 msgid "All items that are approved"
-msgstr ""
+msgstr "Svi predmeti koji su odobreni"
 
 #: view/datascribe/admin/item/browse.phtml:146
 #: view/datascribe/admin/item/show-details.phtml:31
 msgid "Last submitted"
-msgstr ""
+msgstr "Zadnji put predano"
 
 #: view/datascribe/admin/item/browse.phtml:147
 #: view/datascribe/admin/item/show-details.phtml:48
 msgid "Last reviewed"
-msgstr ""
+msgstr "Zadnji put pregledeno"
 
 #: view/datascribe/admin/item/browse.phtml:148
 msgid "Review status"
-msgstr ""
+msgstr "Status provjere"
 
 #: view/datascribe/admin/item/browse.phtml:156
 msgid "Select items"
-msgstr ""
+msgstr "Odaberi predmete"
 
 #: view/datascribe/admin/item/browse.phtml:194
 #, php-format
 msgid "No items found. %s"
-msgstr ""
+msgstr "Nema pronađenih predmeta. %s"
 
 #: view/datascribe/admin/item/browse.phtml:195
 msgid "Sync this dataset."
-msgstr ""
+msgstr "Sinkroniziraj ovaj skup podataka."
 
 #: view/datascribe/admin/item/browse.phtml:198
 msgid ""
 "If you have recently synced, the sync job likely has not finished<br>and/or "
 "you need to refresh this page."
 msgstr ""
+"Ako ste nedavno sinkronizirali, zadatak sinkronizacije vjerojatno nije "
+"završen1 i / ili trebate osvježiti ovu stranicu"
 
 #: view/datascribe/admin/item/browse.phtml:201
 msgid "No items found."
-msgstr ""
+msgstr "nije pronađen nijedan predmet"
 
 #: view/datascribe/admin/item/search.phtml:16
 #: view/datascribe/admin/item/show-details.phtml:7
 msgid "DataScribe item"
-msgstr ""
+msgstr "Stavka DataScribe"
 
 #: view/datascribe/admin/item/search.phtml:18
 #: view/datascribe/admin/item/show-details.phtml:11
 msgid "Omeka item"
-msgstr ""
+msgstr "Omeka predmet"
 
 #: view/datascribe/admin/item/show-details.phtml:1
 msgid "Item metadata"
-msgstr ""
+msgstr "Metapodaci o stavci"
 
 #: view/datascribe/admin/item/show-details.phtml:27
 msgid "Record count"
-msgstr ""
+msgstr "Broj zapisa"
 
 #: view/datascribe/admin/item/show-details.phtml:44
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Not submitted"
-msgstr ""
+msgstr "Nije poslano"
 
 #: view/datascribe/admin/item/show-details.phtml:61
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Not reviewed"
-msgstr ""
+msgstr "Nije pregledano"
 
 #: view/datascribe/admin/item/show-details.phtml:65
 msgid "Last locked"
-msgstr ""
+msgstr "Zadnji put zaključano"
 
 #: view/datascribe/admin/item/show-details.phtml:78
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Unlocked"
-msgstr ""
+msgstr "Otključan"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
@@ -756,37 +762,37 @@ msgstr ""
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
-msgstr ""
+msgstr "Novi projekt"
 
 #: view/datascribe/admin/project/add.phtml:10
 #: view/datascribe/admin/project/edit.phtml:10
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguriracija "
 
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "Projects"
-msgstr ""
+msgstr "Projekti"
 
 #: view/datascribe/admin/project/browse.phtml:88
 #, php-format
 msgid "No projects found. %s"
-msgstr ""
+msgstr "Niti jedan projekt nije pronađen. %s"
 
 #: view/datascribe/admin/project/browse.phtml:89
 msgid "Add a new project."
-msgstr ""
+msgstr "Dodajte novi projekt."
 
 #: view/datascribe/admin/project/show-details.phtml:1
 msgid "Project metadata"
-msgstr ""
+msgstr "Metapodaci projekta"
 
 #: view/datascribe/admin/project/users-form.phtml:13
 msgid "Click on a user to add them to the project."
-msgstr ""
+msgstr "Kliknite na korisnika da biste ih dodali na projekt."
 
 #: view/datascribe/admin/project/users-form.phtml:18
 msgid "Transcriber"
-msgstr ""
+msgstr "Prepisivač"
 
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
@@ -795,6 +801,14 @@ msgstr ""
 #: view/datascribe/admin/record/search.phtml:7
 msgid "DataScribe: Item"
 msgstr ""
+"DataScribe: Stavka\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
@@ -802,59 +816,75 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
-msgstr ""
+msgstr "Dodaj novi zapis"
 
 #: view/datascribe/admin/record/browse.phtml:196
 msgid "Item actions"
-msgstr ""
+msgstr "Akcije stavke"
 
 #: view/datascribe/admin/record/browse.phtml:199
 msgid "Item status:"
-msgstr ""
+msgstr "Status stavke"
 
 #: view/datascribe/admin/record/browse.phtml:206
 msgid "Lock status:"
 msgstr ""
+"Status zaključavanja:\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Locked"
-msgstr ""
+msgstr "Zaključano"
 
 #: view/datascribe/admin/record/browse.phtml:213
 #, php-format
 msgid "Last locked to %s on %s"
-msgstr ""
+msgstr "Zadnji put zaključao %s %s"
 
 #: view/datascribe/admin/record/browse.phtml:226
 msgid "Submission status:"
-msgstr ""
+msgstr "Status prijave:"
 
 #: view/datascribe/admin/record/browse.phtml:233
 #, php-format
 msgid "Last submitted by %s on %s"
-msgstr ""
+msgstr "Zadnji put predao %s %s"
 
 #: view/datascribe/admin/record/browse.phtml:246
 msgid "Review status:"
-msgstr ""
+msgstr "Status pregleda:"
 
 #: view/datascribe/admin/record/browse.phtml:253
 #, php-format
 msgid "Last reviewed by %s on %s"
-msgstr ""
+msgstr "Zadnji put pregledao %s %s."
 
 #: view/datascribe/admin/record/browse.phtml:266
 msgid "Priority status:"
-msgstr ""
+msgstr "Status prioriteta:"
 
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Not prioritized"
 msgstr ""
+"Nije prioritet\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: view/datascribe/admin/record/browse.phtml:273
 #, php-format
 msgid "Last prioritized by %s on %s"
-msgstr ""
+msgstr "Zadnji put prioritizirao %s %s"
 
 #: view/datascribe/admin/record/browse.phtml:285
 #: view/datascribe/admin/record/form.phtml:149
@@ -871,11 +901,11 @@ msgstr ""
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
 msgid "Delete records"
-msgstr ""
+msgstr "Izbriši zapise"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:6
 msgid "Are you sure you would like to delete the selected records?"
-msgstr ""
+msgstr "Jeste li sigurni da biste htjeli izbrisati odabrane zapise?"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:8
 #: view/datascribe/admin/record/form-sidebars.phtml:24
@@ -883,21 +913,24 @@ msgstr ""
 msgid ""
 "%1$s: this action will permanently delete %2$s records and cannot be undone."
 msgstr ""
+"%1$s: ova akcija će trajno izbrisati %2$s zapisa i ne može se poništiti."
 
 #: view/datascribe/admin/record/form-sidebars.phtml:22
 msgid ""
 "Are you sure you would like to delete all records on all pages of this "
 "result?"
 msgstr ""
+"Jeste li sigurni da biste htjeli izbrisati sve zapise na svim stranicama "
+"ovog rezultata?"
 
 #: view/datascribe/admin/record/form.phtml:13
 msgid "New record"
-msgstr ""
+msgstr "Novi zapis"
 
 #: view/datascribe/admin/record/form.phtml:15
 #: view/datascribe/admin/record/show.phtml:6
 msgid "DataScribe: Record"
-msgstr ""
+msgstr "DataScribe: Zapis"
 
 #: view/datascribe/admin/record/form.phtml:20
 msgid ""
@@ -907,96 +940,109 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
-msgstr ""
+msgstr "Prethodni zapisi"
 
 #: view/datascribe/admin/record/form.phtml:27
 msgid "Enable focus mode"
-msgstr ""
+msgstr "Omogući način fokusiranja"
 
 #: view/datascribe/admin/record/form.phtml:28
 msgid "Enable fast entry mode"
-msgstr ""
+msgstr "Omogućite način brzog ulaska"
 
 #: view/datascribe/admin/record/form.phtml:31
 msgid "Horizontal view"
-msgstr ""
+msgstr "Vodoravni pogled"
 
 #: view/datascribe/admin/record/form.phtml:32
 msgid "Vertical view"
-msgstr ""
+msgstr "Vertikalni pogled"
 
 #: view/datascribe/admin/record/form.phtml:35
 msgid "Guidelines"
 msgstr ""
+"Smjernice\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: view/datascribe/admin/record/form.phtml:55
 msgid "Add another "
-msgstr ""
+msgstr "Dodajte još jedan"
 
 #: view/datascribe/admin/record/form.phtml:57
 msgid "Return to records"
-msgstr ""
+msgstr "Vrati se zapisima"
 
 #: view/datascribe/admin/record/form.phtml:58
 msgid "Stay on this record"
-msgstr ""
+msgstr "Ostani na ovom zapisu"
 
 #: view/datascribe/admin/record/form.phtml:80
 msgid "This field's data type is unknown. The value cannot be added."
-msgstr ""
+msgstr "Vrsta podataka ovog polja je nepoznata. Vrijednost se ne može dodati."
 
 #: view/datascribe/admin/record/form.phtml:84
 msgid "This field's data type is unknown. The value cannot be edited."
 msgstr ""
+"Vrsta podataka ovog polja je nepoznata. Vrijednost se ne može uređivati."
 
 #: view/datascribe/admin/record/form.phtml:86
 msgid ""
 "This value is invalid. Please correct it below and save this form to update."
 msgstr ""
+"This value is invalid. Please correct it below and save this form to update."
 
 #: view/datascribe/admin/record/form.phtml:88
 msgid ""
 "This value is marked as invalid but does not appear to be invalid. Either "
 "re-validate the dataset or save this form as-is."
 msgstr ""
+"Ova je vrijednost označena kao nevaljana, ali ne čini se nevaljanom. Ili "
+"ponovno provjerite valjanost skupa podataka ili spremite ovaj obrazac kakav "
+"jest"
 
 #: view/datascribe/admin/record/form.phtml:98
 msgid "Is missing"
-msgstr ""
+msgstr "Nedostaje"
 
 #: view/datascribe/admin/record/form.phtml:99
 msgid "Is illegible"
-msgstr ""
+msgstr "Nečitko je"
 
 #: view/datascribe/admin/record/form.phtml:100
 msgid "Reset value"
-msgstr ""
+msgstr "Poništi vrijednost"
 
 #: view/datascribe/admin/record/form.phtml:109
 #, php-format
 msgid "This dataset has no form. %s"
-msgstr ""
+msgstr "Ovaj skup podataka nema oblik %s"
 
 #: view/datascribe/admin/record/form.phtml:110
 msgid "Build the form."
-msgstr ""
+msgstr "Izradite obrazac."
 
 #: view/datascribe/admin/record/form.phtml:113
 msgid "This dataset has no form."
-msgstr ""
+msgstr "Ovaj skup podataka nema oblik."
 
 #: view/datascribe/admin/record/form.phtml:119
 msgid "Record actions"
-msgstr ""
+msgstr "Snimite radnje"
 
 #: view/datascribe/admin/record/form.phtml:166
 msgid "Next records"
-msgstr ""
+msgstr "Sljedeći zapisi"
 
 #: view/datascribe/admin/record/media-viewer.phtml:25
 #, php-format
 msgid "%s. %s"
-msgstr ""
+msgstr "%s. %s"
 
 #: view/datascribe/admin/record/media-viewer.phtml:32
 msgid "Previous media"
@@ -1008,331 +1054,358 @@ msgstr ""
 
 #: view/datascribe/admin/record/media-viewer.phtml:37
 msgid "Zoom in"
-msgstr ""
+msgstr "Uvećaj"
 
 #: view/datascribe/admin/record/media-viewer.phtml:38
 msgid "Zoom out"
-msgstr ""
+msgstr "Umanji"
 
 #: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Rotate left"
-msgstr ""
+msgstr "Zakreni ulijevo"
 
 #: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Rotate right"
-msgstr ""
+msgstr "Zakreni udesno"
 
 #: view/datascribe/admin/record/show-details.phtml:1
 msgid "Record metadata"
-msgstr ""
+msgstr "Metapodaci o zapisu"
 
 #: view/datascribe/admin/record/show-details.phtml:7
 msgid "Primary value"
-msgstr ""
+msgstr "Primarna vrijednost"
 
 #: src/DatascribeDataType/Textarea.php:13
 msgid "Textarea"
-msgstr ""
+msgstr "Područje teksta"
 
 #: src/DatascribeDataType/Textarea.php:19
 msgid "Textarea label"
-msgstr ""
+msgstr "Oznaka područja teksta"
 
 #: src/DatascribeDataType/Textarea.php:24
 msgid "Rows"
-msgstr ""
+msgstr "Redovi"
 
 #: src/DatascribeDataType/Textarea.php:30 src/DatascribeDataType/Text.php:24
 msgid "Minimum length"
-msgstr ""
+msgstr "Minimalna duljina"
 
 #: src/DatascribeDataType/Textarea.php:31 src/DatascribeDataType/Text.php:25
 msgid ""
 "The minimum number of characters long the input can be and still be "
 "considered valid."
 msgstr ""
+"Minimalni broj znakova dugih unosa može biti i još uvijek se smatra "
+"valjanim."
 
 #: src/DatascribeDataType/Textarea.php:37 src/DatascribeDataType/Text.php:31
 msgid "Maximum length"
-msgstr ""
+msgstr "Maksimalna duljina"
 
 #: src/DatascribeDataType/Textarea.php:38 src/DatascribeDataType/Text.php:32
 msgid "The maximum number of characters the input should accept."
-msgstr ""
+msgstr "Maksimalan broj znakova koje input treba prihvatiti."
 
 #: src/DatascribeDataType/Textarea.php:44 src/DatascribeDataType/Text.php:38
 #: src/DatascribeDataType/Number.php:42
 msgid "Placeholder"
-msgstr ""
+msgstr "Predložak"
 
 #: src/DatascribeDataType/Textarea.php:45 src/DatascribeDataType/Text.php:39
 #: src/DatascribeDataType/Number.php:43
 msgid "An exemplar value to display in the input field whenever it is empty."
-msgstr ""
+msgstr "Primjer vrijednosti za prikaz u polju za unos kada god je prazno."
 
 #: src/DatascribeDataType/Textarea.php:50 src/DatascribeDataType/Text.php:44
 #: src/DatascribeDataType/Number.php:48
 msgid "Regex pattern"
-msgstr ""
+msgstr "Regex uzorak"
 
 #: src/DatascribeDataType/Textarea.php:51 src/DatascribeDataType/Text.php:45
 #: src/DatascribeDataType/Number.php:49
 msgid ""
 "A regular expression the input's contents must match in order to be valid."
 msgstr ""
+"Regularni izraz kojemu sadržaji unosa moraju odgovarati da bi bili valjani."
 
 #: src/DatascribeDataType/Textarea.php:56 src/DatascribeDataType/Text.php:50
 #: src/DatascribeDataType/AbstractSelection.php:24
 #: src/DatascribeDataType/Number.php:54
 msgid "Default value"
-msgstr ""
+msgstr "Zadana vrijednost"
 
 #: src/DatascribeDataType/Unknown.php:22 src/DatascribeDataType/Unknown.php:54
 msgid "Unknown data type"
-msgstr ""
+msgstr "Nepoznata vrsta podataka"
 
 #: src/DatascribeDataType/Unknown.php:28
 msgid "Field data"
-msgstr ""
+msgstr "Podatak polja"
 
 #: src/DatascribeDataType/Unknown.php:60
 msgid "Value text"
 msgstr ""
+"Tekst vrijednosti\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/DatascribeDataType/Datetime.php:11
 msgid "DateTime"
-msgstr ""
+msgstr "DateTime"
 
 #: src/DatascribeDataType/Select.php:22 src/Form/Element/Radio.php:17
 msgid "[No selection]"
-msgstr ""
+msgstr "[Nema odabira]"
 
 #: src/DatascribeDataType/Checkbox.php:15
 msgid "Checkbox"
-msgstr ""
+msgstr "Potvrdni okvir"
 
 #: src/DatascribeDataType/Checkbox.php:21
 msgid "Checkbox label"
-msgstr ""
+msgstr "Oznaka potvrdnog okvira"
 
 #: src/DatascribeDataType/Checkbox.php:26
 msgid "Checked value"
-msgstr ""
+msgstr "Označena vrijednost"
 
 #: src/DatascribeDataType/Checkbox.php:31
 msgid "Unhecked value"
 msgstr ""
+"Neprovjerena vrijednost\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/DatascribeDataType/Checkbox.php:36
 msgid "Checked by default"
-msgstr ""
+msgstr "Označeno prema zadanim postavkama"
 
 #: src/DatascribeDataType/Checkbox.php:70
 msgid "Check"
-msgstr ""
+msgstr "Označite"
 
 #: src/DatascribeDataType/Text.php:19
 msgid "Text input label"
-msgstr ""
+msgstr "Oznaka tekstualnog unosa"
 
 #: src/DatascribeDataType/Text.php:55 src/DatascribeDataType/Number.php:59
 msgid "Datalist"
-msgstr ""
+msgstr "Popis podataka"
 
 #: src/DatascribeDataType/Text.php:56 src/DatascribeDataType/Number.php:60
 msgid "Recommended options available to choose, separated by new lines."
-msgstr ""
+msgstr "Na raspolaganju su preporučene opcije, odvojene novim linijama."
 
 #: src/DatascribeDataType/AbstractDatetime.php:42
 msgid "Minimum year"
-msgstr ""
+msgstr "Minimalna godina"
 
 #: src/DatascribeDataType/AbstractDatetime.php:54
 msgid "Maximum year"
-msgstr ""
+msgstr "Maksimalna godina"
 
 #: src/DatascribeDataType/AbstractDatetime.php:64
 msgid "Default year"
-msgstr ""
+msgstr "Zadana godina"
 
 #: src/DatascribeDataType/AbstractDatetime.php:74
 msgid "Default month"
-msgstr ""
+msgstr "Zadani mjesec"
 
 #: src/DatascribeDataType/AbstractDatetime.php:81
 msgid "Default day"
-msgstr ""
+msgstr "Zadani dan"
 
 #: src/DatascribeDataType/AbstractDatetime.php:91
 msgid "Default hour"
-msgstr ""
+msgstr "Zadani sat"
 
 #: src/DatascribeDataType/AbstractDatetime.php:98
 msgid "Default minute"
-msgstr ""
+msgstr "Zadana minuta"
 
 #: src/DatascribeDataType/AbstractDatetime.php:105
 msgid "Default second"
-msgstr ""
+msgstr "Zadana sekunda"
 
 #: src/DatascribeDataType/AbstractDatetime.php:154
 msgid "Year"
-msgstr ""
+msgstr "Godina"
 
 #: src/DatascribeDataType/AbstractDatetime.php:168
 msgid "Month"
-msgstr ""
+msgstr "Mjesec"
 
 #: src/DatascribeDataType/AbstractDatetime.php:182
 msgid "Day"
-msgstr ""
+msgstr "Dan"
 
 #: src/DatascribeDataType/AbstractDatetime.php:199
 msgid "Hour"
-msgstr ""
+msgstr "Sat"
 
 #: src/DatascribeDataType/AbstractDatetime.php:213
 msgid "Minute"
-msgstr ""
+msgstr "Minuta"
 
 #: src/DatascribeDataType/AbstractDatetime.php:227
 msgid "Second"
-msgstr ""
+msgstr "Sekunda"
 
 #: src/DatascribeDataType/Radio.php:12
 msgid "Radio"
-msgstr ""
+msgstr "Radio"
 
 #: src/DatascribeDataType/AbstractSelection.php:12
 msgid "Selection label"
-msgstr ""
+msgstr "Oznaka za odabir"
 
 #: src/DatascribeDataType/AbstractSelection.php:18
 msgid "The selection options separated by new lines."
-msgstr ""
+msgstr "Opcije odabira odvojene novim redovima."
 
 #: src/DatascribeDataType/Number.php:13 src/DatascribeDataType/Number.php:121
 msgid "Number"
-msgstr ""
+msgstr "Broj"
 
 #: src/DatascribeDataType/Number.php:19
 msgid "Number input label"
-msgstr ""
+msgstr "Oznaka za unos broja"
 
 #: src/DatascribeDataType/Number.php:24
 msgid "Minimum value"
-msgstr ""
+msgstr "Minimalna vrijednost"
 
 #: src/DatascribeDataType/Number.php:25
 msgid "The minimum value to accept for this input."
-msgstr ""
+msgstr "Minimalna vrijednost koju treba prihvatiti za ovaj input."
 
 #: src/DatascribeDataType/Number.php:30
 msgid "Maximum value"
-msgstr ""
+msgstr "Maksimalna vrijednost"
 
 #: src/DatascribeDataType/Number.php:31
 msgid "The maximum value to accept for this input."
-msgstr ""
+msgstr "Maksimalna vrijednost koju treba prihvatiti za ovaj input."
 
 #: src/DatascribeDataType/Number.php:36
 msgid "Stepping interval"
-msgstr ""
+msgstr "Interval koraka"
 
 #: src/DatascribeDataType/Number.php:37
 msgid "A number that specifies the granularity that the value must adhere to."
-msgstr ""
+msgstr "Broj koji određuje granularnost koje se vrijednost mora pridržavati"
 
 #: src/DatascribeDataType/Time.php:11
 msgid "Time"
-msgstr ""
+msgstr "Vrijeme"
 
 #: src/ViewHelper/breadcrumbs_route_map.php:35
 msgid "Record"
-msgstr ""
+msgstr "Zapis"
 
 #: src/Api/Representation/DatascribeItemRepresentation.php:243
 #: src/Form/ItemSearchForm.php:21
 msgid "Approved"
-msgstr ""
+msgstr "Prihvaćeno"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:162
 msgid "Invalid item format passed in request."
-msgstr ""
+msgstr "Unesen je neispravan format predmeta u zahtjevu."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:166
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:63
 msgid "Invalid owner format passed in request."
-msgstr ""
+msgstr "Unesen je neispravan format vlasnika u zahtjevu."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:170
 msgid "Invalid values format passed in request."
-msgstr ""
+msgstr "Unesen je neispravan format vrijednosti u zahtjevu."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:298
 msgid "Missing item."
-msgstr ""
+msgstr "Nedostajući predmet."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:305
 msgid "Invalid field. Field not in dataset."
-msgstr ""
+msgstr "Neispravno polje. Polje nije u skupu podataka."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:312
 #, php-format
 msgid "Invalid value text for field \"%s\"."
 msgstr ""
+"Nevažeći tekst vrijednosti za polje %s\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:82
 msgid "An owner must have an ID"
-msgstr ""
+msgstr "Vlasnik mora imati ID"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:149
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:201
 #, php-format
 msgid "The name \"%s\" is already taken."
-msgstr ""
+msgstr "Ime \"%s\" je zauzeto"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:154
 msgid "A project name must not be null"
-msgstr ""
+msgstr "Ime projekta ne može biti null"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:56
 msgid "Invalid project format passed in request."
-msgstr ""
+msgstr "Unesen je neispravni format projekta u zahtjevu."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:60
 msgid "Invalid item set format passed in request."
-msgstr ""
+msgstr "Unesen je neispravan format seta predmeta u zahtjevu."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:67
 msgid "Invalid fields format passed in request."
-msgstr ""
+msgstr "Nevažeći format polja proslijeđen u zahtjevu."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:206
 msgid "A dataset name must not be null"
-msgstr ""
+msgstr "Naziv skupa podataka ne smije biti null"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:209
 msgid "A project must not be null"
-msgstr ""
+msgstr "Projekt ne može biti null"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:215
 #, php-format
 msgid "Invalid field data for field \"%s\"."
-msgstr ""
+msgstr "Neispravni podaci polja za polje \"%s\"."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:36
 msgid ""
 "The DatascribeItemAdapter adapter does not implement the create operation."
-msgstr ""
+msgstr "DatascribeItemAdapter adapter ne implementira operaciju za stvaranje."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:609
 msgid "A DataScribe dataset must not be null"
-msgstr ""
+msgstr "DataScribe skup podataka ne može biti null"
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:612
 msgid "An item must not be null"
-msgstr ""
+msgstr "Predmet ne smije biti null"
 
 #: src/Controller/Admin/RecordController.php:53
 #, php-format
@@ -1346,83 +1419,92 @@ msgstr ""
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
-msgstr ""
+msgstr "Stavka je uspješno ažurirana."
 
 #: src/Controller/Admin/RecordController.php:188
 msgid "Record successfully added. Add another record below."
-msgstr ""
+msgstr "Zapis uspješno dodan. Dodajte još jedan zapis u nastavku."
 
 #: src/Controller/Admin/RecordController.php:191
 msgid "Record successfully added. Continue editing it below."
-msgstr ""
+msgstr "Zapis uspješno dodan. Nastavite ga uređivati u nastavku."
 
 #: src/Controller/Admin/RecordController.php:194
 msgid "Record successfully added."
-msgstr ""
+msgstr "Zapis uspješno dodan."
 
 #: src/Controller/Admin/RecordController.php:254
 msgid "Record successfully saved. Continue editing it below."
-msgstr ""
+msgstr "Zapis uspješno spremljen. Nastavite ga uređivati u nastavku."
 
 #: src/Controller/Admin/RecordController.php:257
 msgid "Record successfully saved."
-msgstr ""
+msgstr "Zapis uspješno spremljen."
 
 #: src/Controller/Admin/RecordController.php:311
 msgid "Record successfully deleted"
-msgstr ""
+msgstr "Zapis uspješno izbrisan"
 
 #: src/Controller/Admin/RecordController.php:351
 #: src/Controller/Admin/DatasetRecordController.php:124
 msgid "Records successfully edited."
-msgstr ""
+msgstr "Zapisi uspješno uređeni"
 
 #: src/Controller/Admin/RecordController.php:405
 #: src/Controller/Admin/DatasetRecordController.php:175
 msgid "Editing records. This may take a while."
-msgstr ""
+msgstr "Uređivanje zapisa u tijeku. Ovo bi moglo potrajati."
 
 #: src/Controller/Admin/RecordController.php:439
 #: src/Controller/Admin/DatasetRecordController.php:207
 msgid "You must select at least one record to batch delete."
 msgstr ""
+"Morate odabrati barem jedan zapis da biste mogli izvršiti skupno brisanje."
 
 #: src/Controller/Admin/RecordController.php:448
 #: src/Controller/Admin/DatasetRecordController.php:216
 msgid "Records successfully deleted"
-msgstr ""
+msgstr "Zapisi uspješno izbrisani"
 
 #: src/Controller/Admin/RecordController.php:487
 #: src/Controller/Admin/DatasetRecordController.php:254
 msgid "Deleting records. This may take a while."
-msgstr ""
+msgstr "Brisanje zapisa u tijeku. Ovo bi moglo potrajati."
 
 #: src/Controller/Admin/DatasetController.php:52
 msgid "Dataset successfully created."
-msgstr ""
+msgstr "Skup podataka uspješno je stvoren."
 
 #: src/Controller/Admin/DatasetController.php:89
 msgid "Dataset successfully edited."
-msgstr "Jeu de données édité avec succès"
+msgstr ""
+"Skup podataka uspješno uređen.\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Controller/Admin/DatasetController.php:120
 msgid "Dataset successfully deleted"
-msgstr ""
+msgstr "Skup podataka uspješno je izbrisan"
 
 #: src/Controller/Admin/DatasetController.php:184
 #, php-format
 msgid "Syncing dataset. This may take a while. %s"
-msgstr ""
+msgstr "Sinkroniziranje skupa podataka u tijeku. Ovo bi moglo potrajati. %s"
 
 #: src/Controller/Admin/DatasetController.php:208
 #, php-format
 msgid "Validating dataset. This may take a while. %s"
-msgstr ""
+msgstr "Validiranje skupa podatak u tijeku. Ovo bi moglo potrajati. %s"
 
 #: src/Controller/Admin/DatasetController.php:232
 #, php-format
 msgid "Exporting dataset. This may take a while. %s"
-msgstr ""
+msgstr "Izvoz skupa podataka u tijeku. Ovo bi moglo potrajati. %s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
@@ -1430,109 +1512,141 @@ msgstr ""
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
-msgstr ""
+msgstr "Projekt je uspješno stvoren."
 
 #: src/Controller/Admin/ProjectController.php:52
 msgid "Project successfully edited."
-msgstr ""
+msgstr "Projekt uspješno uređen."
 
 #: src/Controller/Admin/ProjectController.php:77
 msgid "Project successfully deleted"
-msgstr ""
+msgstr "Projekt je uspješno izbrisan"
 
 #: src/Controller/Admin/ItemController.php:38
 #, php-format
 msgid "This dataset has no item set. %s"
-msgstr ""
+msgstr "Ovaj skup podataka nema set predmeta. %s"
 
 #: src/Controller/Admin/ItemController.php:145
 msgid "Items successfully edited."
-msgstr ""
+msgstr "Stavke uspješno uređene."
 
 #: src/Form/RecordForm.php:136
 msgid "Invalid value"
-msgstr ""
+msgstr "Neispravna vrijednost"
 
 #: src/Form/RecordForm.php:147
 msgid "Set to null"
-msgstr ""
+msgstr "Postavite na null"
 
 #: src/Form/AbstractForm.php:101
 msgid "Lock to transcriber"
 msgstr ""
+"Zaključaj za prepisivača\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/AbstractForm.php:105
 msgid "Lock to reviewer"
 msgstr ""
+"Zaključaj za recenzenta\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/AbstractForm.php:109
 msgid "Lock to admin"
-msgstr ""
+msgstr "Zaključaj adminu"
 
 #: src/Form/ItemBatchForm.php:11 src/Form/ItemForm.php:66
 msgid "Unlock"
-msgstr ""
+msgstr "Otključajte "
 
 #: src/Form/ItemBatchForm.php:12 src/Form/ItemForm.php:69
 msgid "Lock to me"
 msgstr ""
+"Zaključaj za mene\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/ItemBatchForm.php:18
 msgid "Lock action"
-msgstr ""
+msgstr "Zaključajte akciju"
 
 #: src/Form/ItemBatchForm.php:31
 msgid "Review action"
-msgstr ""
+msgstr "Preglednu akciju"
 
 #: src/Form/ItemBatchForm.php:34 src/Form/ItemForm.php:48
 msgid "Mark as approved"
-msgstr ""
+msgstr "Označite kao prihvaćeno"
 
 #: src/Form/ItemBatchForm.php:35 src/Form/ItemForm.php:51
 msgid "Mark as not approved"
-msgstr ""
+msgstr "Označite kao neprihvaćeno"
 
 #: src/Form/ItemBatchForm.php:36 src/Form/ItemForm.php:54
 msgid "Mark as not reviewed"
-msgstr ""
+msgstr "Označite kao nepregledano"
 
 #: src/Form/ItemBatchForm.php:48
 msgid "Priority action"
 msgstr ""
+"Prioritetna akcija\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/ItemBatchForm.php:51 src/Form/ItemForm.php:84
 msgid "Mark as prioritized"
-msgstr ""
+msgstr "Označite kao prioritetno"
 
 #: src/Form/ItemBatchForm.php:52 src/Form/ItemForm.php:87
 msgid "Mark as not prioritized"
-msgstr ""
+msgstr "Označite kao neprioritetno"
 
 #: src/Form/RecordSearchForm.php:14
 msgid "Needs review?"
-msgstr ""
+msgstr "Treba pregled?"
 
 #: src/Form/RecordSearchForm.php:23 src/Form/RecordSearchForm.php:40
 #: src/Form/RecordSearchForm.php:57
 msgid "Select one"
-msgstr ""
+msgstr "Odaberi jedan"
 
 #: src/Form/RecordSearchForm.php:31
 msgid "Needs work?"
-msgstr ""
+msgstr "Treba raditi na tome?"
 
 #: src/Form/RecordSearchForm.php:48
 msgid "Has invalid values?"
-msgstr ""
+msgstr "Ima neispravne vrijednosti?"
 
 #: src/Form/RecordSearchForm.php:75 src/Form/RecordSearchForm.php:93
 msgid "Select user"
-msgstr ""
+msgstr "Odaberite korisnika"
 
 #: src/Form/RecordSearchForm.php:87
 msgid "Modified by"
-msgstr ""
+msgstr "Promijenio "
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
@@ -1554,6 +1668,14 @@ msgstr ""
 #: src/Form/ItemSearchForm.php:114 src/Form/ItemSearchForm.php:130
 msgid "Select status"
 msgstr ""
+"Odaberite status\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
@@ -1569,25 +1691,28 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
-msgstr ""
+msgstr "Unesite ime ovog skupa podataka."
 
 #: src/Form/DatasetForm.php:97
 msgid "Enter the description of this dataset."
-msgstr ""
+msgstr "Unesite opis ovog skupa podataka."
 
 #: src/Form/DatasetForm.php:109
 msgid "Enter guidelines for transcribing this dataset."
-msgstr ""
+msgstr "Unesite smjernice za transkribiranje ovog skupa podataka."
 
 #: src/Form/DatasetForm.php:121
 msgid ""
 "Select the item set used to synchronize dataset items. Once synchronized, "
 "this dataset will contain every item in this item set."
 msgstr ""
+"Odaberite set predmeta koji se koristi za sinkronizaciju predmeta iz skupa "
+"podataka. Ovaj skup podataka će sadržavati svaki predmet u ovom setu "
+"predmeta nakon sinkronizacije."
 
 #: src/Form/DatasetForm.php:127
 msgid "Select an item set"
-msgstr ""
+msgstr "Unesite skup predmeta"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
@@ -1622,164 +1747,204 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"
-msgstr ""
+msgstr "Ime polja"
 
 #: src/Form/DatasetForm.php:276
 msgid "Field description"
-msgstr ""
+msgstr "Opis polja"
 
 #: src/Form/DatasetForm.php:285
 msgid "Field is primary"
-msgstr ""
+msgstr "Polje je primarno"
 
 #: src/Form/DatasetForm.php:294
 msgid "Field is required"
-msgstr ""
+msgstr "Polje je potrebno"
 
 #: src/Form/ItemSearchForm.php:19
 msgid "Need review"
-msgstr ""
+msgstr "Treba pregled"
 
 #: src/Form/ItemSearchForm.php:33
 msgid "Submitted by"
-msgstr ""
+msgstr "Predao"
 
 #: src/Form/ItemSearchForm.php:44
 msgid "Submitted status"
 msgstr ""
+"Predani status\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/ItemSearchForm.php:57
 msgid "Reviewed by"
-msgstr ""
+msgstr "Pregledao"
 
 #: src/Form/ItemSearchForm.php:68
 msgid "Reviewed status"
 msgstr ""
+"Pregledani status\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/ItemSearchForm.php:81
 msgid "Locked by"
-msgstr ""
+msgstr "Zaključao"
 
 #: src/Form/ItemSearchForm.php:92
 msgid "Locked status"
 msgstr ""
+"Zaključani status\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/Element/MonthSelect.php:11
 msgid "January"
-msgstr ""
+msgstr "Siječanj"
 
 #: src/Form/Element/MonthSelect.php:12
 msgid "February"
-msgstr ""
+msgstr "Veljača"
 
 #: src/Form/Element/MonthSelect.php:13
 msgid "March"
-msgstr ""
+msgstr "Ožujak"
 
 #: src/Form/Element/MonthSelect.php:14
 msgid "April"
-msgstr ""
+msgstr "Travanj"
 
 #: src/Form/Element/MonthSelect.php:15
 msgid "May"
-msgstr ""
+msgstr "Svibanj"
 
 #: src/Form/Element/MonthSelect.php:16
 msgid "June"
-msgstr ""
+msgstr "Lipanj"
 
 #: src/Form/Element/MonthSelect.php:17
 msgid "July"
-msgstr ""
+msgstr "Srpanj"
 
 #: src/Form/Element/MonthSelect.php:18
 msgid "August"
-msgstr ""
+msgstr "Kolovoz"
 
 #: src/Form/Element/MonthSelect.php:19
 msgid "September"
-msgstr ""
+msgstr "Rujan"
 
 #: src/Form/Element/MonthSelect.php:20
 msgid "October"
-msgstr ""
+msgstr "Listopad"
 
 #: src/Form/Element/MonthSelect.php:21
 msgid "November"
-msgstr ""
+msgstr "Studeni"
 
 #: src/Form/Element/MonthSelect.php:22
 msgid "December"
-msgstr ""
+msgstr "Prosinac"
 
 #: src/Form/ProjectForm.php:15
 msgid "Enter the name of this project."
-msgstr ""
+msgstr "Unesite ime za ovaj projekt."
 
 #: src/Form/ProjectForm.php:27
 msgid "Enter the description of this project."
-msgstr ""
+msgstr "Unesite opis ovog projekta."
 
 #: src/Form/ItemForm.php:33
 msgid "Submit for review"
-msgstr ""
+msgstr "Predajte na pregled"
 
 #: src/Form/ItemForm.php:36
 msgid "Mark as not submitted"
-msgstr ""
+msgstr "Označite kao nepodnseno"
 
 #: src/Form/RecordBatchForm.php:14
 msgid "Needs review action"
-msgstr ""
+msgstr "Treba preglednu akciju"
 
 #: src/Form/RecordBatchForm.php:17
 msgid "Mark as needs review"
-msgstr ""
+msgstr "Označite kao 'treba pregled'"
 
 #: src/Form/RecordBatchForm.php:18
 msgid "Mark as does not need review"
-msgstr ""
+msgstr "Označite kao 'ne treba pregled'"
 
 #: src/Form/RecordBatchForm.php:30
 msgid "Needs work action"
-msgstr ""
+msgstr "Treba radnu akciju"
 
 #: src/Form/RecordBatchForm.php:33
 msgid "Mark as needs work"
-msgstr ""
+msgstr "Označite kao 'treba radi na tome'"
 
 #: src/Form/RecordBatchForm.php:34
 msgid "Mark as does not need work"
-msgstr ""
+msgstr "Označite kao 'ne treba raditi na tome'"
 
 #: src/Form/RecordBatchForm.php:73
 msgid "Is missing action"
-msgstr ""
+msgstr "Nedostaje akcija"
 
 #: src/Form/RecordBatchForm.php:76
 msgid "Mark as missing"
 msgstr ""
+"Označi kao nestalo\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/RecordBatchForm.php:77
 msgid "Mark as not missing"
 msgstr ""
+"Označi kao da ne nedostaje\n"
+" \n"
+"\n"
+" \n"
+" \n"
+" \n"
+" \n"
+" "
 
 #: src/Form/RecordBatchForm.php:89
 msgid "Is illegible action"
-msgstr ""
+msgstr "Nečitka akcija"
 
 #: src/Form/RecordBatchForm.php:92
 msgid "Mark as illegible"
-msgstr ""
+msgstr "Označite kao nečitko"
 
 #: src/Form/RecordBatchForm.php:93
 msgid "Mark as not illegible"
-msgstr ""
+msgstr "Označite kao čitko"
 
 #: config/module.config.php:29
 msgid "Disable focus mode"
-msgstr ""
+msgstr "Onemogući način fokusiranja"
 
 #: config/module.config.php:31
 msgid "Disable fast entry mode"
-msgstr ""
+msgstr "Onemogućite način brzog ulaska"

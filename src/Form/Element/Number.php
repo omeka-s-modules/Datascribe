@@ -23,7 +23,7 @@ class Number extends LaminasNumber implements InputProviderInterface
         $this->setAttributes(array_filter($attributes));
     }
 
-    public function getValidators()
+    public function getValidators(): array
     {
         $fieldData = $this->getOption('datascribe_field_data');
 
@@ -35,7 +35,7 @@ class Number extends LaminasNumber implements InputProviderInterface
         return $validators;
     }
 
-    public function getInputSpecification()
+    public function getInputSpecification(): array
     {
         return [
             'name' => $this->getName(),

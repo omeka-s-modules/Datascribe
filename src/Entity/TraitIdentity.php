@@ -20,17 +20,17 @@ trait TraitIdentity
      */
     protected $description;
 
-    public function setName(string $name) : void
+    public function setName(string $name): void
     {
         $this->name = $name;
     }
 
-    public function getName() : string
+    public function getName(): string
     {
         return $this->name;
     }
 
-    public function setDescription(?string $description) : void
+    public function setDescription(?string $description): void
     {
         if (is_string($description) && '' === trim($description)) {
             $description = null;
@@ -38,7 +38,7 @@ trait TraitIdentity
         $this->description = $description;
     }
 
-    public function getDescription() : ?string
+    public function getDescription(): ?string
     {
         return $this->description;
     }

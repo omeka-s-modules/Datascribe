@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pols12 <poltron54@gmail.com>, 2020
-# Judith Hannoun <judith.hannoun@gmail.com>, 2020
+# Iametza Interaktiboa, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +13,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 11:59-0500\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
-"Last-Translator: Judith Hannoun <judith.hannoun@gmail.com>, 2020\n"
-"Language-Team: French (https://app.transifex.com/omeka/teams/14184/fr/)\n"
+"Last-Translator: Iametza Interaktiboa, 2022\n"
+"Language-Team: Basque (https://app.transifex.com/omeka/teams/14184/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:154
 #, php-format
 msgid "Record #%s: %s"
-msgstr "Enregistrement %s : %s"
+msgstr "#%s erregistroa: %s"
 
 #: src/Api/Representation/DatascribeRecordRepresentation.php:159
 #, php-format
 msgid "Record #%s"
-msgstr "Enregistrement %s"
+msgstr "#%s erregistroa"
 
 #: src/Controller/Admin/DatasetController.php:188
 msgid "See this job for sync progress."
-msgstr "Consultez la tâche pour la progression de la synchronisation."
+msgstr "Ikusi lan hau sinkronizazioaren aurrerapena ikusteko."
 
 #: src/Controller/Admin/DatasetController.php:212
 msgid "See this job for validate progress."
-msgstr "Consultez la tâche pour la progression de la validation."
+msgstr "Ikusi lan hau aurrerapena balidatzeko."
 
 #: src/Controller/Admin/DatasetController.php:236
 msgid "See this job for export progress."
-msgstr "Consultez la tâche pour la progression de l’exportation."
+msgstr "Ikusi lan hau aurrerapena esportatzeko."
 
 #: src/Controller/Admin/ItemController.php:42
 msgid "Set an item set here."
-msgstr "Indiquez une collection ici."
+msgstr "Ezarri elementu multzoa hemen."
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
@@ -62,7 +61,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
-msgstr "Nouveau champ"
+msgstr "Eremu berria"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
@@ -74,58 +73,58 @@ msgstr "Nouveau champ"
 #: view/datascribe/admin/item/browse.phtml:6
 #: view/datascribe/admin/item/search.phtml:8
 msgid "DataScribe: Dataset"
-msgstr "DataScribe : jeu de données"
+msgstr "DataScribe: Datu Multzoa"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 msgid "Batch edit all records"
-msgstr "Modifier ensemble tous les enregistrements"
+msgstr "Erregistro guztion multzokako edizioa"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:23
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:25
 #: view/datascribe/admin/record/batch-edit-all.phtml:23
 #: view/datascribe/admin/record/batch-edit.phtml:25
 msgid "Affected records"
-msgstr "Enregistrements affectés"
+msgstr "Eragindako erregistroak"
 
 #: view/datascribe/admin/dataset-record/batch-edit-all.phtml:24
 #: view/datascribe/admin/record/batch-edit-all.phtml:24
 #, php-format
 msgid "You are editing %s records"
-msgstr "Vous êtes en train de modifier %s enregistrements"
+msgstr "%s erregistro editatzen ari zara"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
 msgid "Batch edit records"
-msgstr "Modifier ensemble les enregistrements"
+msgstr "Erregistro sorta edizioa"
 
 #: view/datascribe/admin/dataset-record/batch-edit.phtml:26
 #: view/datascribe/admin/record/batch-edit.phtml:26
 #, php-format
 msgid "You are editing the following %s records"
-msgstr "Vous allez modifier les %s enregistrements suivants"
+msgstr "Hurrengo %s erregistro editatzen ari zara"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:9
 #: view/datascribe/admin/record/browse.phtml:9
 msgid "Records that need review"
-msgstr "Enregistrements qui doivent être révisés"
+msgstr "Berrikuspena behar duten erregistroak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:13
 #: view/datascribe/admin/record/browse.phtml:13
 msgid "Records that need work"
-msgstr "Enregistrements qui doivent être retravaillés"
+msgstr "Lana behar duten erregistroak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:17
 #: view/datascribe/admin/record/browse.phtml:17
 msgid "Records with values marked as invalid"
-msgstr "Enregistrements ayant des valeurs marquées comme invalides"
+msgstr "Balio desegokia markatuta duten erregistroak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:27
 #: view/datascribe/admin/item/browse.phtml:30
 #: view/datascribe/admin/item/browse.phtml:143
 #: view/datascribe/admin/item/show-details.phtml:3
 msgid "Item #"
-msgstr "Contenu "
+msgstr "Elementua #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:31
 #: view/datascribe/admin/dataset-record/browse.phtml:107
@@ -134,44 +133,44 @@ msgstr "Contenu "
 #: view/datascribe/admin/record/previous-next-records.phtml:10
 #: view/datascribe/admin/record/show-details.phtml:3
 msgid "Record #"
-msgstr "Enregistrement "
+msgstr "Erregistroa #"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:35
 #: view/datascribe/admin/record/browse.phtml:31
 msgid "Record created"
-msgstr "Enregistrement créé"
+msgstr "Erregistroa sortuta"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:47
 #: view/datascribe/admin/record/browse.phtml:43
 msgid "Records"
-msgstr "Enregistrements"
+msgstr "Erregistroak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:50
 msgid "Browse items"
-msgstr "Parcourir les contenus"
+msgstr "Arakatu elementuak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:52
 #: view/datascribe/admin/item/browse.phtml:11
 msgid "Edit dataset"
-msgstr "Modifier le jeu de données"
+msgstr "Editatu datu multzoa"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:56
 #: view/datascribe/admin/dataset/form-sidebars.phtml:3
 #: view/datascribe/admin/item/browse.phtml:15
 msgid "Sync dataset"
-msgstr "Synchroniser le jeu de données"
+msgstr "Sinkronizatu datu multzoa"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:57
 #: view/datascribe/admin/dataset/form-sidebars.phtml:14
 #: view/datascribe/admin/item/browse.phtml:16
 msgid "Validate dataset"
-msgstr "Valider le jeu de données"
+msgstr "Balidatu datu multzoa"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:58
 #: view/datascribe/admin/dataset/form-sidebars.phtml:21
 #: view/datascribe/admin/item/browse.phtml:17
 msgid "Export dataset"
-msgstr "Exporter le jeu de données"
+msgstr "Esportatu datu multzoa"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:59
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
@@ -182,27 +181,27 @@ msgstr ""
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
 msgid "Select records"
-msgstr "Choisissez les enregistrements"
+msgstr "Hautatu erregistroak"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:136
 #: view/datascribe/admin/item/browse.phtml:159
 #: view/datascribe/admin/record/browse.phtml:118
 msgid "Has invalid values"
-msgstr "A des valeurs invalides"
+msgstr "Balio desegokiak ditu"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:137
 #: view/datascribe/admin/record/browse.phtml:119
 #: view/datascribe/admin/record/form.phtml:128
 #: view/datascribe/admin/record/show-details.phtml:47
 msgid "Needs review"
-msgstr "Doit être révisé"
+msgstr "Berrikuspena behar du"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:138
 #: view/datascribe/admin/record/browse.phtml:120
 #: view/datascribe/admin/record/form.phtml:134
 #: view/datascribe/admin/record/show-details.phtml:51
 msgid "Needs work"
-msgstr "Doit être retravaillé"
+msgstr "Lana behar du"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
@@ -218,7 +217,7 @@ msgstr ""
 #: view/datascribe/admin/record/show.phtml:15
 #: view/datascribe/admin/record/show.phtml:26
 msgid "unknown"
-msgstr "inconnu"
+msgstr "ezezaguna"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:166
 #: view/datascribe/admin/dataset-record/browse.phtml:173
@@ -230,7 +229,7 @@ msgstr "inconnu"
 #: view/datascribe/admin/record/show.phtml:17
 #: view/datascribe/admin/record/show.phtml:23
 msgid "invalid"
-msgstr "invalide"
+msgstr "baliogabea"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:168
 #: view/datascribe/admin/dataset-record/browse.phtml:175
@@ -242,7 +241,7 @@ msgstr "invalide"
 #: view/datascribe/admin/record/show.phtml:19
 #: view/datascribe/admin/record/show.phtml:25
 msgid "null"
-msgstr "nulle"
+msgstr "hutsa"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:174
 #: view/datascribe/admin/record/browse.phtml:158
@@ -250,121 +249,121 @@ msgstr "nulle"
 #: view/datascribe/admin/record/show-details.phtml:14
 #: view/datascribe/admin/record/show.phtml:24
 msgid "empty"
-msgstr "vide"
+msgstr "hutsik"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:194
 #: view/datascribe/admin/record/browse.phtml:178
 msgid "No records found."
-msgstr "Aucun enregistrement trouvé."
+msgstr "Ez da erregistrorik aurkitu"
 
 #: view/datascribe/admin/dataset-record/search.phtml:7
 msgid "Record search"
-msgstr "Recherche d’enregistrements"
+msgstr "Erregistro bilatzailea"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 #: view/datascribe/admin/dataset/browse.phtml:5
 #: view/datascribe/admin/project/edit.phtml:7
 msgid "DataScribe: Project"
-msgstr "DataScribe : projet"
+msgstr "DataScribe: Proiektua"
 
 #: view/datascribe/admin/dataset/add.phtml:8
 msgid "New dataset"
-msgstr "Nouveau jeu de données"
+msgstr "Datu multzo berria"
 
 #: view/datascribe/admin/dataset/browse.phtml:5
 msgid "Datasets"
-msgstr "Jeux de données"
+msgstr "Datu multzoa"
 
 #: view/datascribe/admin/dataset/browse.phtml:9
 msgid "Edit project"
-msgstr "Modifier le projet"
+msgstr "Editatu proiektua"
 
 #: view/datascribe/admin/dataset/browse.phtml:10
 msgid "Add new dataset"
-msgstr "Ajouter un nouveau jeu de données"
+msgstr "Datu multzo berria"
 
 #: view/datascribe/admin/dataset/browse.phtml:20
 #: view/datascribe/admin/project/browse.phtml:21
 msgid "Date created"
-msgstr "Date de création"
+msgstr "Data sortuta"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
 #: view/datascribe/admin/index/index.phtml:145
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
-msgstr "Créé par"
+msgstr "Honek sortua:"
 
 #: view/datascribe/admin/dataset/browse.phtml:83
 #, php-format
 msgid "No datasets found for this project. %s"
-msgstr "Aucun jeu de données trouvé pour ce projet. %s"
+msgstr "Ez da datu multzorik aurkitu proiektu honetan. %s"
 
 #: view/datascribe/admin/dataset/browse.phtml:84
 msgid "Add a new dataset."
-msgstr "Ajouter un nouveau jeu de données."
+msgstr "Gehitu datu multzo berria."
 
 #: view/datascribe/admin/dataset/browse.phtml:87
 msgid "No datasets found for this project."
-msgstr "Aucun jeu de données trouvé pour ce projet."
+msgstr "Ez da datu multzorik aurkitu proiektu honetan."
 
 #: view/datascribe/admin/dataset/edit.phtml:32
 #: view/datascribe/admin/record/form.phtml:52
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "Gorde eta&hellip;"
 
 #: view/datascribe/admin/dataset/edit.phtml:34
 msgid "Return to dataset items"
-msgstr ""
+msgstr "Itzuli datu multzoko elementuetara"
 
 #: view/datascribe/admin/dataset/edit.phtml:35
 msgid "Continue editing dataset"
-msgstr ""
+msgstr "Jarraitu datu multzoa editatzen"
 
 #: view/datascribe/admin/dataset/edit.phtml:42
 msgid "Form Builder"
-msgstr "Constructeur de formulaire"
+msgstr "Formulario Eraikitzailea"
 
 #: view/datascribe/admin/dataset/edit.phtml:58
 #: view/datascribe/admin/record/form.phtml:104
 msgid "Back to top"
-msgstr ""
+msgstr "Itzuli gora"
 
 #: view/datascribe/admin/dataset/edit.phtml:62
 msgid "Add a field to the form"
-msgstr "Ajouter un champ au formulaire"
+msgstr "Gehitu eremua formularioari"
 
 #: view/datascribe/admin/dataset/edit.phtml:64
 #: view/datascribe/admin/record/form.phtml:123
 #, php-format
 msgid "Last saved: %s on %s"
-msgstr "Dernière sauvegarde : %s le %s"
+msgstr "Azkenekoz gordeta: %s ko %s an"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:1
 msgid "Drag to change order"
-msgstr ""
+msgstr "Arrastatu ordena aldatzeko"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:3
 msgid "Move Up"
-msgstr "Remonter"
+msgstr "Mugitu Gora"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:4
 msgid "Move Down"
-msgstr "Descendre"
+msgstr "Mugitu behera"
 
 #: view/datascribe/admin/dataset/form-builder-buttons.phtml:6
 msgid "Undo"
-msgstr "Annuler"
+msgstr "Desegin"
 
 #: view/datascribe/admin/dataset/form-builder-flags.phtml:2
 msgid "Primary field"
-msgstr ""
+msgstr "Eremu nagusia"
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:5
 msgid "This dataset has no item set. Set an item set to enable syncing."
 msgstr ""
-"Ce jeu de données n’a aucune collection. Définissez une collection pour "
-"activer la synchronisation."
+"Datu multzo honek ez du elementu multzorik. Ezarri elementu multzoa "
+"sinkronizazioa gaitzeko."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:7
 msgid ""
@@ -372,18 +371,18 @@ msgid ""
 "this dataset will contain every item in the item set. You should synchronize"
 " periodically, any time items are added or removed from the item set."
 msgstr ""
-"Synchroniser le jeu de données avec la collection configurée. Une fois "
-"synchronisé, le jeu de données contiendra tous les contenus de la "
-"collection. Vous devriez synchroniser périodiquement, à chaque fois que des "
-"contenus sont ajoutés ou retirés de la collection."
+"SInkronizatu datu multzo hau konfiguratutako elementu multzoarekin. Behin "
+"sinkronizatuta, datu multzo honek elementu multzoko elementu denak bilduko "
+"ditu. Aldiro sinkronizatu beharko zenuke, elementuak elementu multzotik "
+"gehitzen edo kentzen diren bakoitzean."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:8
 msgid ""
 "Warning: items that have been removed from the configured item set since the"
 " last sync will be deleted from this dataset."
 msgstr ""
-"Attention : les contenus qui ont été retirées de la collection configurée "
-"depuis la dernière synchronisation seront supprimés de ce jeu de données."
+"Kontuz: azkeneko sinkronizaziotik konfiguratutako elementu multzotik kendu "
+"diren elementuak datu multzo honetatik ezabatuak izango dira."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:15
 msgid ""
@@ -392,6 +391,11 @@ msgid ""
 "validate periodically, after fields are added to the form, after field "
 "validation rules change, and before exporting the dataset."
 msgstr ""
+"Egiaztatu datu multzo hau formulario eraikitzailean orain ezarritako arauen "
+"kontra. Behin egiaztatuta, balio desegokiak desegoki moduan markatuko dira. "
+"Noizean behin egiaztatu beharko zenuke, formularioan eremuak gehitu ondoren,"
+" eremu egiaztatze arauak aldatu ondoren, eta datu multzoa esportatu "
+"aurretik."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:22
 msgid ""
@@ -399,10 +403,10 @@ msgid ""
 "records from approved items, and that invalid values will be null. This will"
 " overwrite an existing export file."
 msgstr ""
-"Exporte ce jeu de données dans un fichier CSV. Notez que le fichier ne "
-"contiendra que des enregistrements issus de contenus approuvés, et que les "
-"valeurs non valides seront nulles. Cela écrasera un fichier d'exportation "
-"déjà existant."
+"Esportatu datu multzo hau CSV fitxategira. Kontutan izan fitxategiak "
+"onartutako elementuen erregistroak bakarrik edukiko dituela, eta balio "
+"desegoki horiek hutsak izango direla. Honek lehendik dagoen esportazio "
+"fitxategia berridatziko du."
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
@@ -410,59 +414,59 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
-msgstr "Métadonnées du jeu de données"
+msgstr "Datu multzo metadatua"
 
 #: view/datascribe/admin/dataset/show-details.phtml:13
 #: view/datascribe/admin/project/show-details.phtml:9
 msgid "[No description]"
-msgstr "[aucune description]"
+msgstr "[Deskribapenik ez]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:25
 msgid "Not set"
-msgstr ""
+msgstr "Ezarri gabe"
 
 #: view/datascribe/admin/dataset/show-details.phtml:35
 #: view/datascribe/admin/project/show-details.phtml:19
 #: view/datascribe/admin/record/show-details.phtml:24
 #, php-format
 msgid "%s by %s"
-msgstr "%s par %s"
+msgstr ""
 
 #: view/datascribe/admin/dataset/show-details.phtml:41
 #: view/datascribe/admin/project/show-details.phtml:25
 #: view/datascribe/admin/record/show-details.phtml:30
 msgid "Last modified"
-msgstr "Dernière modification"
+msgstr "Azkenekoz aldatua"
 
 #: view/datascribe/admin/dataset/show-details.phtml:54
 #: view/datascribe/admin/project/show-details.phtml:38
 #: view/datascribe/admin/record/show-details.phtml:43
 msgid "[Not modified]"
-msgstr "[Non modifié]"
+msgstr "[Aldatu gabe]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:58
 msgid "Last synced"
-msgstr "Dernière synchronisation"
+msgstr "Azkenekoz sinkronizatua"
 
 #: view/datascribe/admin/dataset/show-details.phtml:71
 msgid "[Not synced]"
-msgstr "[Non synchronisé]"
+msgstr "[Sinkronizatu gabe]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:75
 msgid "Last validated"
-msgstr ""
+msgstr "Azkenekoz balidatua"
 
 #: view/datascribe/admin/dataset/show-details.phtml:88
 msgid "[Not validated]"
-msgstr ""
+msgstr "[Balidatu gabe]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:92
 msgid "Last exported"
-msgstr "Dernier export"
+msgstr "Azkenekoz esportatua"
 
 #: view/datascribe/admin/dataset/show-details.phtml:105
 msgid "[Not exported]"
-msgstr "[Non exporté]"
+msgstr "[Esportatu gabe]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
@@ -486,44 +490,44 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Mahaigaina"
 
 #: view/datascribe/admin/index/index.phtml:5
 #: view/datascribe/admin/project/add.phtml:7
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "DataScribe"
-msgstr ""
+msgstr "DataScribe"
 
 #: view/datascribe/admin/index/index.phtml:8
 msgid "Browse projects"
-msgstr ""
+msgstr "Arakatu proiektuak"
 
 #: view/datascribe/admin/index/index.phtml:9
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
-msgstr ""
+msgstr "Gehitu proiektu berria"
 
 #: view/datascribe/admin/index/index.phtml:12
 msgid "Welcome to DataScribe."
-msgstr ""
+msgstr "Ongi etorri DataScribera"
 
 #: view/datascribe/admin/index/index.phtml:15
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "Nire proiektuak"
 
 #: view/datascribe/admin/index/index.phtml:25
 msgid "Unlocked items"
-msgstr ""
+msgstr "Desblokeatu elementuak"
 
 #: view/datascribe/admin/index/index.phtml:28
 #: view/datascribe/admin/index/index.phtml:53
 msgid "New"
-msgstr "Nouveau"
+msgstr "Berria"
 
 #: view/datascribe/admin/index/index.phtml:39
 #: view/datascribe/admin/index/index.phtml:64
 msgid "In progress"
-msgstr "En cours"
+msgstr "Martxan"
 
 #: view/datascribe/admin/index/index.phtml:50
 #: view/datascribe/admin/item/browse.phtml:79
@@ -532,19 +536,19 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:75
 msgid "Not approved"
-msgstr "Non approuvé"
+msgstr "Onartu gabe"
 
 #: view/datascribe/admin/index/index.phtml:87
 msgid "Items needing review"
-msgstr ""
+msgstr "Berrikuspena behar duten elementuak"
 
 #: view/datascribe/admin/index/index.phtml:101
 msgid "Needs my re-review"
-msgstr ""
+msgstr "Nire berrikuspen behar dute "
 
 #: view/datascribe/admin/index/index.phtml:112
 msgid "Records needing review"
-msgstr ""
+msgstr "Berrikuspena behar duten erregistroak"
 
 #: view/datascribe/admin/index/index.phtml:134
 msgid "You do not own or belong to any projects."
@@ -552,45 +556,45 @@ msgstr ""
 
 #: view/datascribe/admin/index/index.phtml:140
 msgid "All projects"
-msgstr ""
+msgstr "Proiektu guztiak"
 
 #: view/datascribe/admin/index/index.phtml:165
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
-msgstr ""
+msgstr "Ez da proiekturik aurkitu"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:5
 msgid "Batch edit all items"
-msgstr ""
+msgstr "Sorta editatu elementu guztiak"
 
 #: view/datascribe/admin/item/batch-edit-all.phtml:23
 #, php-format
 msgid "You are editing %s items"
-msgstr ""
+msgstr "%s elementu editatzen ari zara"
 
 #: view/datascribe/admin/item/batch-edit.phtml:25
 #, php-format
 msgid "You are editing the following %s items"
-msgstr ""
+msgstr "Hurrengo %s elementuak editatzen ari zara"
 
 #: view/datascribe/admin/item/browse.phtml:9
 msgid "Browse records"
-msgstr ""
+msgstr "Arakatu erregistroak"
 
 #: view/datascribe/admin/item/browse.phtml:34
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Prioritized"
-msgstr ""
+msgstr "Lehentasunezkoa"
 
 #: view/datascribe/admin/item/browse.phtml:38
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Submitted"
-msgstr ""
+msgstr "Bidalita"
 
 #: view/datascribe/admin/item/browse.phtml:42
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Reviewed"
-msgstr ""
+msgstr "Berrikusita"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
@@ -598,19 +602,19 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
-msgstr ""
+msgstr "Berrikuspena behar duten elementu guztiak"
 
 #: view/datascribe/admin/item/browse.phtml:69
 msgid "All items that need initial review"
-msgstr ""
+msgstr "Hasierako berrikuspen bat behar duten elementu guztiak"
 
 #: view/datascribe/admin/item/browse.phtml:70
 msgid "All items that need re-review"
-msgstr ""
+msgstr "Berrikuspen berri bat behar duten elementu guztiak"
 
 #: view/datascribe/admin/item/browse.phtml:71
 msgid "Items with values marked as invalid"
-msgstr ""
+msgstr "Balioren bat desegoki moduan markatuta duten elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
@@ -618,35 +622,35 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
-msgstr ""
+msgstr "Nik berrikusita eta berrikuspen berria behar duten elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:75
 msgid "Items I reviewed that are not approved"
-msgstr ""
+msgstr "Nik berrikusita eta onartuta ez dauden elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:76
 msgid "Items I reviewed that are approved"
-msgstr ""
+msgstr "Nik berrikusita eta onartuta dauden elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:80
 msgid "My new items"
-msgstr ""
+msgstr "Nire elementu berriak"
 
 #: view/datascribe/admin/item/browse.phtml:81
 msgid "My in progress items"
-msgstr ""
+msgstr "Nire martxan dauden elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:82
 msgid "My items that need review"
-msgstr ""
+msgstr "Berrikuspena behar duten nire elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:83
 msgid "My items that are not approved"
-msgstr ""
+msgstr "Onartu gabeko nire elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:84
 msgid "My items that are approved"
-msgstr ""
+msgstr "Onartuta dauden nire elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
@@ -658,93 +662,95 @@ msgstr ""
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
-msgstr ""
+msgstr "Elementu berri eta desblokeatutako guztiak "
 
 #: view/datascribe/admin/item/browse.phtml:89
 msgid "All unlocked and in progress items"
-msgstr ""
+msgstr "Desblokeatutako eta martxan dauden elementu guztiak"
 
 #: view/datascribe/admin/item/browse.phtml:91
 msgid "All items that are not approved"
-msgstr ""
+msgstr "Onartuta ez dauden elementu guztiak "
 
 #: view/datascribe/admin/item/browse.phtml:92
 msgid "All items that are approved"
-msgstr ""
+msgstr "Onartuta dauden elementu guztiak"
 
 #: view/datascribe/admin/item/browse.phtml:146
 #: view/datascribe/admin/item/show-details.phtml:31
 msgid "Last submitted"
-msgstr ""
+msgstr "Azkenekoz bidalia"
 
 #: view/datascribe/admin/item/browse.phtml:147
 #: view/datascribe/admin/item/show-details.phtml:48
 msgid "Last reviewed"
-msgstr ""
+msgstr "Azkenekoz berrikusia"
 
 #: view/datascribe/admin/item/browse.phtml:148
 msgid "Review status"
-msgstr ""
+msgstr "Berrikuspen egoera"
 
 #: view/datascribe/admin/item/browse.phtml:156
 msgid "Select items"
-msgstr ""
+msgstr "Hautatu elementuak"
 
 #: view/datascribe/admin/item/browse.phtml:194
 #, php-format
 msgid "No items found. %s"
-msgstr ""
+msgstr "Ez da elementurik aurkitu. %s"
 
 #: view/datascribe/admin/item/browse.phtml:195
 msgid "Sync this dataset."
-msgstr ""
+msgstr "Sinkronizatu datu multzo hau."
 
 #: view/datascribe/admin/item/browse.phtml:198
 msgid ""
 "If you have recently synced, the sync job likely has not finished<br>and/or "
 "you need to refresh this page."
 msgstr ""
+"Orain gutxi sinkronizatu baduzu, ziurrenik sinkronizazio lana bukatu gabe "
+"egongo da<br>eta/edo orria freskatu behar duzu."
 
 #: view/datascribe/admin/item/browse.phtml:201
 msgid "No items found."
-msgstr ""
+msgstr "Ez da elementurik aurkitu."
 
 #: view/datascribe/admin/item/search.phtml:16
 #: view/datascribe/admin/item/show-details.phtml:7
 msgid "DataScribe item"
-msgstr ""
+msgstr "DataScribe elementua"
 
 #: view/datascribe/admin/item/search.phtml:18
 #: view/datascribe/admin/item/show-details.phtml:11
 msgid "Omeka item"
-msgstr ""
+msgstr "Omeka elementua"
 
 #: view/datascribe/admin/item/show-details.phtml:1
 msgid "Item metadata"
-msgstr ""
+msgstr "Elementu metadatua"
 
 #: view/datascribe/admin/item/show-details.phtml:27
 msgid "Record count"
-msgstr ""
+msgstr "Erregistro kopurua"
 
 #: view/datascribe/admin/item/show-details.phtml:44
 #: view/datascribe/admin/record/browse.phtml:227
 msgid "Not submitted"
-msgstr ""
+msgstr "Bidali gabe"
 
 #: view/datascribe/admin/item/show-details.phtml:61
 #: view/datascribe/admin/record/browse.phtml:247
 msgid "Not reviewed"
-msgstr ""
+msgstr "Berrikusi gabe"
 
 #: view/datascribe/admin/item/show-details.phtml:65
 msgid "Last locked"
-msgstr ""
+msgstr "Azkenekoz blokeatua"
 
 #: view/datascribe/admin/item/show-details.phtml:78
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Unlocked"
-msgstr ""
+msgstr "Blokeatuta"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
@@ -756,37 +762,37 @@ msgstr ""
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
-msgstr ""
+msgstr "Proiektu berria"
 
 #: view/datascribe/admin/project/add.phtml:10
 #: view/datascribe/admin/project/edit.phtml:10
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurazioa"
 
 #: view/datascribe/admin/project/browse.phtml:5
 msgid "Projects"
-msgstr ""
+msgstr "Proiektuak"
 
 #: view/datascribe/admin/project/browse.phtml:88
 #, php-format
 msgid "No projects found. %s"
-msgstr ""
+msgstr "Ez da proiekturik aurkitu. %s"
 
 #: view/datascribe/admin/project/browse.phtml:89
 msgid "Add a new project."
-msgstr ""
+msgstr "Gehitu proiektu berria."
 
 #: view/datascribe/admin/project/show-details.phtml:1
 msgid "Project metadata"
-msgstr ""
+msgstr "Proiektu metadatua"
 
 #: view/datascribe/admin/project/users-form.phtml:13
 msgid "Click on a user to add them to the project."
-msgstr ""
+msgstr "Klikatu erabiltzailean elementua gehitzeko proiektura."
 
 #: view/datascribe/admin/project/users-form.phtml:18
 msgid "Transcriber"
-msgstr ""
+msgstr "Transkribatzailea"
 
 #: view/datascribe/admin/record/batch-edit-all.phtml:6
 #: view/datascribe/admin/record/batch-edit.phtml:6
@@ -794,7 +800,7 @@ msgstr ""
 #: view/datascribe/admin/record/form.phtml:13
 #: view/datascribe/admin/record/search.phtml:7
 msgid "DataScribe: Item"
-msgstr ""
+msgstr "DataScribe: Elementua"
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
@@ -802,59 +808,59 @@ msgstr ""
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
-msgstr ""
+msgstr "Gehitu erregistro berria"
 
 #: view/datascribe/admin/record/browse.phtml:196
 msgid "Item actions"
-msgstr ""
+msgstr "Elementu ekintzak"
 
 #: view/datascribe/admin/record/browse.phtml:199
 msgid "Item status:"
-msgstr ""
+msgstr "Elementu egoera:"
 
 #: view/datascribe/admin/record/browse.phtml:206
 msgid "Lock status:"
-msgstr ""
+msgstr "Blokeatze egoera:"
 
 #: view/datascribe/admin/record/browse.phtml:207
 msgid "Locked"
-msgstr ""
+msgstr "Blokeatuta"
 
 #: view/datascribe/admin/record/browse.phtml:213
 #, php-format
 msgid "Last locked to %s on %s"
-msgstr ""
+msgstr "%s azkenezko blokeatua %s an"
 
 #: view/datascribe/admin/record/browse.phtml:226
 msgid "Submission status:"
-msgstr ""
+msgstr "Entregatze egoera:"
 
 #: view/datascribe/admin/record/browse.phtml:233
 #, php-format
 msgid "Last submitted by %s on %s"
-msgstr ""
+msgstr "Azkenekoz %sk entregatua %san"
 
 #: view/datascribe/admin/record/browse.phtml:246
 msgid "Review status:"
-msgstr ""
+msgstr "Berrikuspen egoera:"
 
 #: view/datascribe/admin/record/browse.phtml:253
 #, php-format
 msgid "Last reviewed by %s on %s"
-msgstr ""
+msgstr "Azkenekoz %sk berrikusia %san"
 
 #: view/datascribe/admin/record/browse.phtml:266
 msgid "Priority status:"
-msgstr ""
+msgstr "Lehentasun egoera:"
 
 #: view/datascribe/admin/record/browse.phtml:267
 msgid "Not prioritized"
-msgstr ""
+msgstr "Lehentasunik gabe"
 
 #: view/datascribe/admin/record/browse.phtml:273
 #, php-format
 msgid "Last prioritized by %s on %s"
-msgstr ""
+msgstr "Azkenekoz %sk lehentasunezkoa ezarrita %san"
 
 #: view/datascribe/admin/record/browse.phtml:285
 #: view/datascribe/admin/record/form.phtml:149
@@ -871,11 +877,11 @@ msgstr ""
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
 msgid "Delete records"
-msgstr ""
+msgstr "Ezabatu erregistroak"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:6
 msgid "Are you sure you would like to delete the selected records?"
-msgstr ""
+msgstr "Ziur zaude aukeratutako erregistroak ezabatu nahi dituzula?"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:8
 #: view/datascribe/admin/record/form-sidebars.phtml:24
@@ -883,21 +889,25 @@ msgstr ""
 msgid ""
 "%1$s: this action will permanently delete %2$s records and cannot be undone."
 msgstr ""
+"%1$s: ekintza honek %2$s erregistro betirako ezabatuko ditu eta ezin da "
+"desegin."
 
 #: view/datascribe/admin/record/form-sidebars.phtml:22
 msgid ""
 "Are you sure you would like to delete all records on all pages of this "
 "result?"
 msgstr ""
+"Ziur zaude emaitza honetako orri guztietako erregistroak ezabatu nahi "
+"dituzula?"
 
 #: view/datascribe/admin/record/form.phtml:13
 msgid "New record"
-msgstr ""
+msgstr "Erregistro berria"
 
 #: view/datascribe/admin/record/form.phtml:15
 #: view/datascribe/admin/record/show.phtml:6
 msgid "DataScribe: Record"
-msgstr ""
+msgstr "DataScribe: Erregistroa"
 
 #: view/datascribe/admin/record/form.phtml:20
 msgid ""
@@ -907,96 +917,100 @@ msgstr ""
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
-msgstr ""
+msgstr "Aurreko erregistroak"
 
 #: view/datascribe/admin/record/form.phtml:27
 msgid "Enable focus mode"
-msgstr ""
+msgstr "Gaitu kontzentratze modua"
 
 #: view/datascribe/admin/record/form.phtml:28
 msgid "Enable fast entry mode"
-msgstr ""
+msgstr "Gaitu sarbide azkar modua"
 
 #: view/datascribe/admin/record/form.phtml:31
 msgid "Horizontal view"
-msgstr ""
+msgstr "Ikuspegi horizontala"
 
 #: view/datascribe/admin/record/form.phtml:32
 msgid "Vertical view"
-msgstr ""
+msgstr "Ikuspegi bertikala"
 
 #: view/datascribe/admin/record/form.phtml:35
 msgid "Guidelines"
-msgstr ""
+msgstr "Gidalerroak"
 
 #: view/datascribe/admin/record/form.phtml:55
 msgid "Add another "
-msgstr ""
+msgstr "Gehitu beste bat"
 
 #: view/datascribe/admin/record/form.phtml:57
 msgid "Return to records"
-msgstr ""
+msgstr "Itzuli erregistroetara"
 
 #: view/datascribe/admin/record/form.phtml:58
 msgid "Stay on this record"
-msgstr ""
+msgstr "Gelditu erregistro honetan"
 
 #: view/datascribe/admin/record/form.phtml:80
 msgid "This field's data type is unknown. The value cannot be added."
-msgstr ""
+msgstr "Eremu honen datu mota ezezaguna. Ezin da balioa gehitu."
 
 #: view/datascribe/admin/record/form.phtml:84
 msgid "This field's data type is unknown. The value cannot be edited."
-msgstr ""
+msgstr "Eremu honen datu mota ezezaguna. Ezin da balioa editatu."
 
 #: view/datascribe/admin/record/form.phtml:86
 msgid ""
 "This value is invalid. Please correct it below and save this form to update."
 msgstr ""
+"Balio baliogabea. Mesedez zuzendu hurrengoa eta gorde formularioa "
+"eguneratzeko."
 
 #: view/datascribe/admin/record/form.phtml:88
 msgid ""
 "This value is marked as invalid but does not appear to be invalid. Either "
 "re-validate the dataset or save this form as-is."
 msgstr ""
+"Balioa hau baliogabe bezala adierazita dago baina ez dirudi baliogabea "
+"denik. Birbalidatu datu multzoa edo gorde formularioa dagoen bezala."
 
 #: view/datascribe/admin/record/form.phtml:98
 msgid "Is missing"
-msgstr ""
+msgstr "Falta da"
 
 #: view/datascribe/admin/record/form.phtml:99
 msgid "Is illegible"
-msgstr ""
+msgstr "Irakurgaitza da"
 
 #: view/datascribe/admin/record/form.phtml:100
 msgid "Reset value"
-msgstr ""
+msgstr "Berrezarri balioa"
 
 #: view/datascribe/admin/record/form.phtml:109
 #, php-format
 msgid "This dataset has no form. %s"
-msgstr ""
+msgstr "Datu multzo honek ez du formulariorik. %s"
 
 #: view/datascribe/admin/record/form.phtml:110
 msgid "Build the form."
-msgstr ""
+msgstr "Eraiki formularioa."
 
 #: view/datascribe/admin/record/form.phtml:113
 msgid "This dataset has no form."
-msgstr ""
+msgstr "Datu multzo honek ez du formulariorik."
 
 #: view/datascribe/admin/record/form.phtml:119
 msgid "Record actions"
-msgstr ""
+msgstr "Erregistro ekintzak"
 
 #: view/datascribe/admin/record/form.phtml:166
 msgid "Next records"
-msgstr ""
+msgstr "Hurrengo erregistroak"
 
 #: view/datascribe/admin/record/media-viewer.phtml:25
 #, php-format
 msgid "%s. %s"
-msgstr ""
+msgstr "%s. %s"
 
 #: view/datascribe/admin/record/media-viewer.phtml:32
 msgid "Previous media"
@@ -1008,136 +1022,140 @@ msgstr ""
 
 #: view/datascribe/admin/record/media-viewer.phtml:37
 msgid "Zoom in"
-msgstr ""
+msgstr "Handitu"
 
 #: view/datascribe/admin/record/media-viewer.phtml:38
 msgid "Zoom out"
-msgstr ""
+msgstr "Txikitu"
 
 #: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Rotate left"
-msgstr ""
+msgstr "Biratu ezkerrera"
 
 #: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Rotate right"
-msgstr ""
+msgstr "Biratu eskuinera"
 
 #: view/datascribe/admin/record/show-details.phtml:1
 msgid "Record metadata"
-msgstr ""
+msgstr "Erregistro metadatua"
 
 #: view/datascribe/admin/record/show-details.phtml:7
 msgid "Primary value"
-msgstr ""
+msgstr "Balio nagusia"
 
 #: src/DatascribeDataType/Textarea.php:13
 msgid "Textarea"
-msgstr ""
+msgstr "Testu-eremua"
 
 #: src/DatascribeDataType/Textarea.php:19
 msgid "Textarea label"
-msgstr ""
+msgstr "Testu-eremu etiketa"
 
 #: src/DatascribeDataType/Textarea.php:24
 msgid "Rows"
-msgstr ""
+msgstr "Errenkadak"
 
 #: src/DatascribeDataType/Textarea.php:30 src/DatascribeDataType/Text.php:24
 msgid "Minimum length"
-msgstr ""
+msgstr "Gutxienezko luzera"
 
 #: src/DatascribeDataType/Textarea.php:31 src/DatascribeDataType/Text.php:25
 msgid ""
 "The minimum number of characters long the input can be and still be "
 "considered valid."
 msgstr ""
+"Sarrerak gehienez izan dezakeen eta oraindik egoki onartzen den karaketere "
+"luzeraren gutxieneko kopurua."
 
 #: src/DatascribeDataType/Textarea.php:37 src/DatascribeDataType/Text.php:31
 msgid "Maximum length"
-msgstr ""
+msgstr "Gehienezko luzera"
 
 #: src/DatascribeDataType/Textarea.php:38 src/DatascribeDataType/Text.php:32
 msgid "The maximum number of characters the input should accept."
 msgstr ""
+"Sarrerak gehienez izan dezakeen eta oraindik egoki onartzen den karaketere "
+"luzeraren gehienezko kopurua."
 
 #: src/DatascribeDataType/Textarea.php:44 src/DatascribeDataType/Text.php:38
 #: src/DatascribeDataType/Number.php:42
 msgid "Placeholder"
-msgstr ""
+msgstr "Leku-marka"
 
 #: src/DatascribeDataType/Textarea.php:45 src/DatascribeDataType/Text.php:39
 #: src/DatascribeDataType/Number.php:43
 msgid "An exemplar value to display in the input field whenever it is empty."
-msgstr ""
+msgstr "Sarrera eremuan erkusteko balio eredua hutsik dagoenean."
 
 #: src/DatascribeDataType/Textarea.php:50 src/DatascribeDataType/Text.php:44
 #: src/DatascribeDataType/Number.php:48
 msgid "Regex pattern"
-msgstr ""
+msgstr "Regex eredua"
 
 #: src/DatascribeDataType/Textarea.php:51 src/DatascribeDataType/Text.php:45
 #: src/DatascribeDataType/Number.php:49
 msgid ""
 "A regular expression the input's contents must match in order to be valid."
-msgstr ""
+msgstr "Sarrera edukia onartua izateko bete beharreko esprezio erregularra."
 
 #: src/DatascribeDataType/Textarea.php:56 src/DatascribeDataType/Text.php:50
 #: src/DatascribeDataType/AbstractSelection.php:24
 #: src/DatascribeDataType/Number.php:54
 msgid "Default value"
-msgstr ""
+msgstr "Defektuzko balioa"
 
 #: src/DatascribeDataType/Unknown.php:22 src/DatascribeDataType/Unknown.php:54
 msgid "Unknown data type"
-msgstr ""
+msgstr "Datu mota ezezaguna"
 
 #: src/DatascribeDataType/Unknown.php:28
 msgid "Field data"
-msgstr ""
+msgstr "Eremu datua"
 
 #: src/DatascribeDataType/Unknown.php:60
 msgid "Value text"
-msgstr ""
+msgstr "Balio testua"
 
 #: src/DatascribeDataType/Datetime.php:11
 msgid "DateTime"
-msgstr ""
+msgstr "Data Denbora"
 
 #: src/DatascribeDataType/Select.php:22 src/Form/Element/Radio.php:17
 msgid "[No selection]"
-msgstr ""
+msgstr "[Hautaketarik ez]"
 
 #: src/DatascribeDataType/Checkbox.php:15
 msgid "Checkbox"
-msgstr ""
+msgstr "Kontrol-laukia"
 
 #: src/DatascribeDataType/Checkbox.php:21
 msgid "Checkbox label"
-msgstr ""
+msgstr "Kontrol-lauki etiketa"
 
 #: src/DatascribeDataType/Checkbox.php:26
 msgid "Checked value"
-msgstr ""
+msgstr "Aukeratuta balioa"
 
 #: src/DatascribeDataType/Checkbox.php:31
 msgid "Unhecked value"
-msgstr ""
+msgstr "Ez aukeratuta balioa"
 
 #: src/DatascribeDataType/Checkbox.php:36
 msgid "Checked by default"
-msgstr ""
+msgstr "Aukeratuta defektuz"
 
 #: src/DatascribeDataType/Checkbox.php:70
 msgid "Check"
-msgstr ""
+msgstr "Aukeratu"
 
 #: src/DatascribeDataType/Text.php:19
 msgid "Text input label"
-msgstr ""
+msgstr "Testu sarrera etiketa"
 
 #: src/DatascribeDataType/Text.php:55 src/DatascribeDataType/Number.php:59
 msgid "Datalist"
-msgstr ""
+msgstr "Datu zerrenda"
 
 #: src/DatascribeDataType/Text.php:56 src/DatascribeDataType/Number.php:60
 msgid "Recommended options available to choose, separated by new lines."
@@ -1145,67 +1163,67 @@ msgstr ""
 
 #: src/DatascribeDataType/AbstractDatetime.php:42
 msgid "Minimum year"
-msgstr ""
+msgstr "Gutxieneko urtea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:54
 msgid "Maximum year"
-msgstr ""
+msgstr "Gehienezko urtea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:64
 msgid "Default year"
-msgstr ""
+msgstr "Lehenetsitako urtea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:74
 msgid "Default month"
-msgstr ""
+msgstr "Lehenetsitako hilabetea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:81
 msgid "Default day"
-msgstr ""
+msgstr "Defektuzko eguna"
 
 #: src/DatascribeDataType/AbstractDatetime.php:91
 msgid "Default hour"
-msgstr ""
+msgstr "Defektuzko ordua"
 
 #: src/DatascribeDataType/AbstractDatetime.php:98
 msgid "Default minute"
-msgstr ""
+msgstr "Defektuzko minutua"
 
 #: src/DatascribeDataType/AbstractDatetime.php:105
 msgid "Default second"
-msgstr ""
+msgstr "Defektuzko segundua"
 
 #: src/DatascribeDataType/AbstractDatetime.php:154
 msgid "Year"
-msgstr ""
+msgstr "Urtea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:168
 msgid "Month"
-msgstr ""
+msgstr "Hilabetea"
 
 #: src/DatascribeDataType/AbstractDatetime.php:182
 msgid "Day"
-msgstr ""
+msgstr "Eguna"
 
 #: src/DatascribeDataType/AbstractDatetime.php:199
 msgid "Hour"
-msgstr ""
+msgstr "Ordua"
 
 #: src/DatascribeDataType/AbstractDatetime.php:213
 msgid "Minute"
-msgstr ""
+msgstr "Minutua"
 
 #: src/DatascribeDataType/AbstractDatetime.php:227
 msgid "Second"
-msgstr ""
+msgstr "Segundua"
 
 #: src/DatascribeDataType/Radio.php:12
 msgid "Radio"
-msgstr ""
+msgstr "Aukera-botoi"
 
 #: src/DatascribeDataType/AbstractSelection.php:12
 msgid "Selection label"
-msgstr ""
+msgstr "Hautaketa etiketa"
 
 #: src/DatascribeDataType/AbstractSelection.php:18
 msgid "The selection options separated by new lines."
@@ -1213,31 +1231,31 @@ msgstr ""
 
 #: src/DatascribeDataType/Number.php:13 src/DatascribeDataType/Number.php:121
 msgid "Number"
-msgstr ""
+msgstr "Zenbakia"
 
 #: src/DatascribeDataType/Number.php:19
 msgid "Number input label"
-msgstr ""
+msgstr "Zenbaki sarrera etiketa"
 
 #: src/DatascribeDataType/Number.php:24
 msgid "Minimum value"
-msgstr ""
+msgstr "Gutxienezko balioa"
 
 #: src/DatascribeDataType/Number.php:25
 msgid "The minimum value to accept for this input."
-msgstr ""
+msgstr "Sarrera honentzat onartu daiteken balio minimoa."
 
 #: src/DatascribeDataType/Number.php:30
 msgid "Maximum value"
-msgstr ""
+msgstr "Gehienezko balioa"
 
 #: src/DatascribeDataType/Number.php:31
 msgid "The maximum value to accept for this input."
-msgstr ""
+msgstr "Sarrera honentzat onartu daitekeen gehienezko balioa."
 
 #: src/DatascribeDataType/Number.php:36
 msgid "Stepping interval"
-msgstr ""
+msgstr "Urrats tartea"
 
 #: src/DatascribeDataType/Number.php:37
 msgid "A number that specifies the granularity that the value must adhere to."
@@ -1245,81 +1263,81 @@ msgstr ""
 
 #: src/DatascribeDataType/Time.php:11
 msgid "Time"
-msgstr ""
+msgstr "Denbora"
 
 #: src/ViewHelper/breadcrumbs_route_map.php:35
 msgid "Record"
-msgstr ""
+msgstr "Erregistroa"
 
 #: src/Api/Representation/DatascribeItemRepresentation.php:243
 #: src/Form/ItemSearchForm.php:21
 msgid "Approved"
-msgstr ""
+msgstr "Onartua"
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:162
 msgid "Invalid item format passed in request."
-msgstr ""
+msgstr "Elementu formatu baliogabea bidali da eskaeran."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:166
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:63
 msgid "Invalid owner format passed in request."
-msgstr ""
+msgstr "Jabe formatu baliogabea pasa da eskaeran."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:170
 msgid "Invalid values format passed in request."
-msgstr ""
+msgstr "Balio formatu baliogabea bidali da eskaeran."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:298
 msgid "Missing item."
-msgstr ""
+msgstr "Elementua falta da."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:305
 msgid "Invalid field. Field not in dataset."
-msgstr ""
+msgstr "Eremu baliogabea. Eremua ez dago datu multzoan."
 
 #: src/Api/Adapter/DatascribeRecordAdapter.php:312
 #, php-format
 msgid "Invalid value text for field \"%s\"."
-msgstr ""
+msgstr "Testu balio dezekogia \"%s\" eremuarentzat."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:82
 msgid "An owner must have an ID"
-msgstr ""
+msgstr "Jabeak ID bat izan behar du"
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:149
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:201
 #, php-format
 msgid "The name \"%s\" is already taken."
-msgstr ""
+msgstr "\"%s\" izena lehendik hartuta dago."
 
 #: src/Api/Adapter/DatascribeProjectAdapter.php:154
 msgid "A project name must not be null"
-msgstr ""
+msgstr "Proiektu izena ezin da hutsa izan"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:56
 msgid "Invalid project format passed in request."
-msgstr ""
+msgstr "Proiektu formatu baliogabea pasa da eskaeran."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:60
 msgid "Invalid item set format passed in request."
-msgstr ""
+msgstr "Elementu multzo baliogabea pasa da eskaeran."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:67
 msgid "Invalid fields format passed in request."
-msgstr ""
+msgstr "Eremu formatu baliogabea pasa da eskaeran."
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:206
 msgid "A dataset name must not be null"
-msgstr ""
+msgstr "Datu multzo izena ezin da hutsa izan"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:209
 msgid "A project must not be null"
-msgstr ""
+msgstr "Proiektua ezin da hutsa izan"
 
 #: src/Api/Adapter/DatascribeDatasetAdapter.php:215
 #, php-format
 msgid "Invalid field data for field \"%s\"."
-msgstr ""
+msgstr "\"%s\" eremuarentzak datu eremu baliogabea."
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:36
 msgid ""
@@ -1328,11 +1346,11 @@ msgstr ""
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:609
 msgid "A DataScribe dataset must not be null"
-msgstr ""
+msgstr "DataScribe datu multzoak ezin du hutsa izan"
 
 #: src/Api/Adapter/DatascribeItemAdapter.php:612
 msgid "An item must not be null"
-msgstr ""
+msgstr "Elementuak ezin du hutsa izan"
 
 #: src/Controller/Admin/RecordController.php:53
 #, php-format
@@ -1346,83 +1364,83 @@ msgstr ""
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
-msgstr ""
+msgstr "Elementua ongi eguneratu da."
 
 #: src/Controller/Admin/RecordController.php:188
 msgid "Record successfully added. Add another record below."
-msgstr ""
+msgstr "Elementua ongi gehitu da. Gehitu beste erregistro bat ondoren."
 
 #: src/Controller/Admin/RecordController.php:191
 msgid "Record successfully added. Continue editing it below."
-msgstr ""
+msgstr "Erregistroa ongi gehitu da. Jarraitu editatzen ondoren."
 
 #: src/Controller/Admin/RecordController.php:194
 msgid "Record successfully added."
-msgstr ""
+msgstr "Erregistroa ongi gehitu da."
 
 #: src/Controller/Admin/RecordController.php:254
 msgid "Record successfully saved. Continue editing it below."
-msgstr ""
+msgstr "Erregistroa ongi gorde da. Jarraitu editatzen ondoren."
 
 #: src/Controller/Admin/RecordController.php:257
 msgid "Record successfully saved."
-msgstr ""
+msgstr "Erregistroa ongi gorde da."
 
 #: src/Controller/Admin/RecordController.php:311
 msgid "Record successfully deleted"
-msgstr ""
+msgstr "Erregistroa ongi ezabatu da."
 
 #: src/Controller/Admin/RecordController.php:351
 #: src/Controller/Admin/DatasetRecordController.php:124
 msgid "Records successfully edited."
-msgstr ""
+msgstr "Erregistroak ongi editatu dira."
 
 #: src/Controller/Admin/RecordController.php:405
 #: src/Controller/Admin/DatasetRecordController.php:175
 msgid "Editing records. This may take a while."
-msgstr ""
+msgstr "Erregistroak editatzen. Honek denbora iraun dezake."
 
 #: src/Controller/Admin/RecordController.php:439
 #: src/Controller/Admin/DatasetRecordController.php:207
 msgid "You must select at least one record to batch delete."
-msgstr ""
+msgstr "Elementu bat gutxienez hatutau bera duzu sorta ezabatzerako."
 
 #: src/Controller/Admin/RecordController.php:448
 #: src/Controller/Admin/DatasetRecordController.php:216
 msgid "Records successfully deleted"
-msgstr ""
+msgstr "Erregistroak ongi ezabatu dira"
 
 #: src/Controller/Admin/RecordController.php:487
 #: src/Controller/Admin/DatasetRecordController.php:254
 msgid "Deleting records. This may take a while."
-msgstr ""
+msgstr "Erregistroak ezabatzeko. Honek denbora iraun dezake."
 
 #: src/Controller/Admin/DatasetController.php:52
 msgid "Dataset successfully created."
-msgstr ""
+msgstr "Datu multzoa ongi sortu da."
 
 #: src/Controller/Admin/DatasetController.php:89
 msgid "Dataset successfully edited."
-msgstr "Jeu de données édité avec succès"
+msgstr "Datu multzoa ongi editatu da."
 
 #: src/Controller/Admin/DatasetController.php:120
 msgid "Dataset successfully deleted"
-msgstr ""
+msgstr "Datu multzoa ongi ezabatu da."
 
 #: src/Controller/Admin/DatasetController.php:184
 #, php-format
 msgid "Syncing dataset. This may take a while. %s"
-msgstr ""
+msgstr "Datu multzoa sinkronizatzen. Honek denbora iraun dezake. %s"
 
 #: src/Controller/Admin/DatasetController.php:208
 #, php-format
 msgid "Validating dataset. This may take a while. %s"
-msgstr ""
+msgstr "Datu multzoa balidatzen. Honek denbora iraun dezake. %s"
 
 #: src/Controller/Admin/DatasetController.php:232
 #, php-format
 msgid "Exporting dataset. This may take a while. %s"
-msgstr ""
+msgstr "Datu multzoa esportatzen. Honek denbora iraun dezake. %s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
@@ -1430,109 +1448,109 @@ msgstr ""
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
-msgstr ""
+msgstr "Proiektua ongi sortu da."
 
 #: src/Controller/Admin/ProjectController.php:52
 msgid "Project successfully edited."
-msgstr ""
+msgstr "Proiektua ongi aldatu da."
 
 #: src/Controller/Admin/ProjectController.php:77
 msgid "Project successfully deleted"
-msgstr ""
+msgstr "Proiektua ongi ezabatu da."
 
 #: src/Controller/Admin/ItemController.php:38
 #, php-format
 msgid "This dataset has no item set. %s"
-msgstr ""
+msgstr "Datu multzo honek ez du elementu multzorik. %s"
 
 #: src/Controller/Admin/ItemController.php:145
 msgid "Items successfully edited."
-msgstr ""
+msgstr "Elementuak ongi editatu dira."
 
 #: src/Form/RecordForm.php:136
 msgid "Invalid value"
-msgstr ""
+msgstr "Balio desegokia"
 
 #: src/Form/RecordForm.php:147
 msgid "Set to null"
-msgstr ""
+msgstr "Ezarri hutsa"
 
 #: src/Form/AbstractForm.php:101
 msgid "Lock to transcriber"
-msgstr ""
+msgstr "Blokeatu transkribatzaileari"
 
 #: src/Form/AbstractForm.php:105
 msgid "Lock to reviewer"
-msgstr ""
+msgstr "Blokeatu berrikusleari"
 
 #: src/Form/AbstractForm.php:109
 msgid "Lock to admin"
-msgstr ""
+msgstr "Blokeatu administratzaileari"
 
 #: src/Form/ItemBatchForm.php:11 src/Form/ItemForm.php:66
 msgid "Unlock"
-msgstr ""
+msgstr "Desblokeatu"
 
 #: src/Form/ItemBatchForm.php:12 src/Form/ItemForm.php:69
 msgid "Lock to me"
-msgstr ""
+msgstr "Blokeatu niretzako"
 
 #: src/Form/ItemBatchForm.php:18
 msgid "Lock action"
-msgstr ""
+msgstr "Blokeatze ekintza"
 
 #: src/Form/ItemBatchForm.php:31
 msgid "Review action"
-msgstr ""
+msgstr "Berrikuste ekintza"
 
 #: src/Form/ItemBatchForm.php:34 src/Form/ItemForm.php:48
 msgid "Mark as approved"
-msgstr ""
+msgstr "Markatu onartua bezala"
 
 #: src/Form/ItemBatchForm.php:35 src/Form/ItemForm.php:51
 msgid "Mark as not approved"
-msgstr ""
+msgstr "Markatu ez onartua bezala"
 
 #: src/Form/ItemBatchForm.php:36 src/Form/ItemForm.php:54
 msgid "Mark as not reviewed"
-msgstr ""
+msgstr "Markatu ez berrikusia bezala"
 
 #: src/Form/ItemBatchForm.php:48
 msgid "Priority action"
-msgstr ""
+msgstr "Lehenesteko ekintza"
 
 #: src/Form/ItemBatchForm.php:51 src/Form/ItemForm.php:84
 msgid "Mark as prioritized"
-msgstr ""
+msgstr "Markatu lehentasunezko bezala"
 
 #: src/Form/ItemBatchForm.php:52 src/Form/ItemForm.php:87
 msgid "Mark as not prioritized"
-msgstr ""
+msgstr "Markatu ez lehenetsita bezala"
 
 #: src/Form/RecordSearchForm.php:14
 msgid "Needs review?"
-msgstr ""
+msgstr "Berrikuspena behar du?"
 
 #: src/Form/RecordSearchForm.php:23 src/Form/RecordSearchForm.php:40
 #: src/Form/RecordSearchForm.php:57
 msgid "Select one"
-msgstr ""
+msgstr "Hautatu bat"
 
 #: src/Form/RecordSearchForm.php:31
 msgid "Needs work?"
-msgstr ""
+msgstr "Lana behar du?"
 
 #: src/Form/RecordSearchForm.php:48
 msgid "Has invalid values?"
-msgstr ""
+msgstr "Balio baliogabeak ditu?"
 
 #: src/Form/RecordSearchForm.php:75 src/Form/RecordSearchForm.php:93
 msgid "Select user"
-msgstr ""
+msgstr "Hautatu erabiltzailea"
 
 #: src/Form/RecordSearchForm.php:87
 msgid "Modified by"
-msgstr ""
+msgstr "Honek aldatua"
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
@@ -1553,7 +1571,7 @@ msgstr ""
 #: src/Form/ItemSearchForm.php:74 src/Form/ItemSearchForm.php:98
 #: src/Form/ItemSearchForm.php:114 src/Form/ItemSearchForm.php:130
 msgid "Select status"
-msgstr ""
+msgstr "Hautatu egoera"
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
@@ -1569,15 +1587,15 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
-msgstr ""
+msgstr "Sartu datu multzo honen izena."
 
 #: src/Form/DatasetForm.php:97
 msgid "Enter the description of this dataset."
-msgstr ""
+msgstr "Sartu datu multzo honen azalpena."
 
 #: src/Form/DatasetForm.php:109
 msgid "Enter guidelines for transcribing this dataset."
-msgstr ""
+msgstr "Sartu datu multzo hau transkribatzeko gidalerroak."
 
 #: src/Form/DatasetForm.php:121
 msgid ""
@@ -1587,7 +1605,7 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:127
 msgid "Select an item set"
-msgstr ""
+msgstr "Hautatu elementu multzoa"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
@@ -1622,164 +1640,164 @@ msgstr ""
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"
-msgstr ""
+msgstr "Eremu izena"
 
 #: src/Form/DatasetForm.php:276
 msgid "Field description"
-msgstr ""
+msgstr "Eremu azalpena"
 
 #: src/Form/DatasetForm.php:285
 msgid "Field is primary"
-msgstr ""
+msgstr "Eremu nagusia da"
 
 #: src/Form/DatasetForm.php:294
 msgid "Field is required"
-msgstr ""
+msgstr "Eremua beharrezkoa da"
 
 #: src/Form/ItemSearchForm.php:19
 msgid "Need review"
-msgstr ""
+msgstr "Berrikuspena behar du"
 
 #: src/Form/ItemSearchForm.php:33
 msgid "Submitted by"
-msgstr ""
+msgstr "Nork bidalia"
 
 #: src/Form/ItemSearchForm.php:44
 msgid "Submitted status"
-msgstr ""
+msgstr "Bidaltze egoera"
 
 #: src/Form/ItemSearchForm.php:57
 msgid "Reviewed by"
-msgstr ""
+msgstr "Nork berrikusia"
 
 #: src/Form/ItemSearchForm.php:68
 msgid "Reviewed status"
-msgstr ""
+msgstr "Berrikuspen egoera"
 
 #: src/Form/ItemSearchForm.php:81
 msgid "Locked by"
-msgstr ""
+msgstr "Nork blokeatua"
 
 #: src/Form/ItemSearchForm.php:92
 msgid "Locked status"
-msgstr ""
+msgstr "Blokeatze egoera"
 
 #: src/Form/Element/MonthSelect.php:11
 msgid "January"
-msgstr ""
+msgstr "Urtarrila"
 
 #: src/Form/Element/MonthSelect.php:12
 msgid "February"
-msgstr ""
+msgstr "Otsaila"
 
 #: src/Form/Element/MonthSelect.php:13
 msgid "March"
-msgstr ""
+msgstr "Martxoa"
 
 #: src/Form/Element/MonthSelect.php:14
 msgid "April"
-msgstr ""
+msgstr "Apirila"
 
 #: src/Form/Element/MonthSelect.php:15
 msgid "May"
-msgstr ""
+msgstr "Maiatza"
 
 #: src/Form/Element/MonthSelect.php:16
 msgid "June"
-msgstr ""
+msgstr "Ekaina"
 
 #: src/Form/Element/MonthSelect.php:17
 msgid "July"
-msgstr ""
+msgstr "Uztaila"
 
 #: src/Form/Element/MonthSelect.php:18
 msgid "August"
-msgstr ""
+msgstr "Abuztua"
 
 #: src/Form/Element/MonthSelect.php:19
 msgid "September"
-msgstr ""
+msgstr "Iraila"
 
 #: src/Form/Element/MonthSelect.php:20
 msgid "October"
-msgstr ""
+msgstr "Urria"
 
 #: src/Form/Element/MonthSelect.php:21
 msgid "November"
-msgstr ""
+msgstr "Azaroa"
 
 #: src/Form/Element/MonthSelect.php:22
 msgid "December"
-msgstr ""
+msgstr "Abendua"
 
 #: src/Form/ProjectForm.php:15
 msgid "Enter the name of this project."
-msgstr ""
+msgstr "Sartu proiektu honen izena."
 
 #: src/Form/ProjectForm.php:27
 msgid "Enter the description of this project."
-msgstr ""
+msgstr "Sartu proiektu honen azalpena."
 
 #: src/Form/ItemForm.php:33
 msgid "Submit for review"
-msgstr ""
+msgstr "Bidali berrikuspenera"
 
 #: src/Form/ItemForm.php:36
 msgid "Mark as not submitted"
-msgstr ""
+msgstr "Markatu ez bidalia bezala"
 
 #: src/Form/RecordBatchForm.php:14
 msgid "Needs review action"
-msgstr ""
+msgstr "Berrikuspen ekintza behar du"
 
 #: src/Form/RecordBatchForm.php:17
 msgid "Mark as needs review"
-msgstr ""
+msgstr "Berrikuspena behar duela bezala markatua"
 
 #: src/Form/RecordBatchForm.php:18
 msgid "Mark as does not need review"
-msgstr ""
+msgstr "Berrikuspena behar ez duela bezala markatua"
 
 #: src/Form/RecordBatchForm.php:30
 msgid "Needs work action"
-msgstr ""
+msgstr "Lan ekintza behar du"
 
 #: src/Form/RecordBatchForm.php:33
 msgid "Mark as needs work"
-msgstr ""
+msgstr "Lan ekintza behar duela markatu"
 
 #: src/Form/RecordBatchForm.php:34
 msgid "Mark as does not need work"
-msgstr ""
+msgstr "Lan ekintza ez duela behar markatu"
 
 #: src/Form/RecordBatchForm.php:73
 msgid "Is missing action"
-msgstr ""
+msgstr "Ekintza falta da"
 
 #: src/Form/RecordBatchForm.php:76
 msgid "Mark as missing"
-msgstr ""
+msgstr "Markatu galduta bezala"
 
 #: src/Form/RecordBatchForm.php:77
 msgid "Mark as not missing"
-msgstr ""
+msgstr "Markatu ez galduta bezala"
 
 #: src/Form/RecordBatchForm.php:89
 msgid "Is illegible action"
-msgstr ""
+msgstr "Ekintza irakurgaitza"
 
 #: src/Form/RecordBatchForm.php:92
 msgid "Mark as illegible"
-msgstr ""
+msgstr "Markatu irakurgaitz bezala"
 
 #: src/Form/RecordBatchForm.php:93
 msgid "Mark as not illegible"
-msgstr ""
+msgstr "Markatu ez irakurgaitz bezala"
 
 #: config/module.config.php:29
 msgid "Disable focus mode"
-msgstr ""
+msgstr "Desgaitu kontzentratze modua"
 
 #: config/module.config.php:31
 msgid "Disable fast entry mode"
-msgstr ""
+msgstr "Desgaitu azkar sartze modua"

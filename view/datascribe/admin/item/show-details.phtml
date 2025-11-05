@@ -80,9 +80,9 @@
 </div>
 <div class="meta-group">
     <h4><?php echo $this->translate('Transcriber item notes'); ?></h4>
-    <div class="value"><?php echo nl2br($item->transcriberNotes()); ?></div>
+    <div class="value"><?php echo nl2br((string) $item->transcriberNotes()); ?></div>
 </div>
 <div class="meta-group">
     <h4><?php echo $this->translate('Reviewer item notes'); ?></h4>
-    <div class="value"><?php echo nl2br($item->reviewerNotes()); ?></div>
+    <div class="value"><?php echo nl2br((string) $item->reviewerNotes()); ?></div>
 </div>

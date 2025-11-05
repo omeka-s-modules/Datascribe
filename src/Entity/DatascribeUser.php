@@ -53,27 +53,27 @@ class DatascribeUser extends AbstractEntity
      */
     protected $role;
 
-    public function setProject(DatascribeProject $project) : void
+    public function setProject(DatascribeProject $project): void
     {
         $this->project = $project;
     }
 
-    public function getProject() : DatascribeProject
+    public function getProject(): DatascribeProject
     {
         return $this->project;
     }
 
-    public function setUser(?User $user = null) : void
+    public function setUser(?User $user = null): void
     {
         $this->user = $user;
     }
 
-    public function getUser() : ?User
+    public function getUser(): ?User
     {
         return $this->user;
     }
 
-    public function setRole(string $role) : void
+    public function setRole(string $role): void
     {
         if (!in_array($role, [self::ROLE_REVIEWER, self::ROLE_TRANSCRIBER])) {
             throw new Exception\InvalidArgumentException('Invalid user role');
@@ -81,7 +81,7 @@ class DatascribeUser extends AbstractEntity
         $this->role = $role;
     }
 
-    public function getRole() : string
+    public function getRole(): string
     {
         return $this->role;
     }

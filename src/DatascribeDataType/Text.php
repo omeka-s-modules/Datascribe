@@ -8,12 +8,12 @@ use Laminas\Validator\ValidatorChain;
 
 class Text implements DataTypeInterface
 {
-    public function getLabel() : string
+    public function getLabel(): string
     {
         return 'Text'; // @translate
     }
 
-    public function addFieldElements(Fieldset $fieldset, array $fieldData) : void
+    public function addFieldElements(Fieldset $fieldset, array $fieldData): void
     {
         $element = new Element\Text('label');
         $element->setLabel('Text input label'); // @translate
@@ -59,7 +59,7 @@ class Text implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getFieldDataFromUserData(array $userData) : array
+    public function getFieldDataFromUserData(array $userData): array
     {
         $fieldData = [];
         $fieldData['minlength'] =
@@ -100,13 +100,13 @@ class Text implements DataTypeInterface
         return $fieldData;
     }
 
-    public function fieldDataIsValid(array $fieldData) : bool
+    public function fieldDataIsValid(array $fieldData): bool
     {
         // Invalid data was filtered out in self::getFieldDataFromUserData().
         return true;
     }
 
-    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText) : void
+    public function addValueElements(Fieldset $fieldset, array $fieldData, ?string $valueText): void
     {
         $element = new DatascribeElement\Text('value', [
             'datascribe_field_data' => $fieldData,
@@ -122,7 +122,7 @@ class Text implements DataTypeInterface
         $fieldset->add($element);
     }
 
-    public function getValueTextFromUserData(array $userData) : ?string
+    public function getValueTextFromUserData(array $userData): ?string
     {
         $text = null;
         if (isset($userData['value']) && is_string($userData['value']) && ('' !== $userData['value'])) {
@@ -131,7 +131,7 @@ class Text implements DataTypeInterface
         return $text;
     }
 
-    public function valueTextIsValid(array $fieldData, ?string $valueText) : bool
+    public function valueTextIsValid(array $fieldData, ?string $valueText): bool
     {
         $element = new DatascribeElement\Text('value', [
             'datascribe_field_data' => $fieldData,

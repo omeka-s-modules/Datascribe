@@ -91,7 +91,7 @@ class SecondSelect extends LaminasSelect implements InputProviderInterface
         return $validators;
     }
 
-    public function getInputSpecification()
+    public function getInputSpecification(): array
     {
         return [
             'name' => $this->getName(),

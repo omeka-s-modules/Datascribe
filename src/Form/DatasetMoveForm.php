@@ -16,7 +16,7 @@ class DatasetMoveForm extends Form
                 'label' => 'Project', // @translate
                 'resource_value_options' => [
                     'resource' => 'datascribe_projects',
-                    'option_text_callback' => function($project) {
+                    'option_text_callback' => function ($project) {
                         return $project->name();
                     },
                 ],
