@@ -39,7 +39,7 @@ class DatascribeUser extends AbstractEntity
      * )
      * @JoinColumn(
      *     nullable=true,
-     *     onDelete="SET NULL"
+     *     onDelete="CASCADE"
      * )
      */
     protected $user;
