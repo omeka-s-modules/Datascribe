@@ -323,7 +323,7 @@ class DatasetForm extends Form
     public function removeDeletedFields(array $postData)
     {
         // Fields deleted by the form builder are not passed with POST data.
-        $fieldIdsToRetain = array_keys($postData['o-module-datascribe:field']);
+        $fieldIdsToRetain = array_keys((array) $postData['o-module-datascribe:field']);
         $fieldsFieldset = $this->get('o-module-datascribe:field');
         $fieldsInputFilter = $this->getInputFilter()->get('o-module-datascribe:field');
         foreach ($fieldsFieldset->getFieldsets() as $fieldId => $fieldFieldset) {
