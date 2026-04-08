@@ -118,8 +118,6 @@
 }
 
 [name^="top-anchor"] {
-    padding-top: 96px;
-    margin-top: -96px;
     display: block;
     visibility: hidden;
 }
