@@ -175,6 +175,7 @@
 .alert:before {
   content: "\f06a";
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -518,6 +519,7 @@
 .current-row .required:after {
   font-family: "Font Awesome 5 Free";
   content: "\f069";
+  font-weight: 900;
   font-size: 12px;
   color: orange;
   margin-left: 6px;
@@ -1151,6 +1153,7 @@ div[role="main"].fullscreen > h1:first-of-type {
 .close-guidelines:before {
   content: "\f00d";
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 
 .guidelines-container.closed {
