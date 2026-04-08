@@ -24,14 +24,6 @@ directionSelect.on('change', function(e) {
     }
 });
 
-$('.open-guidelines').click(function() {
-    $('.guidelines-container').removeClass('closed');
-});
-
-$('.close-guidelines').click(function() {
-    $('.guidelines-container').addClass('closed');
-});
-
 // Lose input focus on scroll so the page scrolls instead of the input value.
 $(document).on('wheel', 'input[type=number]', function (e) {
     $(this).blur();

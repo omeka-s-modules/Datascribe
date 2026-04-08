@@ -1118,14 +1118,8 @@ div[role="main"].fullscreen > h1:first-of-type {
   overflow: hidden;
 }
 
-.guidelines-container {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+::backdrop {
   background-color: rgba(0,0,0,0.8);
-  z-index: 10000;
 }
 
 .guidelines-content {
@@ -1133,10 +1127,6 @@ div[role="main"].fullscreen > h1:first-of-type {
   width: calc(100% - 2rem);
   height: calc(100% - 2rem);
   max-width: 75rem;
-  margin: 1rem auto;
-  padding: 1rem;
-  position: relative;
-  overflow: auto;
 }
 
 .close-guidelines {
@@ -1155,10 +1145,6 @@ div[role="main"].fullscreen > h1:first-of-type {
   content: "\f00d";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-}
-
-.guidelines-container.closed {
-  display: none;
 }
 
 /* Dashboard */
