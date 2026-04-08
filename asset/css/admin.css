@@ -209,6 +209,7 @@
 .tablesaw-swipe-wrapper th,
 .record.browse th {
   width: 7rem;
+  word-break: normal;
 }
 
 .record.browse .select-all {
