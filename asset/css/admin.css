@@ -128,6 +128,7 @@
     justify-content: space-between;
     width: 100%;
     clear: both;
+    min-width: 0;
 }
 
 .browse .browse-controls > form,
@@ -137,13 +138,14 @@
 }
 
 .browse .browse-controls .sorting,
-.browse .browse-controls .filtering {
+.browse .browse-controls .datascribe-filter-form {
     text-align: right;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
-.browse-controls .filtering {
+.browse-controls .datascribe-filter-form {
   margin-left: 0;
   justify-content: flex-end;
 }
