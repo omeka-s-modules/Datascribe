@@ -1122,6 +1122,11 @@ div[role="main"].fullscreen > h1:first-of-type {
   background-color: rgba(0,0,0,0.8);
 }
 
+#guidelines-modal {
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
 .guidelines-content {
   background-color: #fff;
   width: calc(100% - 2rem);
