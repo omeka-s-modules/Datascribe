@@ -32,7 +32,7 @@ if ('add' === $action) {
                 <button type="button" name="vertical" id="vertical-layout" class="vertical" aria-label="<?php echo $this->escapeHtml($this->translate('Vertical view')); ?>" title="<?php echo $this->escapeHtml($this->translate('Vertical view')); ?>"></button>
             </div>
             <?php if ($dataset->guidelines()): ?>
-            <button type="button" class="open-guidelines" command="show-modal" commandfor="guidelines-modal"><?php echo $this->translate('Guidelines'); ?></button>
+            <button type="button" class="open-guidelines"><?php echo $this->translate('Guidelines'); ?></button>
             <?php endif; ?>
         </div>
         <?php echo $this->partial('media-viewer'); ?>
@@ -168,7 +168,7 @@ if ('add' === $action) {
     <?php if ($dataset->guidelines()): ?>
     <dialog id="guidelines-modal" aria-label="<?php echo $this->translate('Guidelines'); ?>" class="guidelines-container closed">
         <div class="guidelines-content">
-          <button type="button" command="close" commandfor="guidelines-modal" class="close-guidelines" aria-label="<?php echo $this->translate('Close'); ?>" title="<?php echo $this->translate('Close'); ?>"></button>
+          <button type="button" class="close-guidelines" aria-label="<?php echo $this->translate('Close'); ?>" title="<?php echo $this->translate('Close'); ?>"></button>
           <?php echo $dataset->guidelines(); ?>
         </div>
     </dialog>

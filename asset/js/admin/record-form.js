@@ -24,6 +24,15 @@ directionSelect.on('change', function(e) {
     }
 });
 
+var guidelinesModal = document.getElementById('guidelines-modal');
+$('#content').on('click', '.open-guidelines', function() {
+    guidelinesModal.showModal();
+});
+
+$('#content').on('click', '.close-guidelines', function() {
+    guidelinesModal.close();
+});
+
 // Lose input focus on scroll so the page scrolls instead of the input value.
 $(document).on('wheel', 'input[type=number]', function (e) {
     $(this).blur();
