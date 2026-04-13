@@ -926,6 +926,7 @@ button.sidebar-drawer.collapse:after {
 #media-viewer,
 .records-list {
   width: 50%;
+  container-type: inline-size;
 }
 
 #media-select-controls {
@@ -943,10 +944,6 @@ button.sidebar-drawer.collapse:after {
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 0;
-}
-
-.media-count {
-  margin: 0 6px;
 }
 
 .media.pagination input {
@@ -1032,6 +1029,31 @@ button.sidebar-drawer.collapse:after {
 
 #panzoom-rotate-right:before {
     content: "\f2f9";
+}
+
+@container (width < 20em) {
+  #media-select-controls {
+    flex-wrap: wrap;
+    margin-bottom: .25rem;
+    gap: .25rem;
+  }
+
+  #media-viewer select,
+  .media.pagination {
+    width: 100%;
+  }
+
+  .media.pagination {
+    justify-content: flex-start;
+  }
+
+  #panzoom-buttons {
+    margin: 0 0 .25rem 1px;
+  }
+
+  .current-row #panzoom-container {
+    position: static;
+  }
 }
 
 #fullscreen {
