@@ -66,7 +66,7 @@ class DatascribeItemRepresentation extends AbstractEntityRepresentation
     }
 
     public function linkPretty($thumbnailType = 'square', $titleDefault = null,
-        $action = null, array $attributes = null
+        $action = null, ?array $attributes = null
     ) {
         $item = $this->item();
         $escape = $this->getViewHelper('escapeHtml');

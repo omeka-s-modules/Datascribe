@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-05 11:59-0500\n"
+"POT-Creation-Date: 2026-05-01 11:31-0400\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
 "Last-Translator: Hong Zhang <zhangh@unlv.nevada.edu>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/omeka/teams/14184/zh_CN/)\n"
@@ -288,7 +288,7 @@ msgid "Date created"
 msgstr "创建日期"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
-#: view/datascribe/admin/index/index.phtml:145
+#: view/datascribe/admin/index/index.phtml:147
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
@@ -485,63 +485,63 @@ msgstr "DataScribe"
 msgid "Browse projects"
 msgstr "浏览项目"
 
-#: view/datascribe/admin/index/index.phtml:9
+#: view/datascribe/admin/index/index.phtml:10
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
 msgstr "添加新项目"
 
-#: view/datascribe/admin/index/index.phtml:12
+#: view/datascribe/admin/index/index.phtml:14
 msgid "Welcome to DataScribe."
 msgstr "欢迎来到DataScribe。"
 
-#: view/datascribe/admin/index/index.phtml:15
+#: view/datascribe/admin/index/index.phtml:17
 msgid "My projects"
 msgstr "我的项目"
 
-#: view/datascribe/admin/index/index.phtml:25
+#: view/datascribe/admin/index/index.phtml:27
 msgid "Unlocked items"
 msgstr "解锁的条目"
 
-#: view/datascribe/admin/index/index.phtml:28
-#: view/datascribe/admin/index/index.phtml:53
+#: view/datascribe/admin/index/index.phtml:30
+#: view/datascribe/admin/index/index.phtml:55
 msgid "New"
 msgstr "新的"
 
-#: view/datascribe/admin/index/index.phtml:39
-#: view/datascribe/admin/index/index.phtml:64
+#: view/datascribe/admin/index/index.phtml:41
+#: view/datascribe/admin/index/index.phtml:66
 msgid "In progress"
 msgstr "正在进行中"
 
-#: view/datascribe/admin/index/index.phtml:50
+#: view/datascribe/admin/index/index.phtml:52
 #: view/datascribe/admin/item/browse.phtml:79
 msgid "My items (locked to me)"
 msgstr ""
 
-#: view/datascribe/admin/index/index.phtml:75
+#: view/datascribe/admin/index/index.phtml:77
 msgid "Not approved"
 msgstr "未批准"
 
-#: view/datascribe/admin/index/index.phtml:87
+#: view/datascribe/admin/index/index.phtml:89
 msgid "Items needing review"
 msgstr "需审核的条目"
 
-#: view/datascribe/admin/index/index.phtml:101
+#: view/datascribe/admin/index/index.phtml:103
 msgid "Needs my re-review"
 msgstr "需要我的再审核"
 
-#: view/datascribe/admin/index/index.phtml:112
+#: view/datascribe/admin/index/index.phtml:114
 msgid "Records needing review"
 msgstr "需审核的记录"
 
-#: view/datascribe/admin/index/index.phtml:134
+#: view/datascribe/admin/index/index.phtml:136
 msgid "You do not own or belong to any projects."
 msgstr ""
 
-#: view/datascribe/admin/index/index.phtml:140
+#: view/datascribe/admin/index/index.phtml:142
 msgid "All projects"
 msgstr "所有项目"
 
-#: view/datascribe/admin/index/index.phtml:165
+#: view/datascribe/admin/index/index.phtml:167
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
 msgstr "没有找到任何项目。"
@@ -913,6 +913,7 @@ msgid "Vertical view"
 msgstr "垂直视图"
 
 #: view/datascribe/admin/record/form.phtml:35
+#: view/datascribe/admin/record/form.phtml:169
 msgid "Guidelines"
 msgstr "指南"
 
@@ -985,27 +986,27 @@ msgstr "下一个记录"
 msgid "%s. %s"
 msgstr "%s.%s"
 
-#: view/datascribe/admin/record/media-viewer.phtml:32
+#: view/datascribe/admin/record/media-viewer.phtml:33
 msgid "Previous media"
 msgstr ""
 
-#: view/datascribe/admin/record/media-viewer.phtml:33
+#: view/datascribe/admin/record/media-viewer.phtml:34
 msgid "Next media"
 msgstr ""
 
-#: view/datascribe/admin/record/media-viewer.phtml:37
+#: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Zoom in"
 msgstr "放大"
 
-#: view/datascribe/admin/record/media-viewer.phtml:38
+#: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Zoom out"
 msgstr "缩小"
 
-#: view/datascribe/admin/record/media-viewer.phtml:39
+#: view/datascribe/admin/record/media-viewer.phtml:41
 msgid "Rotate left"
 msgstr "向左旋转"
 
-#: view/datascribe/admin/record/media-viewer.phtml:40
+#: view/datascribe/admin/record/media-viewer.phtml:42
 msgid "Rotate right"
 msgstr "向右旋转"
 

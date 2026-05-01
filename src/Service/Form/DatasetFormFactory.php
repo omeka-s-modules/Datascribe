@@ -7,7 +7,7 @@ use Interop\Container\ContainerInterface;
 
 class DatasetFormFactory implements FactoryInterface
 {
-    public function __invoke(ContainerInterface $services, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $services, $requestedName, ?array $options = null)
     {
         $form = new DatasetForm(null, (array) $options);
         $form->setDataTypeManager($services->get('Datascribe\DataTypeManager'));

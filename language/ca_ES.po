@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-05 11:59-0500\n"
+"POT-Creation-Date: 2026-05-01 11:31-0400\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
 "Last-Translator: Rubén Alcaraz Martínez <rubenalcarazmartinez@gmail.com>, 2025\n"
 "Language-Team: Catalan (Spain) (https://app.transifex.com/omeka/teams/14184/ca_ES/)\n"
@@ -49,15 +49,15 @@ msgstr "Estableix un conjunt de recursos"
 
 #: src/Controller/Admin/RecordController.php:57
 msgid "View my new items."
-msgstr ""
+msgstr "Visualitza els nous recursos."
 
 #: src/Controller/Admin/RecordController.php:59
 msgid "View all unlocked and new items."
-msgstr ""
+msgstr "Visualitza tots els recursos nous i desbloquejats."
 
 #: src/Controller/Admin/RecordController.php:69
 msgid "View all items that need review."
-msgstr ""
+msgstr "Visualitza tots els recursos que necessiten revisió."
 
 #: src/Form/DatasetForm.php:200
 msgid "New field"
@@ -176,7 +176,7 @@ msgstr "Exporta el conjunt de dades"
 #: view/datascribe/admin/dataset/form-sidebars.phtml:28
 #: view/datascribe/admin/item/browse.phtml:18
 msgid "Move dataset"
-msgstr ""
+msgstr "Mou el conjunt de dades"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:131
 #: view/datascribe/admin/record/browse.phtml:113
@@ -205,7 +205,7 @@ msgstr "Necessita millores"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:142
 msgid "View record"
-msgstr ""
+msgstr "Visualitza el registre"
 
 #: view/datascribe/admin/dataset-record/browse.phtml:164
 #: view/datascribe/admin/dataset-record/browse.phtml:176
@@ -288,7 +288,7 @@ msgid "Date created"
 msgstr "Data de creació"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
-#: view/datascribe/admin/index/index.phtml:145
+#: view/datascribe/admin/index/index.phtml:147
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
@@ -409,7 +409,7 @@ msgstr ""
 
 #: view/datascribe/admin/dataset/form-sidebars.phtml:29
 msgid "Move this dataset to another project."
-msgstr ""
+msgstr "Mou aquest conjunt de dades a un altre projecte."
 
 #: view/datascribe/admin/dataset/show-details.phtml:1
 msgid "Dataset metadata"
@@ -469,23 +469,23 @@ msgstr "[No exportat]"
 
 #: view/datascribe/admin/dataset/show-details.phtml:109
 msgid "Export form"
-msgstr ""
+msgstr "Exporta el formulari"
 
 #: view/datascribe/admin/dataset/show-details.phtml:111
 msgid "Click to export form (JSON)"
-msgstr ""
+msgstr "Fes clic per exportar el formulari (JSON)"
 
 #: view/datascribe/admin/dataset/show-details.phtml:115
 msgid "Download dataset"
-msgstr ""
+msgstr "Descarrega el conjunt de dades"
 
 #: view/datascribe/admin/dataset/show-details.phtml:118
 msgid "Click to download dataset (CSV)"
-msgstr ""
+msgstr "Fes clic per descarregar el conjunt de dades (CSV)"
 
 #: view/datascribe/admin/dataset/show-details.phtml:120
 msgid "[No download available]"
-msgstr ""
+msgstr "[Cap descàrrega disponible]"
 
 #: view/datascribe/admin/index/index.phtml:5
 msgid "Dashboard"
@@ -501,63 +501,63 @@ msgstr "DataScribe"
 msgid "Browse projects"
 msgstr "Projectes"
 
-#: view/datascribe/admin/index/index.phtml:9
+#: view/datascribe/admin/index/index.phtml:10
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
 msgstr "Afegeix un nou projecte"
 
-#: view/datascribe/admin/index/index.phtml:12
+#: view/datascribe/admin/index/index.phtml:14
 msgid "Welcome to DataScribe."
 msgstr "Sigues benvingut al DataScribe!"
 
-#: view/datascribe/admin/index/index.phtml:15
+#: view/datascribe/admin/index/index.phtml:17
 msgid "My projects"
 msgstr "Els meus projectes"
 
-#: view/datascribe/admin/index/index.phtml:25
+#: view/datascribe/admin/index/index.phtml:27
 msgid "Unlocked items"
 msgstr "Recursos desbloquejats"
 
-#: view/datascribe/admin/index/index.phtml:28
-#: view/datascribe/admin/index/index.phtml:53
+#: view/datascribe/admin/index/index.phtml:30
+#: view/datascribe/admin/index/index.phtml:55
 msgid "New"
 msgstr "Nou"
 
-#: view/datascribe/admin/index/index.phtml:39
-#: view/datascribe/admin/index/index.phtml:64
+#: view/datascribe/admin/index/index.phtml:41
+#: view/datascribe/admin/index/index.phtml:66
 msgid "In progress"
 msgstr "En progrés"
 
-#: view/datascribe/admin/index/index.phtml:50
+#: view/datascribe/admin/index/index.phtml:52
 #: view/datascribe/admin/item/browse.phtml:79
 msgid "My items (locked to me)"
-msgstr ""
+msgstr "Els meus recursos (blocats per a mi)"
 
-#: view/datascribe/admin/index/index.phtml:75
+#: view/datascribe/admin/index/index.phtml:77
 msgid "Not approved"
 msgstr "No aprovat"
 
-#: view/datascribe/admin/index/index.phtml:87
+#: view/datascribe/admin/index/index.phtml:89
 msgid "Items needing review"
 msgstr "Recursos que necessiten revisió"
 
-#: view/datascribe/admin/index/index.phtml:101
+#: view/datascribe/admin/index/index.phtml:103
 msgid "Needs my re-review"
 msgstr "Requereix que la revisi de nou"
 
-#: view/datascribe/admin/index/index.phtml:112
+#: view/datascribe/admin/index/index.phtml:114
 msgid "Records needing review"
 msgstr "Registres que necessiten una revisió"
 
-#: view/datascribe/admin/index/index.phtml:134
+#: view/datascribe/admin/index/index.phtml:136
 msgid "You do not own or belong to any projects."
-msgstr ""
+msgstr "No ets propietari ni formes part de cap projecte."
 
-#: view/datascribe/admin/index/index.phtml:140
+#: view/datascribe/admin/index/index.phtml:142
 msgid "All projects"
 msgstr "Tots els projectes"
 
-#: view/datascribe/admin/index/index.phtml:165
+#: view/datascribe/admin/index/index.phtml:167
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
 msgstr "No hi ha cap projecte"
@@ -597,7 +597,7 @@ msgstr "Revisat"
 
 #: view/datascribe/admin/item/browse.phtml:67
 msgid "Items that need review"
-msgstr ""
+msgstr "Recursos que necessiten revisió"
 
 #: view/datascribe/admin/item/browse.phtml:68
 msgid "All items that need review"
@@ -617,7 +617,7 @@ msgstr "Recursos amb valors marcats com a invàlids"
 
 #: view/datascribe/admin/item/browse.phtml:73
 msgid "Items I reviewed"
-msgstr ""
+msgstr "Elements que he revisat"
 
 #: view/datascribe/admin/item/browse.phtml:74
 msgid "Items I reviewed that need re-review"
@@ -653,11 +653,11 @@ msgstr "Ítems aprovats"
 
 #: view/datascribe/admin/item/browse.phtml:86
 msgid "All items"
-msgstr ""
+msgstr "Tots els recursos"
 
 #: view/datascribe/admin/item/browse.phtml:87
 msgid "All prioritized items"
-msgstr ""
+msgstr "Tots els elements prioritzats"
 
 #: view/datascribe/admin/item/browse.phtml:88
 msgid "All unlocked and new items"
@@ -753,11 +753,11 @@ msgstr "Desbloquejat"
 
 #: view/datascribe/admin/item/show-details.phtml:82
 msgid "Transcriber item notes"
-msgstr ""
+msgstr "Notes del recurs afegides pel transcriptor"
 
 #: view/datascribe/admin/item/show-details.phtml:86
 msgid "Reviewer item notes"
-msgstr ""
+msgstr "Notes del recurs afegides pel revisor"
 
 #: view/datascribe/admin/project/add.phtml:7
 msgid "New project"
@@ -803,7 +803,7 @@ msgstr "DataScribe: Recurs"
 
 #: view/datascribe/admin/record/browse.phtml:124
 msgid "View record values"
-msgstr ""
+msgstr "Visualitza els valors del registre"
 
 #: view/datascribe/admin/record/browse.phtml:187
 msgid "Add new record"
@@ -865,13 +865,13 @@ msgstr "Prioritzat per darrera vegada per %s en %s"
 #: view/datascribe/admin/record/form.phtml:149
 #: view/datascribe/admin/record/show-details.phtml:55
 msgid "Transcriber record notes"
-msgstr ""
+msgstr "Notes del registre afegides pel transcriptor"
 
 #: view/datascribe/admin/record/browse.phtml:291
 #: view/datascribe/admin/record/form.phtml:155
 #: view/datascribe/admin/record/show-details.phtml:59
 msgid "Reviewer record notes"
-msgstr ""
+msgstr "Notes del registre afegides pel revisor"
 
 #: view/datascribe/admin/record/form-sidebars.phtml:5
 #: view/datascribe/admin/record/form-sidebars.phtml:21
@@ -913,6 +913,8 @@ msgid ""
 "This record belongs to an approved item. The item will revert to \"not "
 "reviewed\" once you save this record."
 msgstr ""
+"Aquest registre pertany a un recurs aprovat. El recurs tornarà a constar com"
+" a \"no revisat\" un cop desis aquest registre."
 
 #: view/datascribe/admin/record/form.phtml:24
 msgid "Previous records"
@@ -935,6 +937,7 @@ msgid "Vertical view"
 msgstr "Vista vertical"
 
 #: view/datascribe/admin/record/form.phtml:35
+#: view/datascribe/admin/record/form.phtml:169
 msgid "Guidelines"
 msgstr "Directrius"
 
@@ -1013,27 +1016,27 @@ msgstr "Registres següents"
 msgid "%s. %s"
 msgstr "%s. %s"
 
-#: view/datascribe/admin/record/media-viewer.phtml:32
-msgid "Previous media"
-msgstr ""
-
 #: view/datascribe/admin/record/media-viewer.phtml:33
-msgid "Next media"
-msgstr ""
+msgid "Previous media"
+msgstr "Fitxer anterior"
 
-#: view/datascribe/admin/record/media-viewer.phtml:37
+#: view/datascribe/admin/record/media-viewer.phtml:34
+msgid "Next media"
+msgstr "Fitxer següent"
+
+#: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Zoom in"
 msgstr "Amplia el zoom"
 
-#: view/datascribe/admin/record/media-viewer.phtml:38
+#: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Zoom out"
 msgstr "Redueix el zoom"
 
-#: view/datascribe/admin/record/media-viewer.phtml:39
+#: view/datascribe/admin/record/media-viewer.phtml:41
 msgid "Rotate left"
 msgstr "Rota cap a l'esquerra"
 
-#: view/datascribe/admin/record/media-viewer.phtml:40
+#: view/datascribe/admin/record/media-viewer.phtml:42
 msgid "Rotate right"
 msgstr "Rota cap a la dreta"
 
@@ -1358,11 +1361,13 @@ msgstr "Un recurs no pot ser nul."
 #, php-format
 msgid "Item successfully updated and submitted for review. %s"
 msgstr ""
+"El recurs s'ha actualitzat correctament i s'ha enviat per a revisió. %s"
 
 #: src/Controller/Admin/RecordController.php:65
 #, php-format
 msgid "Item successfully updated and marked as approved. %s"
 msgstr ""
+"El recurs s'ha actualitzat correctament i s'ha marcat com a aprovat. %s"
 
 #: src/Controller/Admin/RecordController.php:75
 msgid "Item successfully updated."
@@ -1451,7 +1456,7 @@ msgstr "S'està exportant el conjunt de dades. Això pot trigar una estona. %s"
 
 #: src/Controller/Admin/DatasetController.php:263
 msgid "Dataset successfully moved"
-msgstr ""
+msgstr "Conjunt de dades mogut correctament"
 
 #: src/Controller/Admin/ProjectController.php:23
 msgid "Project successfully created."
@@ -1561,17 +1566,17 @@ msgstr "Modificat per"
 
 #: src/Form/RecordSearchForm.php:101 src/Form/ItemSearchForm.php:105
 msgid "Transcriber notes status"
-msgstr ""
+msgstr "Estat de les notes del transcriptor"
 
 #: src/Form/RecordSearchForm.php:104 src/Form/RecordSearchForm.php:120
 #: src/Form/ItemSearchForm.php:108 src/Form/ItemSearchForm.php:124
 msgid "Has notes"
-msgstr ""
+msgstr "Té notes"
 
 #: src/Form/RecordSearchForm.php:105 src/Form/RecordSearchForm.php:121
 #: src/Form/ItemSearchForm.php:109 src/Form/ItemSearchForm.php:125
 msgid "Has no notes"
-msgstr ""
+msgstr "No té notes"
 
 #: src/Form/RecordSearchForm.php:110 src/Form/RecordSearchForm.php:126
 #: src/Form/ItemSearchForm.php:26 src/Form/ItemSearchForm.php:50
@@ -1582,15 +1587,15 @@ msgstr "Selecciona l'estat"
 
 #: src/Form/RecordSearchForm.php:117 src/Form/ItemSearchForm.php:121
 msgid "Reviewer notes status"
-msgstr ""
+msgstr "Estat de les notes del revisor"
 
 #: src/Form/RecordSearchForm.php:133 src/Form/ItemSearchForm.php:137
 msgid "Search transcriber notes"
-msgstr ""
+msgstr "Cerca notes del transcriptor"
 
 #: src/Form/RecordSearchForm.php:140 src/Form/ItemSearchForm.php:144
 msgid "Search reviewer notes"
-msgstr ""
+msgstr "Cerca notes del revisor"
 
 #: src/Form/DatasetForm.php:85
 msgid "Enter the name of this dataset."
@@ -1619,7 +1624,7 @@ msgstr "Seleccioneu un conjunt de recursos"
 
 #: src/Form/DatasetForm.php:135
 msgid "Revert review status"
-msgstr ""
+msgstr "Reverteix l'estat de la revisió"
 
 #: src/Form/DatasetForm.php:136
 msgid ""
@@ -1627,10 +1632,14 @@ msgid ""
 " reviewed\" when a record belonging to the item is added or modified. The "
 "default behavior is to retain the approved review status."
 msgstr ""
+"Marca aquesta opció per revertir automàticament l'estat de revisió d'un "
+"element aprovat a \"no revisat\" quan s'afegeixi o es modifiqui un registre "
+"que pertanyi a l'element. El comportament per defecte és mantenir l'estat de"
+" revisió aprovat."
 
 #: src/Form/DatasetForm.php:146
 msgid "Export missing and illegible"
-msgstr ""
+msgstr "Exporta els elements pendents i il·legibles"
 
 #: src/Form/DatasetForm.php:147
 msgid ""
@@ -1639,14 +1648,18 @@ msgid ""
 "and is_illegible. The default behavior is to omit the is_missing and "
 "is_illegible columns."
 msgstr ""
+"Marca aquesta opció per indicar que els valors manquen o són il·legibles en "
+"el conjunt de dades exportat. Això afegirà dues columnes a la dreta de cada "
+"valor: is_missing i is_illegible. El comportament per defecte és ometre les "
+"columnes is_missing i is_illegible."
 
 #: src/Form/DatasetForm.php:157
 msgid "Import form"
-msgstr ""
+msgstr "Formulari d'importació"
 
 #: src/Form/DatasetForm.php:158
 msgid "You may import fields that were exported from another form."
-msgstr ""
+msgstr "Pots importar camps que s'hagin exportat des d'un altre formulari."
 
 #: src/Form/DatasetForm.php:267
 msgid "Field name"

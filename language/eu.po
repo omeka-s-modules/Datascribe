@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-05 11:59-0500\n"
+"POT-Creation-Date: 2026-05-01 11:31-0400\n"
 "PO-Revision-Date: 2020-02-03 14:36+0000\n"
 "Last-Translator: Iametza Interaktiboa, 2022\n"
 "Language-Team: Basque (https://app.transifex.com/omeka/teams/14184/eu/)\n"
@@ -288,7 +288,7 @@ msgid "Date created"
 msgstr "Data sortuta"
 
 #: view/datascribe/admin/dataset/browse.phtml:36
-#: view/datascribe/admin/index/index.phtml:145
+#: view/datascribe/admin/index/index.phtml:147
 #: view/datascribe/admin/project/browse.phtml:37
 #: view/datascribe/admin/record/browse.phtml:90
 msgid "Created by"
@@ -502,63 +502,63 @@ msgstr "DataScribe"
 msgid "Browse projects"
 msgstr "Arakatu proiektuak"
 
-#: view/datascribe/admin/index/index.phtml:9
+#: view/datascribe/admin/index/index.phtml:10
 #: view/datascribe/admin/project/browse.phtml:10
 msgid "Add new project"
 msgstr "Gehitu proiektu berria"
 
-#: view/datascribe/admin/index/index.phtml:12
+#: view/datascribe/admin/index/index.phtml:14
 msgid "Welcome to DataScribe."
 msgstr "Ongi etorri DataScribera"
 
-#: view/datascribe/admin/index/index.phtml:15
+#: view/datascribe/admin/index/index.phtml:17
 msgid "My projects"
 msgstr "Nire proiektuak"
 
-#: view/datascribe/admin/index/index.phtml:25
+#: view/datascribe/admin/index/index.phtml:27
 msgid "Unlocked items"
 msgstr "Desblokeatu elementuak"
 
-#: view/datascribe/admin/index/index.phtml:28
-#: view/datascribe/admin/index/index.phtml:53
+#: view/datascribe/admin/index/index.phtml:30
+#: view/datascribe/admin/index/index.phtml:55
 msgid "New"
 msgstr "Berria"
 
-#: view/datascribe/admin/index/index.phtml:39
-#: view/datascribe/admin/index/index.phtml:64
+#: view/datascribe/admin/index/index.phtml:41
+#: view/datascribe/admin/index/index.phtml:66
 msgid "In progress"
 msgstr "Martxan"
 
-#: view/datascribe/admin/index/index.phtml:50
+#: view/datascribe/admin/index/index.phtml:52
 #: view/datascribe/admin/item/browse.phtml:79
 msgid "My items (locked to me)"
 msgstr ""
 
-#: view/datascribe/admin/index/index.phtml:75
+#: view/datascribe/admin/index/index.phtml:77
 msgid "Not approved"
 msgstr "Onartu gabe"
 
-#: view/datascribe/admin/index/index.phtml:87
+#: view/datascribe/admin/index/index.phtml:89
 msgid "Items needing review"
 msgstr "Berrikuspena behar duten elementuak"
 
-#: view/datascribe/admin/index/index.phtml:101
+#: view/datascribe/admin/index/index.phtml:103
 msgid "Needs my re-review"
 msgstr "Nire berrikuspen behar dute "
 
-#: view/datascribe/admin/index/index.phtml:112
+#: view/datascribe/admin/index/index.phtml:114
 msgid "Records needing review"
 msgstr "Berrikuspena behar duten erregistroak"
 
-#: view/datascribe/admin/index/index.phtml:134
+#: view/datascribe/admin/index/index.phtml:136
 msgid "You do not own or belong to any projects."
 msgstr ""
 
-#: view/datascribe/admin/index/index.phtml:140
+#: view/datascribe/admin/index/index.phtml:142
 msgid "All projects"
 msgstr "Proiektu guztiak"
 
-#: view/datascribe/admin/index/index.phtml:165
+#: view/datascribe/admin/index/index.phtml:167
 #: view/datascribe/admin/project/browse.phtml:92
 msgid "No projects found."
 msgstr "Ez da proiekturik aurkitu"
@@ -936,6 +936,7 @@ msgid "Vertical view"
 msgstr "Ikuspegi bertikala"
 
 #: view/datascribe/admin/record/form.phtml:35
+#: view/datascribe/admin/record/form.phtml:169
 msgid "Guidelines"
 msgstr "Gidalerroak"
 
@@ -1012,27 +1013,27 @@ msgstr "Hurrengo erregistroak"
 msgid "%s. %s"
 msgstr "%s. %s"
 
-#: view/datascribe/admin/record/media-viewer.phtml:32
+#: view/datascribe/admin/record/media-viewer.phtml:33
 msgid "Previous media"
 msgstr ""
 
-#: view/datascribe/admin/record/media-viewer.phtml:33
+#: view/datascribe/admin/record/media-viewer.phtml:34
 msgid "Next media"
 msgstr ""
 
-#: view/datascribe/admin/record/media-viewer.phtml:37
+#: view/datascribe/admin/record/media-viewer.phtml:39
 msgid "Zoom in"
 msgstr "Handitu"
 
-#: view/datascribe/admin/record/media-viewer.phtml:38
+#: view/datascribe/admin/record/media-viewer.phtml:40
 msgid "Zoom out"
 msgstr "Txikitu"
 
-#: view/datascribe/admin/record/media-viewer.phtml:39
+#: view/datascribe/admin/record/media-viewer.phtml:41
 msgid "Rotate left"
 msgstr "Biratu ezkerrera"
 
-#: view/datascribe/admin/record/media-viewer.phtml:40
+#: view/datascribe/admin/record/media-viewer.phtml:42
 msgid "Rotate right"
 msgstr "Biratu eskuinera"
 
